@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{01D44737-C697-4F7D-90C7-A1192FA1915C}|src\\core\\ASUniversity\u015FDomain\\ASUniversity.Domain.csproj|c:\\users\\allahverdi\\desktop\\codefinal\\asuniversity\\src\\core\\asuniversity\u015Fdomain\\entities\\base\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01D44737-C697-4F7D-90C7-A1192FA1915C}|src\\core\\ASUniversity\u015FDomain\\ASUniversity.Domain.csproj|solutionrelative:src\\core\\asuniversity\u015Fdomain\\entities\\base\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01D44737-C697-4F7D-90C7-A1192FA1915C}|src\\core\\ASUniversity\u015FDomain\\ASUniversity.Domain.csproj|c:\\users\\allahverdi\\desktop\\codefinal\\asuniversity\\src\\core\\asuniversity\u015Fdomain\\entities\\faculty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01D44737-C697-4F7D-90C7-A1192FA1915C}|src\\core\\ASUniversity\u015FDomain\\ASUniversity.Domain.csproj|solutionrelative:src\\core\\asuniversity\u015Fdomain\\entities\\faculty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Faculty.cs",
+              "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity\u015FDomain\\Entities\\Faculty.cs",
+              "RelativeDocumentMoniker": "src\\core\\ASUniversity\u015FDomain\\Entities\\Faculty.cs",
+              "ToolTip": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity\u015FDomain\\Entities\\Faculty.cs",
+              "RelativeToolTip": "src\\core\\ASUniversity\u015FDomain\\Entities\\Faculty.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T07:45:29.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity\u015FDomain\\Entities\\Base\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "src\\core\\ASUniversity\u015FDomain\\Entities\\Base\\BaseEntity.cs",
+              "ToolTip": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity\u015FDomain\\Entities\\Base\\BaseEntity.cs",
+              "RelativeToolTip": "src\\core\\ASUniversity\u015FDomain\\Entities\\Base\\BaseEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T06:55:31.041Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
