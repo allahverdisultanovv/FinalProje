@@ -2,13 +2,8 @@
 
 namespace ASUniversity.Domain.Entities
 {
-    public class Student : BaseNameable
+    public class Student : AppUser
     {
-        public string Surname { get; set; }
-        public DateTime Birthday { get; set; }
-        public Gender Gender { get; set; }
-        public string Email { get; set; }
-        public string Phone { get; set; }
         public Degree Degree { get; set; }
         public int AdmissionYear { get; set; }
 

@@ -1,0 +1,13 @@
+C:\Users\Allahverdi\Desktop\CodeFinal\ASUniversity\src\core\ASUniversityşDomain\bin\Debug\net8.0\ASUniversity.Domain.deps.json
+C:\Users\Allahverdi\Desktop\CodeFinal\ASUniversity\src\core\ASUniversityşDomain\bin\Debug\net8.0\ASUniversity.Domain.dll
+C:\Users\Allahverdi\Desktop\CodeFinal\ASUniversity\src\core\ASUniversityşDomain\bin\Debug\net8.0\ASUniversity.Domain.pdb
+C:\Users\Allahverdi\Desktop\CodeFinal\ASUniversity\src\core\ASUniversityşDomain\obj\Debug\net8.0\ASUniversity.Domain.csproj.AssemblyReference.cache
+C:\Users\Allahverdi\Desktop\CodeFinal\ASUniversity\src\core\ASUniversityşDomain\obj\Debug\net8.0\ASUniversity.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Allahverdi\Desktop\CodeFinal\ASUniversity\src\core\ASUniversityşDomain\obj\Debug\net8.0\ASUniversity.Domain.AssemblyInfoInputs.cache
+C:\Users\Allahverdi\Desktop\CodeFinal\ASUniversity\src\core\ASUniversityşDomain\obj\Debug\net8.0\ASUniversity.Domain.AssemblyInfo.cs
+C:\Users\Allahverdi\Desktop\CodeFinal\ASUniversity\src\core\ASUniversityşDomain\obj\Debug\net8.0\ASUniversity.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Allahverdi\Desktop\CodeFinal\ASUniversity\src\core\ASUniversityşDomain\obj\Debug\net8.0\ASUniversity.Domain.sourcelink.json
+C:\Users\Allahverdi\Desktop\CodeFinal\ASUniversity\src\core\ASUniversityşDomain\obj\Debug\net8.0\ASUniversity.Domain.dll
+C:\Users\Allahverdi\Desktop\CodeFinal\ASUniversity\src\core\ASUniversityşDomain\obj\Debug\net8.0\refint\ASUniversity.Domain.dll
+C:\Users\Allahverdi\Desktop\CodeFinal\ASUniversity\src\core\ASUniversityşDomain\obj\Debug\net8.0\ASUniversity.Domain.pdb
+C:\Users\Allahverdi\Desktop\CodeFinal\ASUniversity\src\core\ASUniversityşDomain\obj\Debug\net8.0\ref\ASUniversity.Domain.dll

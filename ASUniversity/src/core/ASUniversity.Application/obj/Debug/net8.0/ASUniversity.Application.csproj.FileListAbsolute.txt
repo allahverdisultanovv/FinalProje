@@ -1,0 +1,16 @@
+C:\Users\Allahverdi\Desktop\CodeFinal\ASUniversity\src\core\ASUniversity.Application\bin\Debug\net8.0\ASUniversity.Application.deps.json
+C:\Users\Allahverdi\Desktop\CodeFinal\ASUniversity\src\core\ASUniversity.Application\bin\Debug\net8.0\ASUniversity.Application.dll
+C:\Users\Allahverdi\Desktop\CodeFinal\ASUniversity\src\core\ASUniversity.Application\bin\Debug\net8.0\ASUniversity.Application.pdb
+C:\Users\Allahverdi\Desktop\CodeFinal\ASUniversity\src\core\ASUniversity.Application\bin\Debug\net8.0\ASUniversity.Domain.dll
+C:\Users\Allahverdi\Desktop\CodeFinal\ASUniversity\src\core\ASUniversity.Application\bin\Debug\net8.0\ASUniversity.Domain.pdb
+C:\Users\Allahverdi\Desktop\CodeFinal\ASUniversity\src\core\ASUniversity.Application\obj\Debug\net8.0\ASUniversity.Application.csproj.AssemblyReference.cache
+C:\Users\Allahverdi\Desktop\CodeFinal\ASUniversity\src\core\ASUniversity.Application\obj\Debug\net8.0\ASUniversity.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Allahverdi\Desktop\CodeFinal\ASUniversity\src\core\ASUniversity.Application\obj\Debug\net8.0\ASUniversity.Application.AssemblyInfoInputs.cache
+C:\Users\Allahverdi\Desktop\CodeFinal\ASUniversity\src\core\ASUniversity.Application\obj\Debug\net8.0\ASUniversity.Application.AssemblyInfo.cs
+C:\Users\Allahverdi\Desktop\CodeFinal\ASUniversity\src\core\ASUniversity.Application\obj\Debug\net8.0\ASUniversity.Application.csproj.CoreCompileInputs.cache
+C:\Users\Allahverdi\Desktop\CodeFinal\ASUniversity\src\core\ASUniversity.Application\obj\Debug\net8.0\ASUniversity.Application.sourcelink.json
+C:\Users\Allahverdi\Desktop\CodeFinal\ASUniversity\src\core\ASUniversity.Application\obj\Debug\net8.0\ASUniver.1743594C.Up2Date
+C:\Users\Allahverdi\Desktop\CodeFinal\ASUniversity\src\core\ASUniversity.Application\obj\Debug\net8.0\ASUniversity.Application.dll
+C:\Users\Allahverdi\Desktop\CodeFinal\ASUniversity\src\core\ASUniversity.Application\obj\Debug\net8.0\refint\ASUniversity.Application.dll
+C:\Users\Allahverdi\Desktop\CodeFinal\ASUniversity\src\core\ASUniversity.Application\obj\Debug\net8.0\ASUniversity.Application.pdb
+C:\Users\Allahverdi\Desktop\CodeFinal\ASUniversity\src\core\ASUniversity.Application\obj\Debug\net8.0\ref\ASUniversity.Application.dll

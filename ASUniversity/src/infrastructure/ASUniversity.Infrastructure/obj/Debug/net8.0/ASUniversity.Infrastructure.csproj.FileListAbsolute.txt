@@ -1,0 +1,12 @@
+C:\Users\Allahverdi\Desktop\CodeFinal\ASUniversity\src\infrastructure\ASUniversity.Infrastructure\bin\Debug\net8.0\ASUniversity.Infrastructure.deps.json
+C:\Users\Allahverdi\Desktop\CodeFinal\ASUniversity\src\infrastructure\ASUniversity.Infrastructure\bin\Debug\net8.0\ASUniversity.Infrastructure.dll
+C:\Users\Allahverdi\Desktop\CodeFinal\ASUniversity\src\infrastructure\ASUniversity.Infrastructure\bin\Debug\net8.0\ASUniversity.Infrastructure.pdb
+C:\Users\Allahverdi\Desktop\CodeFinal\ASUniversity\src\infrastructure\ASUniversity.Infrastructure\obj\Debug\net8.0\ASUniversity.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Allahverdi\Desktop\CodeFinal\ASUniversity\src\infrastructure\ASUniversity.Infrastructure\obj\Debug\net8.0\ASUniversity.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Allahverdi\Desktop\CodeFinal\ASUniversity\src\infrastructure\ASUniversity.Infrastructure\obj\Debug\net8.0\ASUniversity.Infrastructure.AssemblyInfo.cs
+C:\Users\Allahverdi\Desktop\CodeFinal\ASUniversity\src\infrastructure\ASUniversity.Infrastructure\obj\Debug\net8.0\ASUniversity.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Allahverdi\Desktop\CodeFinal\ASUniversity\src\infrastructure\ASUniversity.Infrastructure\obj\Debug\net8.0\ASUniversity.Infrastructure.sourcelink.json
+C:\Users\Allahverdi\Desktop\CodeFinal\ASUniversity\src\infrastructure\ASUniversity.Infrastructure\obj\Debug\net8.0\ASUniversity.Infrastructure.dll
+C:\Users\Allahverdi\Desktop\CodeFinal\ASUniversity\src\infrastructure\ASUniversity.Infrastructure\obj\Debug\net8.0\refint\ASUniversity.Infrastructure.dll
+C:\Users\Allahverdi\Desktop\CodeFinal\ASUniversity\src\infrastructure\ASUniversity.Infrastructure\obj\Debug\net8.0\ASUniversity.Infrastructure.pdb
+C:\Users\Allahverdi\Desktop\CodeFinal\ASUniversity\src\infrastructure\ASUniversity.Infrastructure\obj\Debug\net8.0\ref\ASUniversity.Infrastructure.dll
