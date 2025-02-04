@@ -1,7 +1,14 @@
 ﻿namespace ASUniversity.Domain.Entities
 {
-    public class Faculty : BaseEntity
+    public class Faculty : BaseNameable
     {
-        public string Name { get; set; }
+        //relational
+        public IEnumerable<Specialization> Specializations { get; set; }
+        public IEnumerable<Subject> Subjects { get; set; }
+        public IEnumerable<Student> Students { get; set; }
+        public IEnumerable<Teacher> Teachers { get; set; }
+
+
+
     }
 }
