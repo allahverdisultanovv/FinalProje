@@ -3,12 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B95E3132-E1CA-471D-A361-799FDE3D82CB}|src\\infrastructure\\ASUniversity.Persistence\\ASUniversity.Persistence.csproj|c:\\users\\allahverdi\\desktop\\codefinal\\asuniversity\\src\\infrastructure\\asuniversity.persistence\\contexts\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B95E3132-E1CA-471D-A361-799FDE3D82CB}|src\\infrastructure\\ASUniversity.Persistence\\ASUniversity.Persistence.csproj|solutionrelative:src\\infrastructure\\asuniversity.persistence\\contexts\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{01D44737-C697-4F7D-90C7-A1192FA1915C}|src\\core\\ASUniversity\u015FDomain\\ASUniversity.Domain.csproj|c:\\users\\allahverdi\\desktop\\codefinal\\asuniversity\\src\\core\\asuniversity\u015Fdomain\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{01D44737-C697-4F7D-90C7-A1192FA1915C}|src\\core\\ASUniversity\u015FDomain\\ASUniversity.Domain.csproj|solutionrelative:src\\core\\asuniversity\u015Fdomain\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B95E3132-E1CA-471D-A361-799FDE3D82CB}|src\\infrastructure\\ASUniversity.Persistence\\ASUniversity.Persistence.csproj|c:\\users\\allahverdi\\desktop\\codefinal\\asuniversity\\src\\infrastructure\\asuniversity.persistence\\configuration\\subjectconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B95E3132-E1CA-471D-A361-799FDE3D82CB}|src\\infrastructure\\ASUniversity.Persistence\\ASUniversity.Persistence.csproj|solutionrelative:src\\infrastructure\\asuniversity.persistence\\configuration\\subjectconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B95E3132-E1CA-471D-A361-799FDE3D82CB}|src\\infrastructure\\ASUniversity.Persistence\\ASUniversity.Persistence.csproj|c:\\users\\allahverdi\\desktop\\codefinal\\asuniversity\\src\\infrastructure\\asuniversity.persistence\\configuration\\specializationconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B95E3132-E1CA-471D-A361-799FDE3D82CB}|src\\infrastructure\\ASUniversity.Persistence\\ASUniversity.Persistence.csproj|solutionrelative:src\\infrastructure\\asuniversity.persistence\\configuration\\specializationconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B95E3132-E1CA-471D-A361-799FDE3D82CB}|src\\infrastructure\\ASUniversity.Persistence\\ASUniversity.Persistence.csproj|c:\\users\\allahverdi\\desktop\\codefinal\\asuniversity\\src\\infrastructure\\asuniversity.persistence\\configuration\\scheduleconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B95E3132-E1CA-471D-A361-799FDE3D82CB}|src\\infrastructure\\ASUniversity.Persistence\\ASUniversity.Persistence.csproj|solutionrelative:src\\infrastructure\\asuniversity.persistence\\configuration\\scheduleconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B95E3132-E1CA-471D-A361-799FDE3D82CB}|src\\infrastructure\\ASUniversity.Persistence\\ASUniversity.Persistence.csproj|c:\\users\\allahverdi\\desktop\\codefinal\\asuniversity\\src\\infrastructure\\asuniversity.persistence\\configuration\\examconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B95E3132-E1CA-471D-A361-799FDE3D82CB}|src\\infrastructure\\ASUniversity.Persistence\\ASUniversity.Persistence.csproj|solutionrelative:src\\infrastructure\\asuniversity.persistence\\configuration\\examconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B95E3132-E1CA-471D-A361-799FDE3D82CB}|src\\infrastructure\\ASUniversity.Persistence\\ASUniversity.Persistence.csproj|c:\\users\\allahverdi\\desktop\\codefinal\\asuniversity\\src\\infrastructure\\asuniversity.persistence\\configuration\\groupconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B95E3132-E1CA-471D-A361-799FDE3D82CB}|src\\infrastructure\\ASUniversity.Persistence\\ASUniversity.Persistence.csproj|solutionrelative:src\\infrastructure\\asuniversity.persistence\\configuration\\groupconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B95E3132-E1CA-471D-A361-799FDE3D82CB}|src\\infrastructure\\ASUniversity.Persistence\\ASUniversity.Persistence.csproj|c:\\users\\allahverdi\\desktop\\codefinal\\asuniversity\\src\\infrastructure\\asuniversity.persistence\\configuration\\facultyconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B95E3132-E1CA-471D-A361-799FDE3D82CB}|src\\infrastructure\\ASUniversity.Persistence\\ASUniversity.Persistence.csproj|solutionrelative:src\\infrastructure\\asuniversity.persistence\\configuration\\facultyconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B95E3132-E1CA-471D-A361-799FDE3D82CB}|src\\infrastructure\\ASUniversity.Persistence\\ASUniversity.Persistence.csproj|c:\\users\\allahverdi\\desktop\\codefinal\\asuniversity\\src\\infrastructure\\asuniversity.persistence\\configuration\\examresultconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B95E3132-E1CA-471D-A361-799FDE3D82CB}|src\\infrastructure\\ASUniversity.Persistence\\ASUniversity.Persistence.csproj|solutionrelative:src\\infrastructure\\asuniversity.persistence\\configuration\\examresultconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01D44737-C697-4F7D-90C7-A1192FA1915C}|src\\core\\ASUniversity\u015FDomain\\ASUniversity.Domain.csproj|c:\\users\\allahverdi\\desktop\\codefinal\\asuniversity\\src\\core\\asuniversity\u015Fdomain\\entities\\exam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01D44737-C697-4F7D-90C7-A1192FA1915C}|src\\core\\ASUniversity\u015FDomain\\ASUniversity.Domain.csproj|solutionrelative:src\\core\\asuniversity\u015Fdomain\\entities\\exam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B95E3132-E1CA-471D-A361-799FDE3D82CB}|src\\infrastructure\\ASUniversity.Persistence\\ASUniversity.Persistence.csproj|c:\\users\\allahverdi\\desktop\\codefinal\\asuniversity\\src\\infrastructure\\asuniversity.persistence\\contexts\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B95E3132-E1CA-471D-A361-799FDE3D82CB}|src\\infrastructure\\ASUniversity.Persistence\\ASUniversity.Persistence.csproj|solutionrelative:src\\infrastructure\\asuniversity.persistence\\contexts\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{01D44737-C697-4F7D-90C7-A1192FA1915C}|src\\core\\ASUniversity\u015FDomain\\ASUniversity.Domain.csproj|c:\\users\\allahverdi\\desktop\\codefinal\\asuniversity\\src\\core\\asuniversity\u015Fdomain\\entities\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -43,10 +75,6 @@
       "RelativeMoniker": "D:0:0:{01D44737-C697-4F7D-90C7-A1192FA1915C}|src\\core\\ASUniversity\u015FDomain\\ASUniversity.Domain.csproj|solutionrelative:src\\core\\asuniversity\u015Fdomain\\entities\\examresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{01D44737-C697-4F7D-90C7-A1192FA1915C}|src\\core\\ASUniversity\u015FDomain\\ASUniversity.Domain.csproj|c:\\users\\allahverdi\\desktop\\codefinal\\asuniversity\\src\\core\\asuniversity\u015Fdomain\\entities\\exam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01D44737-C697-4F7D-90C7-A1192FA1915C}|src\\core\\ASUniversity\u015FDomain\\ASUniversity.Domain.csproj|solutionrelative:src\\core\\asuniversity\u015Fdomain\\entities\\exam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{01D44737-C697-4F7D-90C7-A1192FA1915C}|src\\core\\ASUniversity\u015FDomain\\ASUniversity.Domain.csproj|c:\\users\\allahverdi\\desktop\\codefinal\\asuniversity\\src\\core\\asuniversity\u015Fdomain\\enums\\examtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{01D44737-C697-4F7D-90C7-A1192FA1915C}|src\\core\\ASUniversity\u015FDomain\\ASUniversity.Domain.csproj|solutionrelative:src\\core\\asuniversity\u015Fdomain\\enums\\examtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -78,24 +106,115 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AppUser.cs",
-              "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity\u015FDomain\\Entities\\AppUser.cs",
-              "RelativeDocumentMoniker": "src\\core\\ASUniversity\u015FDomain\\Entities\\AppUser.cs",
-              "ToolTip": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity\u015FDomain\\Entities\\AppUser.cs",
-              "RelativeToolTip": "src\\core\\ASUniversity\u015FDomain\\Entities\\AppUser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAqAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "SubjectConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\infrastructure\\ASUniversity.Persistence\\Configuration\\SubjectConfiguration.cs",
+              "RelativeDocumentMoniker": "src\\infrastructure\\ASUniversity.Persistence\\Configuration\\SubjectConfiguration.cs",
+              "ToolTip": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\infrastructure\\ASUniversity.Persistence\\Configuration\\SubjectConfiguration.cs",
+              "RelativeToolTip": "src\\infrastructure\\ASUniversity.Persistence\\Configuration\\SubjectConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T21:26:36.348Z",
+              "WhenOpened": "2025-02-05T12:12:14.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SpecializationConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\infrastructure\\ASUniversity.Persistence\\Configuration\\SpecializationConfiguration.cs",
+              "RelativeDocumentMoniker": "src\\infrastructure\\ASUniversity.Persistence\\Configuration\\SpecializationConfiguration.cs",
+              "ToolTip": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\infrastructure\\ASUniversity.Persistence\\Configuration\\SpecializationConfiguration.cs",
+              "RelativeToolTip": "src\\infrastructure\\ASUniversity.Persistence\\Configuration\\SpecializationConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T11:55:01.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ScheduleConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\infrastructure\\ASUniversity.Persistence\\Configuration\\ScheduleConfiguration.cs",
+              "RelativeDocumentMoniker": "src\\infrastructure\\ASUniversity.Persistence\\Configuration\\ScheduleConfiguration.cs",
+              "ToolTip": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\infrastructure\\ASUniversity.Persistence\\Configuration\\ScheduleConfiguration.cs",
+              "RelativeToolTip": "src\\infrastructure\\ASUniversity.Persistence\\Configuration\\ScheduleConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T11:45:19.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GroupConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\infrastructure\\ASUniversity.Persistence\\Configuration\\GroupConfiguration.cs",
+              "RelativeDocumentMoniker": "src\\infrastructure\\ASUniversity.Persistence\\Configuration\\GroupConfiguration.cs",
+              "ToolTip": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\infrastructure\\ASUniversity.Persistence\\Configuration\\GroupConfiguration.cs",
+              "RelativeToolTip": "src\\infrastructure\\ASUniversity.Persistence\\Configuration\\GroupConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T11:43:38.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FacultyConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\infrastructure\\ASUniversity.Persistence\\Configuration\\FacultyConfiguration.cs",
+              "RelativeDocumentMoniker": "src\\infrastructure\\ASUniversity.Persistence\\Configuration\\FacultyConfiguration.cs",
+              "ToolTip": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\infrastructure\\ASUniversity.Persistence\\Configuration\\FacultyConfiguration.cs",
+              "RelativeToolTip": "src\\infrastructure\\ASUniversity.Persistence\\Configuration\\FacultyConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T11:41:00.782Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity\u015FDomain\\Entities\\Student.cs",
+              "RelativeDocumentMoniker": "src\\core\\ASUniversity\u015FDomain\\Entities\\Student.cs",
+              "ToolTip": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity\u015FDomain\\Entities\\Student.cs",
+              "RelativeToolTip": "src\\core\\ASUniversity\u015FDomain\\Entities\\Student.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T16:36:58.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ExamResultConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\infrastructure\\ASUniversity.Persistence\\Configuration\\ExamResultConfiguration.cs",
+              "RelativeDocumentMoniker": "src\\infrastructure\\ASUniversity.Persistence\\Configuration\\ExamResultConfiguration.cs",
+              "ToolTip": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\infrastructure\\ASUniversity.Persistence\\Configuration\\ExamResultConfiguration.cs",
+              "RelativeToolTip": "src\\infrastructure\\ASUniversity.Persistence\\Configuration\\ExamResultConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T11:37:45.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ExamConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\infrastructure\\ASUniversity.Persistence\\Configuration\\ExamConfiguration.cs",
+              "RelativeDocumentMoniker": "src\\infrastructure\\ASUniversity.Persistence\\Configuration\\ExamConfiguration.cs",
+              "ToolTip": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\infrastructure\\ASUniversity.Persistence\\Configuration\\ExamConfiguration.cs",
+              "RelativeToolTip": "src\\infrastructure\\ASUniversity.Persistence\\Configuration\\ExamConfiguration.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T11:15:06.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\infrastructure\\ASUniversity.Persistence\\Contexts\\AppDbContext.cs",
               "RelativeDocumentMoniker": "src\\infrastructure\\ASUniversity.Persistence\\Contexts\\AppDbContext.cs",
@@ -108,7 +227,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
               "Title": "Teacher.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity\u015FDomain\\Entities\\Teacher.cs",
               "RelativeDocumentMoniker": "src\\core\\ASUniversity\u015FDomain\\Entities\\Teacher.cs",
@@ -116,12 +235,11 @@
               "RelativeToolTip": "src\\core\\ASUniversity\u015FDomain\\Entities\\Teacher.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T17:12:19.903Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-04T17:12:19.903Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 16,
               "Title": "Subject.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity\u015FDomain\\Entities\\Subject.cs",
               "RelativeDocumentMoniker": "src\\core\\ASUniversity\u015FDomain\\Entities\\Subject.cs",
@@ -129,12 +247,11 @@
               "RelativeToolTip": "src\\core\\ASUniversity\u015FDomain\\Entities\\Subject.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T17:09:35.995Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-04T17:09:35.995Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 14,
               "Title": "Group.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity\u015FDomain\\Entities\\Group.cs",
               "RelativeDocumentMoniker": "src\\core\\ASUniversity\u015FDomain\\Entities\\Group.cs",
@@ -142,12 +259,11 @@
               "RelativeToolTip": "src\\core\\ASUniversity\u015FDomain\\Entities\\Group.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T09:17:41.665Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-04T09:17:41.665Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 21,
               "Title": "Gender.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity\u015FDomain\\Enums\\Gender.cs",
               "RelativeDocumentMoniker": "src\\core\\ASUniversity\u015FDomain\\Enums\\Gender.cs",
@@ -155,25 +271,11 @@
               "RelativeToolTip": "src\\core\\ASUniversity\u015FDomain\\Enums\\Gender.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T16:38:45.346Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-04T16:38:45.346Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Student.cs",
-              "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity\u015FDomain\\Entities\\Student.cs",
-              "RelativeDocumentMoniker": "src\\core\\ASUniversity\u015FDomain\\Entities\\Student.cs",
-              "ToolTip": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity\u015FDomain\\Entities\\Student.cs",
-              "RelativeToolTip": "src\\core\\ASUniversity\u015FDomain\\Entities\\Student.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAQAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T16:36:58.059Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 20,
               "Title": "Degree.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity\u015FDomain\\Enums\\Degree.cs",
               "RelativeDocumentMoniker": "src\\core\\ASUniversity\u015FDomain\\Enums\\Degree.cs",
@@ -181,70 +283,17 @@
               "RelativeToolTip": "src\\core\\ASUniversity\u015FDomain\\Enums\\Degree.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T16:42:47.811Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-04T16:42:47.811Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Schedule.cs",
-              "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity\u015FDomain\\Entities\\Schedule.cs",
-              "RelativeDocumentMoniker": "src\\core\\ASUniversity\u015FDomain\\Entities\\Schedule.cs",
-              "ToolTip": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity\u015FDomain\\Entities\\Schedule.cs",
-              "RelativeToolTip": "src\\core\\ASUniversity\u015FDomain\\Entities\\Schedule.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T17:44:23.914Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Position.cs",
-              "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity\u015FDomain\\Enums\\Position.cs",
-              "RelativeDocumentMoniker": "src\\core\\ASUniversity\u015FDomain\\Enums\\Position.cs",
-              "ToolTip": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity\u015FDomain\\Enums\\Position.cs",
-              "RelativeToolTip": "src\\core\\ASUniversity\u015FDomain\\Enums\\Position.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T17:14:06.094Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Specialization.cs",
-              "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity\u015FDomain\\Entities\\Specialization.cs",
-              "RelativeDocumentMoniker": "src\\core\\ASUniversity\u015FDomain\\Entities\\Specialization.cs",
-              "ToolTip": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity\u015FDomain\\Entities\\Specialization.cs",
-              "RelativeToolTip": "src\\core\\ASUniversity\u015FDomain\\Entities\\Specialization.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T09:06:46.149Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Faculty.cs",
-              "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity\u015FDomain\\Entities\\Faculty.cs",
-              "RelativeDocumentMoniker": "src\\core\\ASUniversity\u015FDomain\\Entities\\Faculty.cs",
-              "ToolTip": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity\u015FDomain\\Entities\\Faculty.cs",
-              "RelativeToolTip": "src\\core\\ASUniversity\u015FDomain\\Entities\\Faculty.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T07:45:29.531Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 8,
               "Title": "Exam.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity\u015FDomain\\Entities\\Exam.cs",
               "RelativeDocumentMoniker": "src\\core\\ASUniversity\u015FDomain\\Entities\\Exam.cs",
               "ToolTip": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity\u015FDomain\\Entities\\Exam.cs",
               "RelativeToolTip": "src\\core\\ASUniversity\u015FDomain\\Entities\\Exam.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-04T17:28:27.57Z",
               "EditorCaption": ""
@@ -252,6 +301,66 @@
             {
               "$type": "Document",
               "DocumentIndex": 11,
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity\u015FDomain\\Entities\\AppUser.cs",
+              "RelativeDocumentMoniker": "src\\core\\ASUniversity\u015FDomain\\Entities\\AppUser.cs",
+              "ToolTip": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity\u015FDomain\\Entities\\AppUser.cs",
+              "RelativeToolTip": "src\\core\\ASUniversity\u015FDomain\\Entities\\AppUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T21:26:36.348Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Schedule.cs",
+              "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity\u015FDomain\\Entities\\Schedule.cs",
+              "RelativeDocumentMoniker": "src\\core\\ASUniversity\u015FDomain\\Entities\\Schedule.cs",
+              "ToolTip": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity\u015FDomain\\Entities\\Schedule.cs",
+              "RelativeToolTip": "src\\core\\ASUniversity\u015FDomain\\Entities\\Schedule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T17:44:23.914Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Position.cs",
+              "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity\u015FDomain\\Enums\\Position.cs",
+              "RelativeDocumentMoniker": "src\\core\\ASUniversity\u015FDomain\\Enums\\Position.cs",
+              "ToolTip": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity\u015FDomain\\Enums\\Position.cs",
+              "RelativeToolTip": "src\\core\\ASUniversity\u015FDomain\\Enums\\Position.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T17:14:06.094Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Specialization.cs",
+              "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity\u015FDomain\\Entities\\Specialization.cs",
+              "RelativeDocumentMoniker": "src\\core\\ASUniversity\u015FDomain\\Entities\\Specialization.cs",
+              "ToolTip": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity\u015FDomain\\Entities\\Specialization.cs",
+              "RelativeToolTip": "src\\core\\ASUniversity\u015FDomain\\Entities\\Specialization.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T09:06:46.149Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Faculty.cs",
+              "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity\u015FDomain\\Entities\\Faculty.cs",
+              "RelativeDocumentMoniker": "src\\core\\ASUniversity\u015FDomain\\Entities\\Faculty.cs",
+              "ToolTip": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity\u015FDomain\\Entities\\Faculty.cs",
+              "RelativeToolTip": "src\\core\\ASUniversity\u015FDomain\\Entities\\Faculty.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T07:45:29.531Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "ExamType.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity\u015FDomain\\Enums\\ExamType.cs",
               "RelativeDocumentMoniker": "src\\core\\ASUniversity\u015FDomain\\Enums\\ExamType.cs",
@@ -259,12 +368,11 @@
               "RelativeToolTip": "src\\core\\ASUniversity\u015FDomain\\Enums\\ExamType.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T17:31:19.306Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-04T17:31:19.306Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 17,
               "Title": "ExamResult.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity\u015FDomain\\Entities\\ExamResult.cs",
               "RelativeDocumentMoniker": "src\\core\\ASUniversity\u015FDomain\\Entities\\ExamResult.cs",
@@ -272,12 +380,11 @@
               "RelativeToolTip": "src\\core\\ASUniversity\u015FDomain\\Entities\\ExamResult.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T17:36:31.926Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-04T17:36:31.926Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 23,
               "Title": "BaseNameable.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity\u015FDomain\\Entities\\Base\\BaseNameable.cs",
               "RelativeDocumentMoniker": "src\\core\\ASUniversity\u015FDomain\\Entities\\Base\\BaseNameable.cs",
@@ -285,12 +392,11 @@
               "RelativeToolTip": "src\\core\\ASUniversity\u015FDomain\\Entities\\Base\\BaseNameable.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T09:07:59.183Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-04T09:07:59.183Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 22,
               "Title": "BaseEntity.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity\u015FDomain\\Entities\\Base\\BaseEntity.cs",
               "RelativeDocumentMoniker": "src\\core\\ASUniversity\u015FDomain\\Entities\\Base\\BaseEntity.cs",
@@ -298,8 +404,7 @@
               "RelativeToolTip": "src\\core\\ASUniversity\u015FDomain\\Entities\\Base\\BaseEntity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T06:55:31.041Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-03T06:55:31.041Z"
             }
           ]
         }
