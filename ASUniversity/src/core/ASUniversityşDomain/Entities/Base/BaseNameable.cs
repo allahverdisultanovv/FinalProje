@@ -1,6 +1,6 @@
 ﻿namespace ASUniversity.Domain.Entities
 {
-    public class BaseNameable : BaseEntity
+    public abstract class BaseNameable : BaseEntity
     {
         public string Name { get; set; }
     }

@@ -16,3 +16,5 @@ C:\Users\Allahverdi\Desktop\CodeFinal\ASUniversity\src\infrastructure\ASUniversi
 C:\Users\Allahverdi\Desktop\CodeFinal\ASUniversity\src\infrastructure\ASUniversity.Persistence\obj\Debug\net8.0\refint\ASUniversity.Persistence.dll
 C:\Users\Allahverdi\Desktop\CodeFinal\ASUniversity\src\infrastructure\ASUniversity.Persistence\obj\Debug\net8.0\ASUniversity.Persistence.pdb
 C:\Users\Allahverdi\Desktop\CodeFinal\ASUniversity\src\infrastructure\ASUniversity.Persistence\obj\Debug\net8.0\ref\ASUniversity.Persistence.dll
+C:\Users\Allahverdi\Desktop\CodeFinal\ASUniversity\src\infrastructure\ASUniversity.Persistence\bin\Debug\net8.0\ASUniversity.Persistence.runtimeconfig.json
+C:\Users\Allahverdi\Desktop\CodeFinal\ASUniversity\src\infrastructure\ASUniversity.Persistence\obj\Debug\net8.0\ASUniversity.Persistence.genruntimeconfig.cache
