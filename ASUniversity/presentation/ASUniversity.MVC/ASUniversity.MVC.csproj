@@ -6,4 +6,25 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="wwwroot\vendor\**" />
+    <Content Remove="wwwroot\vendor\**" />
+    <EmbeddedResource Remove="wwwroot\vendor\**" />
+    <None Remove="wwwroot\vendor\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Areas\Admin\Data\" />
+    <Folder Include="Areas\Admin\Models\" />
+    <Folder Include="Models\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\core\ASUniversity.Application\ASUniversity.Application.csproj" />
+  </ItemGroup>
+
 </Project>
