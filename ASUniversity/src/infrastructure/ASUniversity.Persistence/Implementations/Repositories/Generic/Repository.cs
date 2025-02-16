@@ -15,7 +15,11 @@ namespace ASUniversity.Persistence.Implementations.Repositories
             _context = context;
             _table = _context.Set<T>();
         }
-
+        public IQueryable<T> GetAllSelect()
+        {
+            IQueryable<T> query = _table;
+            return query;
+        }
         public IQueryable<T> GetAll(
             Expression<Func<T, bool>>? whereExpression = null,
             Expression<Func<T, object>>? orderExpression = null,

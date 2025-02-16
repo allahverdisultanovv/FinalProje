@@ -1,1104 +1,782 @@
-﻿<div class="content-body">
-	<div class="container-fluid">
-		<div class="row">
-			<div class="col-xl-9 col-xxl-12">
-				<div class="row">
-					<div class="col-xl-12">
-						<div class="row">
-							<div class="col-xl-6">
-								<div class="row">
-									<div class="col-xl-6 col-sm-6">
-										<div class="card bg-primary text-white">
-											<div class="card-header border-0 flex-wrap">
-												<div class="revenue-date">
-													<span>revenue</span>
-													<h4 class="text-white">$310.435</h4>
-												</div>
-												<div class="avatar-list avatar-list-stacked me-2">
-													<img src="~/Admin/images/contacts/pic555.jpg" class="avatar rounded-circle" alt="">
-													<img src="~/Admin/images/contacts/pic666.jpg" class="avatar rounded-circle" alt="">
-													<span class="avatar rounded-circle">25+</span>
-												</div>
+﻿<section role="main" class="content-body">
+	<header class="page-header">
+		<h2>Dark Layout</h2>
 
-											</div>
-											<div class="card-body pb-0 custome-tooltip d-flex align-items-center">
-												<div id="chartBar" class="chartBar"></div>
-												<div>
-													<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-														<circle cx="10" cy="10" r="10" fill="white" />
-														<g clip-path="url(#clip0_3_443)">
-															<path opacity="0.3" d="M13.0641 7.54535C13.3245 7.285 13.3245 6.86289 13.0641 6.60254C12.8038 6.34219 12.3817 6.34219 12.1213 6.60254L6.46445 12.2594C6.2041 12.5197 6.2041 12.9419 6.46445 13.2022C6.7248 13.4626 7.14691 13.4626 7.40726 13.2022L13.0641 7.54535Z" fill="black" />
-															<path d="M7.40729 7.26921C7.0391 7.26921 6.74062 6.97073 6.74062 6.60254C6.74062 6.23435 7.0391 5.93587 7.40729 5.93587H13.0641C13.4211 5.93587 13.7147 6.21699 13.7302 6.57358L13.9659 11.9947C13.9819 12.3626 13.6966 12.6737 13.3288 12.6897C12.961 12.7057 12.6498 12.4205 12.6338 12.0526L12.4258 7.26921H7.40729Z" fill="black" />
-														</g>
-														<defs>
-															<clipPath id="clip0_3_443">
-																<rect width="16" height="16" fill="white" transform="matrix(-1 0 0 -1 18 18)" />
-															</clipPath>
-														</defs>
-													</svg>
-													<span class="d-block font-w600">45%</span>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div class="col-xl-6 col-sm-6">
-										<div class="card bg-secondary text-white">
-											<div class="card-header border-0">
-												<div class="revenue-date">
-													<span class="text-black">Expenses</span>
-													<h4 class="text-black">$920.035</h4>
-												</div>
-												<div class="avatar-list avatar-list-stacked me-2">
-													<span class="avatar rounded-circle">
-														<a href="#">
-															<svg width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-																<path fill-rule="evenodd" clip-rule="evenodd" d="M5.83333 6.27083V1.60417C5.83333 0.959834 6.35567 0.4375 7 0.4375C7.64433 0.4375 8.16667 0.959834 8.16667 1.60417V6.27083H12.8333C13.4777 6.27083 14 6.79317 14 7.4375C14 8.08183 13.4777 8.60417 12.8333 8.60417H8.16667V13.2708C8.16667 13.9152 7.64433 14.4375 7 14.4375C6.35567 14.4375 5.83333 13.9152 5.83333 13.2708V8.60417H1.16667C0.522334 8.60417 0 8.08183 0 7.4375C0 6.79317 0.522334 6.27083 1.16667 6.27083H5.83333Z" fill="#222B40" />
-															</svg>
-														</a>
-													</span>
-												</div>
+		<div class="right-wrapper text-end">
+			<ol class="breadcrumbs">
+				<li>
+					<a href="index.html">
+						<i class="bx bx-home-alt"></i>
+					</a>
+				</li>
 
-											</div>
-											<div class="card-body pb-0 custome-tooltip d-flex align-items-center">
-												<div id="expensesChart" class="chartBar"></div>
-												<div>
-													<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-														<circle cx="10" cy="10" r="10" fill="#222B40" />
-														<g clip-path="url(#clip0_3_473)">
-															<path opacity="0.3" d="M13.0641 7.54535C13.3245 7.285 13.3245 6.86289 13.0641 6.60254C12.8038 6.34219 12.3817 6.34219 12.1213 6.60254L6.46446 12.2594C6.20411 12.5197 6.20411 12.9419 6.46446 13.2022C6.72481 13.4626 7.14692 13.4626 7.40727 13.2022L13.0641 7.54535Z" fill="white" />
-															<path d="M7.40728 7.26921C7.03909 7.26921 6.74061 6.97073 6.74061 6.60254C6.74061 6.23435 7.03909 5.93587 7.40728 5.93587H13.0641C13.4211 5.93587 13.7147 6.21699 13.7302 6.57358L13.9659 11.9947C13.9819 12.3626 13.6966 12.6737 13.3288 12.6897C12.9609 12.7057 12.6498 12.4205 12.6338 12.0526L12.4258 7.26921H7.40728Z" fill="white" />
-														</g>
-														<defs>
-															<clipPath id="clip0_3_473">
-																<rect width="16" height="16" fill="white" transform="matrix(-1 0 0 -1 18 18)" />
-															</clipPath>
-														</defs>
-													</svg>
-													<span class="d-block font-w600 text-black">45%</span>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div class="col-xl-6 col-sm-6">
-										<div class="card">
-											<div class="card-body depostit-card">
-												<div class="depostit-card-media d-flex justify-content-between style-1">
-													<div>
-														<h6>Tasks Not Finisheds</h6>
-														<h3>20</h3>
-													</div>
-													<div class="icon-box bg-secondary">
-														<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<g clip-path="url(#clip0_3_566)">
-																<path opacity="0.3" fill-rule="evenodd" clip-rule="evenodd" d="M8 3V3.5C8 4.32843 8.67157 5 9.5 5H14.5C15.3284 5 16 4.32843 16 3.5V3H18C19.1046 3 20 3.89543 20 5V21C20 22.1046 19.1046 23 18 23H6C4.89543 23 4 22.1046 4 21V5C4 3.89543 4.89543 3 6 3H8Z" fill="#222B40" />
-																<path fill-rule="evenodd" clip-rule="evenodd" d="M10.875 15.75C10.6354 15.75 10.3958 15.6542 10.2042 15.4625L8.2875 13.5458C7.90417 13.1625 7.90417 12.5875 8.2875 12.2042C8.67083 11.8208 9.29375 11.8208 9.62917 12.2042L10.875 13.45L14.0375 10.2875C14.4208 9.90417 14.9958 9.90417 15.3792 10.2875C15.7625 10.6708 15.7625 11.2458 15.3792 11.6292L11.5458 15.4625C11.3542 15.6542 11.1146 15.75 10.875 15.75Z" fill="#222B40" />
-																<path fill-rule="evenodd" clip-rule="evenodd" d="M11 2C11 1.44772 11.4477 1 12 1C12.5523 1 13 1.44772 13 2H14.5C14.7761 2 15 2.22386 15 2.5V3.5C15 3.77614 14.7761 4 14.5 4H9.5C9.22386 4 9 3.77614 9 3.5V2.5C9 2.22386 9.22386 2 9.5 2H11Z" fill="#222B40" />
-															</g>
-															<defs>
-																<clipPath id="clip0_3_566">
-																	<rect width="24" height="24" fill="white" />
-																</clipPath>
-															</defs>
-														</svg>
-													</div>
-												</div>
-												<div class="progress-box mt-0">
-													<div class="d-flex justify-content-between">
-														<p class="mb-0">Complete Task</p>
-														<p class="mb-0">20/28</p>
-													</div>
-													<div class="progress">
-														<div class="progress-bar bg-secondary" style="width:50%; height:5px; border-radius:4px;" role="progressbar"></div>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div class="col-xl-6 col-sm-6">
-										<div class="card same-card">
-											<div class="card-body depostit-card p-0">
-												<div class="depostit-card-media d-flex justify-content-between pb-0">
-													<div>
-														<h6>Total Deposit</h6>
-														<h3>$1200.00</h3>
-													</div>
-													<div class="icon-box bg-primary">
-														<svg width="12" height="20" viewBox="0 0 12 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<path d="M11.4642 13.7074C11.4759 12.1252 10.8504 10.8738 9.60279 9.99009C8.6392 9.30968 7.46984 8.95476 6.33882 8.6137C3.98274 7.89943 3.29927 7.52321 3.29927 6.3965C3.29927 5.14147 4.93028 4.69493 6.32655 4.69493C7.34341 4.69493 8.51331 5.01109 9.23985 5.47964L10.6802 3.24887C9.73069 2.6333 8.43112 2.21342 7.14783 2.0831V0H4.49076V2.22918C2.12884 2.74876 0.640949 4.29246 0.640949 6.3965C0.640949 7.87005 1.25327 9.03865 2.45745 9.86289C3.37331 10.4921 4.49028 10.83 5.56927 11.1572C7.88027 11.8557 8.81873 12.2813 8.80805 13.691L8.80799 13.7014C8.80799 14.8845 7.24005 15.3051 5.89676 15.3051C4.62786 15.3051 3.248 14.749 2.46582 13.9222L0.535522 15.7481C1.52607 16.7957 2.96523 17.5364 4.4907 17.8267V20.0001H7.14783V17.8735C9.7724 17.4978 11.4616 15.9177 11.4642 13.7074Z" fill="#fff" />
-														</svg>
-													</div>
-												</div>
-												<div id="NewExperience"></div>
-											</div>
-										</div>
-									</div>
+				<li><span>Layouts</span></li>
+
+				<li><span>Dark</span></li>
+
+			</ol>
+
+			<a class="sidebar-right-toggle" data-open="sidebar-right"><i class="fas fa-chevron-left"></i></a>
+		</div>
+	</header>
+
+	<!-- start: page -->
+	<div class="row">
+		<div class="col-lg-6 mb-3">
+			<section class="card">
+				<div class="card-body">
+					<div class="row">
+						<div class="col-xl-8">
+							<div class="chart-data-selector" id="salesSelectorWrapper">
+								<h2>
+									Sales:
+									<strong>
+										<select class="form-control" id="salesSelector">
+											<option value="Porto Admin" selected>Porto Admin</option>
+											<option value="Porto Drupal">Porto Drupal</option>
+											<option value="Porto Wordpress">Porto Wordpress</option>
+										</select>
+									</strong>
+								</h2>
+
+								<div id="salesSelectorItems" class="chart-data-selector-items mt-3">
+									<!-- Flot: Sales Porto Admin -->
+									<div class="chart chart-sm" data-sales-rel="Porto Admin" id="flotDashSales1" class="chart-active" style="height: 203px;"></div>
+									<script>
+
+										var flotDashSales1Data = [{
+											data: [
+												["Jan", 140],
+												["Feb", 240],
+												["Mar", 190],
+												["Apr", 140],
+												["May", 180],
+												["Jun", 320],
+												["Jul", 270],
+												["Aug", 180]
+											],
+											color: "#0088cc"
+										}];
+
+										// See: js/examples/examples.dashboard.js for more settings.
+
+									</script>
+
+									<!-- Flot: Sales Porto Drupal -->
+									<div class="chart chart-sm" data-sales-rel="Porto Drupal" id="flotDashSales2" class="chart-hidden"></div>
+									<script>
+
+										var flotDashSales2Data = [{
+											data: [
+												["Jan", 240],
+												["Feb", 240],
+												["Mar", 290],
+												["Apr", 540],
+												["May", 480],
+												["Jun", 220],
+												["Jul", 170],
+												["Aug", 190]
+											],
+											color: "#2baab1"
+										}];
+
+										// See: js/examples/examples.dashboard.js for more settings.
+
+									</script>
+
+									<!-- Flot: Sales Porto Wordpress -->
+									<div class="chart chart-sm" data-sales-rel="Porto Wordpress" id="flotDashSales3" class="chart-hidden"></div>
+									<script>
+
+										var flotDashSales3Data = [{
+											data: [
+												["Jan", 840],
+												["Feb", 740],
+												["Mar", 690],
+												["Apr", 940],
+												["May", 1180],
+												["Jun", 820],
+												["Jul", 570],
+												["Aug", 780]
+											],
+											color: "#734ba9"
+										}];
+
+										// See: js/examples/examples.dashboard.js for more settings.
+
+									</script>
 								</div>
+
 							</div>
-							<div class="col-xl-3 col-sm-6">
-								<div class="card bg-success rainbow-box" style="background-image: url(images/rainbow.gif);background-size: cover;background-blend-mode: luminosity;">
-									<div class="card-header border-0">
-										<svg width="43" height="40" viewBox="0 0 43 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-											<path d="M41.605 3.94728L34.9548 0.107383C34.7065 -0.0357944 34.4007 -0.0357944 34.1525 0.107383C26.172 4.71641 16.338 4.71713 8.35679 0.108821L8.35391 0.107383C8.10569 -0.0357944 7.7999 -0.0357944 7.55168 0.107383L0.901472 3.94656C0.65325 4.08974 0.5 4.35451 0.5 4.64159V12.3207C0.5 12.6077 0.65325 12.8725 0.901472 13.0157C8.88345 17.6225 13.8004 26.1384 13.8004 35.355V35.3579C13.8004 35.6442 13.9537 35.9097 14.2019 36.0529L20.8521 39.8928C20.9766 39.9647 21.1147 40 21.2536 40C21.3924 40 21.5306 39.964 21.655 39.8928L28.3053 36.0529C28.5535 35.9097 28.7067 35.645 28.7067 35.3579C28.706 26.1413 33.623 17.6247 41.605 13.0164L41.6064 13.0157C41.8546 12.8725 42.0079 12.6077 42.0079 12.3207V4.6423C42.0057 4.35523 41.8532 4.09046 41.605 3.94728ZM40.4013 11.858L20.8514 23.1453C20.6032 23.2885 20.4499 23.5533 20.4499 23.8403V29.8891C19.8168 30.2013 19.3923 30.8712 19.439 31.6345C19.4944 32.5325 20.2139 33.2627 21.1118 33.3304C22.1788 33.4109 23.0696 32.5684 23.0696 31.5187C23.0696 30.8035 22.6559 30.1848 22.0551 29.8883C22.0551 26.4319 23.8991 23.2381 26.8922 21.5099L27.0994 21.3905L27.1001 34.8952L21.2521 38.2718L15.4042 34.8952V12.3214C15.4042 12.035 15.2509 11.7695 15.0027 11.6264L9.76338 8.60163C9.76626 8.56206 9.7677 8.52249 9.7677 8.4822C9.7677 7.45549 8.91583 6.62736 7.88049 6.66694C6.93868 6.70291 6.17171 7.46988 6.13573 8.41169C6.09616 9.44703 6.92429 10.2996 7.951 10.2996C8.32513 10.2996 8.67264 10.1867 8.96115 9.99312C11.9542 11.7213 13.7983 14.9151 13.7983 18.3715V18.6097L2.10229 11.8587V5.10637L7.95028 1.72982L27.5002 13.0171C27.7484 13.1603 28.0542 13.1603 28.3024 13.0171L33.541 9.9924C33.8324 10.1881 34.1842 10.3011 34.5619 10.2989C35.5526 10.2931 36.3664 9.47581 36.3678 8.48508C36.3693 7.47996 35.5555 6.66549 34.5511 6.66549C33.5474 6.66549 32.7344 7.47923 32.7344 8.4822C32.7344 8.52249 32.7359 8.56206 32.7387 8.60163C29.745 10.3298 26.0569 10.3298 23.0631 8.60163L22.8573 8.48292L34.5511 1.72982L40.3991 5.10637V11.858H40.4013Z" fill="white" />
-										</svg>
-									</div>
-									<div class="card-body pt-0">
-										<div class="finance">
-											<h4>Your Finances, safe and Secure</h4>
-											<p>
-												It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
-											</p>
-										</div>
-										<div class="d-flex pt-3">
-											<div class="avatar-list avatar-list-stacked">
-												<img src="~/Admin/images/contacts/pic555.jpg" class="avatar rounded-circle" alt="">
-												<img src="~/Admin/images/contacts/pic666.jpg" class="avatar rounded-circle" alt="">
-												<img src="~/Admin/images/contacts/pic777.jpg" class="avatar rounded-circle" alt="">
-											</div>
-											<div class="ratting-data">
-												<h4>15k+</h4>
-												<span>Happy Clients</span>
-											</div>
-										</div>
-									</div>
+						</div>
+						<div class="col-xl-4 text-center">
+							<h2 class="card-title mt-3">Sales Goal</h2>
+							<div class="liquid-meter-wrapper liquid-meter-sm mt-3">
+								<div class="liquid-meter">
+									<meter min="0" max="100" value="35" id="meterSales"></meter>
 								</div>
-							</div>
-							<div class="col-xl-3 col-sm-6">
-								<div class="card">
-									<div class="card-body">
-										<div id="redial"></div>
-										<span class="right-sign">
-											<svg width="93" height="93" viewBox="0 0 93 93" fill="none" xmlns="http://www.w3.org/2000/svg">
-												<g filter="url(#filter0_d_3_700)">
-													<circle cx="46.5" cy="31.5" r="16.5" fill="#F8B940" />
-												</g>
-												<g clip-path="url(#clip0_3_700)">
-													<path d="M52.738 25.3524C53.0957 24.9315 53.7268 24.8804 54.1476 25.2381C54.5684 25.5957 54.6196 26.2268 54.2619 26.6476L45.7619 36.6476C45.3986 37.0751 44.7549 37.1201 44.3356 36.7474L39.8356 32.7474C39.4228 32.3805 39.3857 31.7484 39.7526 31.3356C40.1195 30.9229 40.7516 30.8857 41.1643 31.2526L44.9002 34.5733L52.738 25.3524Z" fill="#222B40" />
-												</g>
-												<defs>
-													<filter id="filter0_d_3_700" x="0" y="0" width="93" height="93" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-														<feFlood flood-opacity="0" result="BackgroundImageFix" />
-														<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
-														<feOffset dy="15" />
-														<feGaussianBlur stdDeviation="15" />
-														<feComposite in2="hardAlpha" operator="out" />
-														<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15 0" />
-														<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_3_700" />
-														<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_3_700" result="shape" />
-													</filter>
-													<clipPath id="clip0_3_700">
-														<rect width="24" height="24" fill="white" transform="translate(35 19)" />
-													</clipPath>
-												</defs>
-											</svg>
-										</span>
-										<div class="redia-date text-center">
-											<h4>My Progress</h4>
-											<p>
-												Lorem ipsum dolor sit amet, consectetur
-											</p>
-											<a href="crm.html" class="btn btn-secondary text-black">More Details</a>
-										</div>
-									</div>
-
-								</div>
-							</div>
-							<div class="col-xl-8">
-								<div class="card overflow-hidden">
-									<div class="card-header border-0 pb-0 flex-wrap">
-										<h4 class="heading mb-0">Projects Overview</h4>
-										<ul class="nav nav-pills mix-chart-tab" id="pills-tab" role="tablist">
-											<li class="nav-item" role="presentation">
-												<button class="nav-link active" data-series="week" id="pills-week-tab" data-bs-toggle="pill" data-bs-target="#pills-week" type="button" role="tab" aria-selected="true">Week</button>
-											</li>
-											<li class="nav-item" role="presentation">
-												<button class="nav-link" data-series="month" id="pills-month-tab" data-bs-toggle="pill" data-bs-target="#pills-month" type="button" role="tab" aria-selected="false">Month</button>
-											</li>
-											<li class="nav-item" role="presentation">
-												<button class="nav-link" data-series="year" id="pills-year-tab" data-bs-toggle="pill" data-bs-target="#pills-year" type="button" role="tab" aria-selected="false">Year</button>
-											</li>
-											<li class="nav-item" role="presentation">
-												<button class="nav-link" data-series="all" id="pills-all-tab" data-bs-toggle="pill" data-bs-target="#pills-all" type="button" role="tab" aria-selected="false">All</button>
-											</li>
-										</ul>
-									</div>
-									<div class="card-body custome-tooltip p-0">
-										<div id="overiewChart"></div>
-										<div class="ttl-project">
-											<div class="pr-data">
-												<h5>12,721</h5>
-												<span>Number of Projects</span>
-											</div>
-											<div class="pr-data">
-												<h5 class="text-primary">721</h5>
-												<span>Active Projects</span>
-											</div>
-											<div class="pr-data">
-												<h5>$2,50,523</h5>
-												<span>Revenue</span>
-											</div>
-											<div class="pr-data">
-												<h5 class="text-success">12,275h</h5>
-												<span>Working Hours</span>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-xl-4">
-								<div class="card overflow-hidden">
-									<div class="card-header border-0 flex-wrap">
-										<h4 class="heading mb-0">My To Do Items</h4>
-										<div>
-											<a href="javascript:void(0);" class="text-primary me-2">View All</a>
-											<a href="javascript:void(0);" class="text-black"> + Add To Do</a>
-										</div>
-									</div>
-									<div class="card-body p-0">
-										<div class="dt-do-bx">
-											<div class="draggable-zone dropzoneContainer to-dodroup dz-scroll">
-												<div class="sub-card draggable-handle draggable">
-													<div class="d-items">
-														<span class="text-warning dang d-block mb-2">
-															<svg class="me-1" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-																<path fill-rule="evenodd" clip-rule="evenodd" d="M3.61051 15.3276H14.3978C15.5843 15.3276 16.329 14.0451 15.7395 13.0146L10.35 3.59085C9.75676 2.5536 8.26126 2.55285 7.66726 3.5901L2.26876 13.0139C1.67926 14.0444 2.42326 15.3276 3.61051 15.3276Z" stroke="#FF9F00" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-																<path d="M9.00189 10.0611V7.7361" stroke="#FF9F00" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-																<path d="M8.99625 12.375H9.00375" stroke="#FF9F00" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-															</svg>
-															Latest to do's
-														</span>
-														<div class="d-flex justify-content-between flex-wrap">
-															<div class="d-items-2">
-																<div class="svg-icon">
-																	<svg width="9" height="16" viewBox="0 0 9 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-																		<rect width="1" height="1" fill="#888888" />
-																		<rect y="3" width="1" height="1" fill="#888888" />
-																		<rect y="6" width="1" height="1" fill="#888888" />
-																		<rect y="9" width="1" height="1" fill="#888888" />
-																		<rect y="12" width="1" height="1" fill="#888888" />
-																		<rect y="15" width="1" height="1" fill="#888888" />
-																		<rect x="4" width="1" height="1" fill="#888888" />
-																		<rect x="4" y="3" width="1" height="1" fill="#888888" />
-																		<rect x="4" y="6" width="1" height="1" fill="#888888" />
-																		<rect x="4" y="9" width="1" height="1" fill="#888888" />
-																		<rect x="4" y="12" width="1" height="1" fill="#888888" />
-																		<rect x="4" y="15" width="1" height="1" fill="#888888" />
-																		<rect x="8" width="1" height="1" fill="#888888" />
-																		<rect x="8" y="3" width="1" height="1" fill="#888888" />
-																		<rect x="8" y="6" width="1" height="1" fill="#888888" />
-																		<rect x="8" y="9" width="1" height="1" fill="#888888" />
-																		<rect x="8" y="12" width="1" height="1" fill="#888888" />
-																		<rect x="8" y="15" width="1" height="1" fill="#888888" />
-																	</svg>
-																</div>
-																<div>
-																	<div class="form-check custom-checkbox">
-																		<input type="checkbox" class="form-check-input" id="customCheckBox1" required>
-																		<label class="form-check-label" for="customCheckBox1">Compete this projects</label>
-																	</div>
-																	<span>2023-12-26 07:15:00</span>
-																</div>
-															</div>
-															<div>
-																<div class="icon-box icon-box-sm bg-danger-light me-1">
-																	<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-																		<path d="M12.8833 6.31213C12.8833 6.31213 12.5213 10.8021 12.3113 12.6935C12.2113 13.5968 11.6533 14.1261 10.7393 14.1428C8.99994 14.1741 7.25861 14.1761 5.51994 14.1395C4.64061 14.1215 4.09194 13.5855 3.99394 12.6981C3.78261 10.7901 3.42261 6.31213 3.42261 6.31213" stroke="#FF5E5E" stroke-linecap="round" stroke-linejoin="round" />
-																		<path d="M13.8055 4.1598H2.50012" stroke="#FF5E5E" stroke-linecap="round" stroke-linejoin="round" />
-																		<path d="M11.6271 4.1598C11.1037 4.1598 10.6531 3.7898 10.5504 3.27713L10.3884 2.46647C10.2884 2.09247 9.94974 1.8338 9.56374 1.8338H6.74174C6.35574 1.8338 6.01707 2.09247 5.91707 2.46647L5.75507 3.27713C5.65241 3.7898 5.20174 4.1598 4.67841 4.1598" stroke="#FF5E5E" stroke-linecap="round" stroke-linejoin="round" />
-																	</svg>
-																</div>
-																<div class="icon-box icon-box-sm bg-primary-light">
-																	<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-																		<path d="M9.16492 13.6286H14" stroke="#0D99FF" stroke-linecap="round" stroke-linejoin="round" />
-																		<path fill-rule="evenodd" clip-rule="evenodd" d="M8.52001 2.52986C9.0371 1.91186 9.96666 1.82124 10.5975 2.32782C10.6324 2.35531 11.753 3.22586 11.753 3.22586C12.446 3.64479 12.6613 4.5354 12.2329 5.21506C12.2102 5.25146 5.87463 13.1763 5.87463 13.1763C5.66385 13.4393 5.34389 13.5945 5.00194 13.5982L2.57569 13.6287L2.02902 11.3149C1.95244 10.9895 2.02902 10.6478 2.2398 10.3849L8.52001 2.52986Z" stroke="#0D99FF" stroke-linecap="round" stroke-linejoin="round" />
-																		<path d="M7.34723 4.00059L10.9821 6.79201" stroke="#0D99FF" stroke-linecap="round" stroke-linejoin="round" />
-																	</svg>
-
-																</div>
-															</div>
-														</div>
-													</div>
-												</div>
-												<div class="sub-card draggable-handle draggable">
-													<div class="d-items">
-														<span class="text-success dang d-block mb-2">
-															<svg class="me-1" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-																<path d="M15 4.5L6.75 12.75L3 9" stroke="#3AC977" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-															</svg>
-															Latest finished to do's
-														</span>
-														<div class="d-flex justify-content-between flex-wrap">
-															<div class="d-items-2">
-																<div class="svg-icon">
-																	<svg width="9" height="16" viewBox="0 0 9 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-																		<rect width="1" height="1" fill="#888888" />
-																		<rect y="3" width="1" height="1" fill="#888888" />
-																		<rect y="6" width="1" height="1" fill="#888888" />
-																		<rect y="9" width="1" height="1" fill="#888888" />
-																		<rect y="12" width="1" height="1" fill="#888888" />
-																		<rect y="15" width="1" height="1" fill="#888888" />
-																		<rect x="4" width="1" height="1" fill="#888888" />
-																		<rect x="4" y="3" width="1" height="1" fill="#888888" />
-																		<rect x="4" y="6" width="1" height="1" fill="#888888" />
-																		<rect x="4" y="9" width="1" height="1" fill="#888888" />
-																		<rect x="4" y="12" width="1" height="1" fill="#888888" />
-																		<rect x="4" y="15" width="1" height="1" fill="#888888" />
-																		<rect x="8" width="1" height="1" fill="#888888" />
-																		<rect x="8" y="3" width="1" height="1" fill="#888888" />
-																		<rect x="8" y="6" width="1" height="1" fill="#888888" />
-																		<rect x="8" y="9" width="1" height="1" fill="#888888" />
-																		<rect x="8" y="12" width="1" height="1" fill="#888888" />
-																		<rect x="8" y="15" width="1" height="1" fill="#888888" />
-																	</svg>
-																</div>
-																<div>
-																	<div class="form-check custom-checkbox">
-																		<input type="checkbox" class="form-check-input" id="customCheckBox2" required>
-																		<label class="form-check-label" for="customCheckBox2">Compete this projects</label>
-																	</div>
-																	<span>2023-12-26 07:15:00</span>
-																</div>
-															</div>
-															<div>
-																<div class="icon-box icon-box-sm bg-danger-light me-1">
-																	<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-																		<path d="M12.8833 6.31213C12.8833 6.31213 12.5213 10.8021 12.3113 12.6935C12.2113 13.5968 11.6533 14.1261 10.7393 14.1428C8.99994 14.1741 7.25861 14.1761 5.51994 14.1395C4.64061 14.1215 4.09194 13.5855 3.99394 12.6981C3.78261 10.7901 3.42261 6.31213 3.42261 6.31213" stroke="#FF5E5E" stroke-linecap="round" stroke-linejoin="round" />
-																		<path d="M13.8055 4.1598H2.50012" stroke="#FF5E5E" stroke-linecap="round" stroke-linejoin="round" />
-																		<path d="M11.6271 4.1598C11.1037 4.1598 10.6531 3.7898 10.5504 3.27713L10.3884 2.46647C10.2884 2.09247 9.94974 1.8338 9.56374 1.8338H6.74174C6.35574 1.8338 6.01707 2.09247 5.91707 2.46647L5.75507 3.27713C5.65241 3.7898 5.20174 4.1598 4.67841 4.1598" stroke="#FF5E5E" stroke-linecap="round" stroke-linejoin="round" />
-																	</svg>
-																</div>
-																<div class="icon-box icon-box-sm bg-primary-light">
-																	<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-																		<path d="M9.16492 13.6286H14" stroke="#0D99FF" stroke-linecap="round" stroke-linejoin="round" />
-																		<path fill-rule="evenodd" clip-rule="evenodd" d="M8.52001 2.52986C9.0371 1.91186 9.96666 1.82124 10.5975 2.32782C10.6324 2.35531 11.753 3.22586 11.753 3.22586C12.446 3.64479 12.6613 4.5354 12.2329 5.21506C12.2102 5.25146 5.87463 13.1763 5.87463 13.1763C5.66385 13.4393 5.34389 13.5945 5.00194 13.5982L2.57569 13.6287L2.02902 11.3149C1.95244 10.9895 2.02902 10.6478 2.2398 10.3849L8.52001 2.52986Z" stroke="#0D99FF" stroke-linecap="round" stroke-linejoin="round" />
-																		<path d="M7.34723 4.00059L10.9821 6.79201" stroke="#0D99FF" stroke-linecap="round" stroke-linejoin="round" />
-																	</svg>
-
-																</div>
-															</div>
-														</div>
-													</div>
-												</div>
-												<div class="sub-card draggable-handle draggable">
-													<div class="d-items">
-														<div class="d-flex justify-content-between flex-wrap">
-															<div class="d-items-2">
-																<div class="svg-icon">
-																	<svg width="9" height="16" viewBox="0 0 9 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-																		<rect width="1" height="1" fill="#888888" />
-																		<rect y="3" width="1" height="1" fill="#888888" />
-																		<rect y="6" width="1" height="1" fill="#888888" />
-																		<rect y="9" width="1" height="1" fill="#888888" />
-																		<rect y="12" width="1" height="1" fill="#888888" />
-																		<rect y="15" width="1" height="1" fill="#888888" />
-																		<rect x="4" width="1" height="1" fill="#888888" />
-																		<rect x="4" y="3" width="1" height="1" fill="#888888" />
-																		<rect x="4" y="6" width="1" height="1" fill="#888888" />
-																		<rect x="4" y="9" width="1" height="1" fill="#888888" />
-																		<rect x="4" y="12" width="1" height="1" fill="#888888" />
-																		<rect x="4" y="15" width="1" height="1" fill="#888888" />
-																		<rect x="8" width="1" height="1" fill="#888888" />
-																		<rect x="8" y="3" width="1" height="1" fill="#888888" />
-																		<rect x="8" y="6" width="1" height="1" fill="#888888" />
-																		<rect x="8" y="9" width="1" height="1" fill="#888888" />
-																		<rect x="8" y="12" width="1" height="1" fill="#888888" />
-																		<rect x="8" y="15" width="1" height="1" fill="#888888" />
-																	</svg>
-																</div>
-																<div>
-																	<div class="form-check custom-checkbox">
-																		<input type="checkbox" class="form-check-input" id="customCheckBox3" required>
-																		<label class="form-check-label" for="customCheckBox3">Compete this projects</label>
-																	</div>
-																	<span>2023-12-26 07:15:00</span>
-																</div>
-															</div>
-															<div>
-																<div class="icon-box icon-box-sm bg-danger-light me-1">
-																	<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-																		<path d="M12.8833 6.31213C12.8833 6.31213 12.5213 10.8021 12.3113 12.6935C12.2113 13.5968 11.6533 14.1261 10.7393 14.1428C8.99994 14.1741 7.25861 14.1761 5.51994 14.1395C4.64061 14.1215 4.09194 13.5855 3.99394 12.6981C3.78261 10.7901 3.42261 6.31213 3.42261 6.31213" stroke="#FF5E5E" stroke-linecap="round" stroke-linejoin="round" />
-																		<path d="M13.8055 4.1598H2.50012" stroke="#FF5E5E" stroke-linecap="round" stroke-linejoin="round" />
-																		<path d="M11.6271 4.1598C11.1037 4.1598 10.6531 3.7898 10.5504 3.27713L10.3884 2.46647C10.2884 2.09247 9.94974 1.8338 9.56374 1.8338H6.74174C6.35574 1.8338 6.01707 2.09247 5.91707 2.46647L5.75507 3.27713C5.65241 3.7898 5.20174 4.1598 4.67841 4.1598" stroke="#FF5E5E" stroke-linecap="round" stroke-linejoin="round" />
-																	</svg>
-																</div>
-																<div class="icon-box icon-box-sm bg-primary-light">
-																	<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-																		<path d="M9.16492 13.6286H14" stroke="#0D99FF" stroke-linecap="round" stroke-linejoin="round" />
-																		<path fill-rule="evenodd" clip-rule="evenodd" d="M8.52001 2.52986C9.0371 1.91186 9.96666 1.82124 10.5975 2.32782C10.6324 2.35531 11.753 3.22586 11.753 3.22586C12.446 3.64479 12.6613 4.5354 12.2329 5.21506C12.2102 5.25146 5.87463 13.1763 5.87463 13.1763C5.66385 13.4393 5.34389 13.5945 5.00194 13.5982L2.57569 13.6287L2.02902 11.3149C1.95244 10.9895 2.02902 10.6478 2.2398 10.3849L8.52001 2.52986Z" stroke="#0D99FF" stroke-linecap="round" stroke-linejoin="round" />
-																		<path d="M7.34723 4.00059L10.9821 6.79201" stroke="#0D99FF" stroke-linecap="round" stroke-linejoin="round" />
-																	</svg>
-
-																</div>
-															</div>
-														</div>
-													</div>
-												</div>
-												<div class="sub-card draggable-handle draggable">
-													<div class="d-items">
-														<div class="d-flex justify-content-between flex-wrap">
-															<div class="d-items-2">
-																<div class="svg-icon">
-																	<svg width="9" height="16" viewBox="0 0 9 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-																		<rect width="1" height="1" fill="#888888" />
-																		<rect y="3" width="1" height="1" fill="#888888" />
-																		<rect y="6" width="1" height="1" fill="#888888" />
-																		<rect y="9" width="1" height="1" fill="#888888" />
-																		<rect y="12" width="1" height="1" fill="#888888" />
-																		<rect y="15" width="1" height="1" fill="#888888" />
-																		<rect x="4" width="1" height="1" fill="#888888" />
-																		<rect x="4" y="3" width="1" height="1" fill="#888888" />
-																		<rect x="4" y="6" width="1" height="1" fill="#888888" />
-																		<rect x="4" y="9" width="1" height="1" fill="#888888" />
-																		<rect x="4" y="12" width="1" height="1" fill="#888888" />
-																		<rect x="4" y="15" width="1" height="1" fill="#888888" />
-																		<rect x="8" width="1" height="1" fill="#888888" />
-																		<rect x="8" y="3" width="1" height="1" fill="#888888" />
-																		<rect x="8" y="6" width="1" height="1" fill="#888888" />
-																		<rect x="8" y="9" width="1" height="1" fill="#888888" />
-																		<rect x="8" y="12" width="1" height="1" fill="#888888" />
-																		<rect x="8" y="15" width="1" height="1" fill="#888888" />
-																	</svg>
-																</div>
-																<div>
-																	<div class="form-check custom-checkbox">
-																		<input type="checkbox" class="form-check-input" id="customCheckBox4" required>
-																		<label class="form-check-label" for="customCheckBox4">Compete this projects Monday</label>
-																	</div>
-																	<span>2023-12-26 07:15:00</span>
-																</div>
-															</div>
-															<div>
-																<div class="icon-box icon-box-sm bg-danger-light me-1">
-																	<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-																		<path d="M12.8833 6.31213C12.8833 6.31213 12.5213 10.8021 12.3113 12.6935C12.2113 13.5968 11.6533 14.1261 10.7393 14.1428C8.99994 14.1741 7.25861 14.1761 5.51994 14.1395C4.64061 14.1215 4.09194 13.5855 3.99394 12.6981C3.78261 10.7901 3.42261 6.31213 3.42261 6.31213" stroke="#FF5E5E" stroke-linecap="round" stroke-linejoin="round" />
-																		<path d="M13.8055 4.1598H2.50012" stroke="#FF5E5E" stroke-linecap="round" stroke-linejoin="round" />
-																		<path d="M11.6271 4.1598C11.1037 4.1598 10.6531 3.7898 10.5504 3.27713L10.3884 2.46647C10.2884 2.09247 9.94974 1.8338 9.56374 1.8338H6.74174C6.35574 1.8338 6.01707 2.09247 5.91707 2.46647L5.75507 3.27713C5.65241 3.7898 5.20174 4.1598 4.67841 4.1598" stroke="#FF5E5E" stroke-linecap="round" stroke-linejoin="round" />
-																	</svg>
-																</div>
-																<div class="icon-box icon-box-sm bg-primary-light">
-																	<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-																		<path d="M9.16492 13.6286H14" stroke="#0D99FF" stroke-linecap="round" stroke-linejoin="round" />
-																		<path fill-rule="evenodd" clip-rule="evenodd" d="M8.52001 2.52986C9.0371 1.91186 9.96666 1.82124 10.5975 2.32782C10.6324 2.35531 11.753 3.22586 11.753 3.22586C12.446 3.64479 12.6613 4.5354 12.2329 5.21506C12.2102 5.25146 5.87463 13.1763 5.87463 13.1763C5.66385 13.4393 5.34389 13.5945 5.00194 13.5982L2.57569 13.6287L2.02902 11.3149C1.95244 10.9895 2.02902 10.6478 2.2398 10.3849L8.52001 2.52986Z" stroke="#0D99FF" stroke-linecap="round" stroke-linejoin="round" />
-																		<path d="M7.34723 4.00059L10.9821 6.79201" stroke="#0D99FF" stroke-linecap="round" stroke-linejoin="round" />
-																	</svg>
-
-																</div>
-															</div>
-														</div>
-													</div>
-												</div>
-												<div class="sub-card draggable-handle draggable">
-													<div class="d-items">
-														<div class="d-flex justify-content-between flex-wrap">
-															<div class="d-items-2">
-																<div class="svg-icon">
-																	<svg width="9" height="16" viewBox="0 0 9 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-																		<rect width="1" height="1" fill="#888888" />
-																		<rect y="3" width="1" height="1" fill="#888888" />
-																		<rect y="6" width="1" height="1" fill="#888888" />
-																		<rect y="9" width="1" height="1" fill="#888888" />
-																		<rect y="12" width="1" height="1" fill="#888888" />
-																		<rect y="15" width="1" height="1" fill="#888888" />
-																		<rect x="4" width="1" height="1" fill="#888888" />
-																		<rect x="4" y="3" width="1" height="1" fill="#888888" />
-																		<rect x="4" y="6" width="1" height="1" fill="#888888" />
-																		<rect x="4" y="9" width="1" height="1" fill="#888888" />
-																		<rect x="4" y="12" width="1" height="1" fill="#888888" />
-																		<rect x="4" y="15" width="1" height="1" fill="#888888" />
-																		<rect x="8" width="1" height="1" fill="#888888" />
-																		<rect x="8" y="3" width="1" height="1" fill="#888888" />
-																		<rect x="8" y="6" width="1" height="1" fill="#888888" />
-																		<rect x="8" y="9" width="1" height="1" fill="#888888" />
-																		<rect x="8" y="12" width="1" height="1" fill="#888888" />
-																		<rect x="8" y="15" width="1" height="1" fill="#888888" />
-																	</svg>
-																</div>
-																<div>
-																	<div class="form-check custom-checkbox">
-																		<input type="checkbox" class="form-check-input" id="customCheckBox5" required>
-																		<label class="form-check-label" for="customCheckBox5">Compete this projects Monday</label>
-																	</div>
-																	<span>2023-12-26 07:15:00</span>
-																</div>
-															</div>
-															<div>
-																<div class="icon-box icon-box-sm bg-danger-light me-1">
-																	<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-																		<path d="M12.8833 6.31213C12.8833 6.31213 12.5213 10.8021 12.3113 12.6935C12.2113 13.5968 11.6533 14.1261 10.7393 14.1428C8.99994 14.1741 7.25861 14.1761 5.51994 14.1395C4.64061 14.1215 4.09194 13.5855 3.99394 12.6981C3.78261 10.7901 3.42261 6.31213 3.42261 6.31213" stroke="#FF5E5E" stroke-linecap="round" stroke-linejoin="round" />
-																		<path d="M13.8055 4.1598H2.50012" stroke="#FF5E5E" stroke-linecap="round" stroke-linejoin="round" />
-																		<path d="M11.6271 4.1598C11.1037 4.1598 10.6531 3.7898 10.5504 3.27713L10.3884 2.46647C10.2884 2.09247 9.94974 1.8338 9.56374 1.8338H6.74174C6.35574 1.8338 6.01707 2.09247 5.91707 2.46647L5.75507 3.27713C5.65241 3.7898 5.20174 4.1598 4.67841 4.1598" stroke="#FF5E5E" stroke-linecap="round" stroke-linejoin="round" />
-																	</svg>
-																</div>
-																<div class="icon-box icon-box-sm bg-primary-light">
-																	<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-																		<path d="M9.16492 13.6286H14" stroke="#0D99FF" stroke-linecap="round" stroke-linejoin="round" />
-																		<path fill-rule="evenodd" clip-rule="evenodd" d="M8.52001 2.52986C9.0371 1.91186 9.96666 1.82124 10.5975 2.32782C10.6324 2.35531 11.753 3.22586 11.753 3.22586C12.446 3.64479 12.6613 4.5354 12.2329 5.21506C12.2102 5.25146 5.87463 13.1763 5.87463 13.1763C5.66385 13.4393 5.34389 13.5945 5.00194 13.5982L2.57569 13.6287L2.02902 11.3149C1.95244 10.9895 2.02902 10.6478 2.2398 10.3849L8.52001 2.52986Z" stroke="#0D99FF" stroke-linecap="round" stroke-linejoin="round" />
-																		<path d="M7.34723 4.00059L10.9821 6.79201" stroke="#0D99FF" stroke-linecap="round" stroke-linejoin="round" />
-																	</svg>
-																</div>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
+								<div class="liquid-meter-selector mt-4 pt-1" id="meterSalesSel">
+									<a href="#" data-val="35" class="active">Monthly Goal</a>
+									<a href="#" data-val="28">Annual Goal</a>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-			<div class="col-xl-3 respo col-xxl-4 col-lg-5">
-				<div class="row">
-					<div class="col-xl-12">
-						<div class="card my-calendar">
-							<div class="card-body schedules-cal p-2">
-								<input type="text" class="form-control d-none" id="datetimepicker1">
-								<div class="events">
-									<h6>events</h6>
-									<div class="dz-scroll event-scroll">
-										<div class="event-media">
-											<div class="d-flex align-items-center">
-												<div class="event-box">
-													<h5 class="mb-0">20</h5>
-													<span>Mon</span>
-												</div>
-												<div class="event-data ms-2">
-													<h5 class="mb-0"><a href="project.html">Development planning</a></h5>
-													<span>w3it Technologies</span>
-												</div>
-											</div>
-											<span class="text-white">12:05 PM</span>
+			</section>
+		</div>
+		<div class="col-lg-6">
+			<div class="row mb-3">
+				<div class="col-xl-6">
+					<section class="card card-featured-left card-featured-primary mb-3">
+						<div class="card-body">
+							<div class="widget-summary">
+								<div class="widget-summary-col widget-summary-col-icon">
+									<div class="summary-icon bg-primary">
+										<i class="fas fa-life-ring"></i>
+									</div>
+								</div>
+								<div class="widget-summary-col">
+									<div class="summary">
+										<h4 class="title">Support Questions</h4>
+										<div class="info">
+											<strong class="amount">1281</strong>
+											<span class="text-primary">(14 unread)</span>
 										</div>
-										<div class="event-media">
-											<div class="d-flex align-items-center">
-												<div class="event-box">
-													<h5 class="mb-0">20</h5>
-													<span>Mon</span>
-												</div>
-												<div class="event-data ms-2">
-													<h5 class="mb-0"><a href="project.html">Desinging planning</a></h5>
-													<span>w3it Technologies</span>
-												</div>
-											</div>
-											<span class="text-white">12:05 PM</span>
-										</div>
-										<div class="event-media">
-											<div class="d-flex align-items-center">
-												<div class="event-box">
-													<h5 class="mb-0">20</h5>
-													<span>Mon</span>
-												</div>
-												<div class="event-data ms-2">
-													<h5 class="mb-0"><a href="project.html">Frontend Designing</a></h5>
-													<span>w3it Technologies</span>
-												</div>
-											</div>
-											<span class="text-white">12:05 PM</span>
-										</div>
-										<div class="event-media">
-											<div class="d-flex align-items-center">
-												<div class="event-box">
-													<h5 class="mb-0">20</h5>
-													<span>Mon</span>
-												</div>
-												<div class="event-data ms-2">
-													<h5 class="mb-0"><a href="project.html">Software planning</a></h5>
-													<span>w3it Technologies</span>
-												</div>
-											</div>
-											<span class="text-white">12:05 PM</span>
-										</div>
+									</div>
+									<div class="summary-footer">
+										<a class="text-muted text-uppercase" href="#">(view all)</a>
 									</div>
 								</div>
 							</div>
 						</div>
-					</div>
-					<div class="col-xl-12">
-						<div class="card same-card chart-chart">
-							<div class="card-body d-flex align-items-center  py-2">
-								<div id="AllProject"></div>
-								<ul class="project-list">
-									<li><h6>All Projects</h6></li>
-									<li>
-										<svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-											<rect width="10" height="10" rx="3" fill="#3AC977" />
-										</svg>
-										Compete
-									</li>
-									<li>
-										<svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-											<rect width="10" height="10" rx="3" fill="var(--primary)" />
-										</svg>
-										Pending
-									</li>
-									<li>
-										<svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-											<rect width="10" height="10" rx="3" fill="var(--secondary)" />
-										</svg>
-										Not Start
-									</li>
-								</ul>
+					</section>
+				</div>
+				<div class="col-xl-6">
+					<section class="card card-featured-left card-featured-secondary">
+						<div class="card-body">
+							<div class="widget-summary">
+								<div class="widget-summary-col widget-summary-col-icon">
+									<div class="summary-icon bg-secondary">
+										<i class="fas fa-dollar-sign"></i>
+									</div>
+								</div>
+								<div class="widget-summary-col">
+									<div class="summary">
+										<h4 class="title">Total Profit</h4>
+										<div class="info">
+											<strong class="amount">$ 14,890.30</strong>
+										</div>
+									</div>
+									<div class="summary-footer">
+										<a class="text-muted text-uppercase" href="#">(withdraw)</a>
+									</div>
+								</div>
 							</div>
 						</div>
-					</div>
+					</section>
 				</div>
 			</div>
-			<div class="col-xl-6 col-xxl-12">
-				<div class="card">
-					<div class="card-body p-0">
-						<div class="table-responsive active-projects">
-							<div class="tbl-caption">
-								<h4 class="heading mb-0">Active Projects</h4>
+			<div class="row">
+				<div class="col-xl-6">
+					<section class="card card-featured-left card-featured-tertiary mb-3">
+						<div class="card-body">
+							<div class="widget-summary">
+								<div class="widget-summary-col widget-summary-col-icon">
+									<div class="summary-icon bg-tertiary">
+										<i class="fas fa-shopping-cart"></i>
+									</div>
+								</div>
+								<div class="widget-summary-col">
+									<div class="summary">
+										<h4 class="title">Today's Orders</h4>
+										<div class="info">
+											<strong class="amount">38</strong>
+										</div>
+									</div>
+									<div class="summary-footer">
+										<a class="text-muted text-uppercase" href="#">(statement)</a>
+									</div>
+								</div>
 							</div>
-							<table id="projects-tbl" class="table">
-								<thead>
-									<tr>
-										<th>Project Name</th>
-										<th>Project Lead</th>
-										<th>Progress</th>
-										<th>Assignee</th>
-										<th>Status</th>
-										<th>Due Date</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td>Batman</td>
-										<td>
-											<div class="d-flex align-items-center">
-												<img src="~/Admin/images/contacts/pic1.jpg" class="avatar avatar-md rounded-circle" alt="">
-												<p class="mb-0 ms-2">Liam Risher</p>
-											</div>
-										</td>
-										<td class="pe-0">
-											<div class="tbl-progress-box">
-												<div class="progress">
-													<div class="progress-bar bg-primary" style="width:53%; height:5px; border-radius:4px;" role="progressbar"></div>
-												</div>
-												<span class="text-primary">53%</span>
-											</div>
-										</td>
-										<td class="pe-0">
-											<div class="avatar-list avatar-list-stacked">
-												<img src="~/Admin/images/contacts/pic1.jpg" class="avatar avatar-md rounded-circle" alt="">
-												<img src="~/Admin/images/contacts/pic555.jpg" class="avatar avatar-md rounded-circle" alt="">
-												<img src="~/Admin/images/contacts/pic666.jpg" class="avatar avatar-md rounded-circle" alt="">
-											</div>
-										</td>
-										<td class="pe-0">
-											<span class="badge badge-primary light border-0">Inprogress</span>
-										</td>
-										<td>
-											<span>06 Sep 2021</span>
-										</td>
-									</tr>
-									<tr>
-										<td>Bender Project</td>
-										<td>
-											<div class="d-flex align-items-center">
-												<img src="~/Admin/images/contacts/pic2.jpg" class="avatar avatar-md rounded-circle" alt="">
-												<p class="mb-0 ms-2">Oliver Noah</p>
-											</div>
-										</td>
-										<td class="pe-0">
-											<div class="tbl-progress-box">
-												<div class="progress">
-													<div class="progress-bar bg-danger" style="width:30%; height:5px; border-radius:4px;" role="progressbar"></div>
-												</div>
-												<span class="text-danger">30%</span>
-											</div>
-										</td>
-										<td class="pe-0">
-											<div class="avatar-list avatar-list-stacked">
-												<img src="~/Admin/images/contacts/pic1.jpg" class="avatar avatar-md rounded-circle" alt="">
-												<img src="~/Admin/images/contacts/pic555.jpg" class="avatar avatar-md rounded-circle" alt="">
-												<img src="~/Admin/images/contacts/pic666.jpg" class="avatar avatar-md rounded-circle" alt="">
-											</div>
-										</td>
-										<td class="pe-0">
-											<span class="badge badge-danger light border-0">Pending</span>
-										</td>
-										<td>
-											<span>06 Sep 2021</span>
-										</td>
-									</tr>
-									<tr>
-										<td>Canary</td>
-										<td>
-											<div class="d-flex align-items-center">
-												<img src="~/Admin/images/contacts/pic888.jpg" class="avatar avatar-md rounded-circle" alt="">
-												<p class="mb-0 ms-2">Elijah James</p>
-											</div>
-										</td>
-										<td class="pe-0">
-											<div class="tbl-progress-box">
-												<div class="progress">
-													<div class="progress-bar bg-success" style="width:40%; height:5px; border-radius:4px;" role="progressbar"></div>
-												</div>
-												<span class="text-success">40%</span>
-											</div>
-										</td>
-										<td class="pe-0">
-											<div class="avatar-list avatar-list-stacked">
-												<img src="~/Admin/images/contacts/pic666.jpg" class="avatar avatar-md  rounded-circle" alt="">
-												<img src="~/Admin/images/contacts/pic555.jpg" class="avatar avatar-md rounded-circle" alt="">
-												<img src="~/Admin/images/contacts/pic1.jpg" class="avatar avatar-md rounded-circle" alt="">
-												<img src="~/Admin/images/contacts/pic666.jpg" class="avatar avatar-md  rounded-circle" alt="">
-											</div>
-										</td>
-										<td class="pe-0">
-											<span class="badge badge-success light border-0">Completed</span>
-										</td>
-										<td>
-											<span>06 Sep 2021</span>
-										</td>
-									</tr>
-									<tr>
-										<td>Casanova</td>
-										<td>
-											<div class="d-flex align-items-center">
-												<img src="~/Admin/images/contacts/pic1.jpg" class="avatar avatar-md rounded-circle" alt="">
-												<p class="mb-0 ms-2">William Risher</p>
-											</div>
-										</td>
-										<td class="pe-0">
-											<div class="tbl-progress-box">
-												<div class="progress">
-													<div class="progress-bar bg-primary" style="width:53%; height:5px; border-radius:4px;" role="progressbar"></div>
-												</div>
-												<span class="text-primary">53%</span>
-											</div>
-										</td>
-										<td class="pe-0">
-											<div class="avatar-list avatar-list-stacked">
-												<img src="~/Admin/images/contacts/pic1.jpg" class="avatar avatar-md rounded-circle" alt="">
-												<img src="~/Admin/images/contacts/pic555.jpg" class="avatar avatar-md rounded-circle" alt="">
-												<img src="~/Admin/images/contacts/pic666.jpg" class="avatar avatar-md rounded-circle" alt="">
-											</div>
-										</td>
-										<td class="pe-0">
-											<span class="badge badge-primary light border-0">Inprogress</span>
-										</td>
-										<td>
-											<span>06 Sep 2021</span>
-										</td>
-									</tr>
-									<tr>
-										<td>Bigfish</td>
-										<td>
-											<div class="d-flex align-items-center">
-												<img src="~/Admin/images/contacts/pic777.jpg" class="avatar avatar-md rounded-circle" alt="">
-												<p class="mb-0 ms-2">Donald Benjamin</p>
-											</div>
-										</td>
-										<td class="pe-0">
-											<div class="tbl-progress-box">
-												<div class="progress">
-													<div class="progress-bar bg-danger" style="width:30%; height:5px; border-radius:4px;" role="progressbar"></div>
-												</div>
-												<span class="text-danger">30%</span>
-											</div>
-										</td>
-										<td class="pe-0">
-											<div class="avatar-list avatar-list-stacked">
-												<img src="~/Admin/images/contacts/pic1.jpg" class="avatar avatar-md rounded-circle" alt="">
-												<img src="~/Admin/images/contacts/pic777.jpg" class="avatar avatar-md rounded-circle" alt="">
-												<img src="~/Admin/images/contacts/pic666.jpg" class="avatar avatar-md rounded-circle" alt="">
-											</div>
-										</td>
-										<td class="pe-0">
-											<span class="badge badge-danger light border-0">Inprogress</span>
-										</td>
-										<td>
-											<span>06 Sep 2021</span>
-										</td>
-									</tr>
-									<tr>
-										<td>Matadors</td>
-										<td>
-											<div class="d-flex align-items-center">
-												<img src="~/Admin/images/contacts/pic888.jpg" class="avatar avatar-md rounded-circle" alt="">
-												<p class="mb-0 ms-2">Liam Risher</p>
-											</div>
-										</td>
-										<td class="pe-0">
-											<div class="tbl-progress-box">
-												<div class="progress">
-													<div class="progress-bar bg-primary" style="width:53%; height:5px; border-radius:4px;" role="progressbar"></div>
-												</div>
-												<span class="text-primary">53%</span>
-											</div>
-										</td>
-										<td class="pe-0">
-											<div class="avatar-list avatar-list-stacked">
-												<img src="~/Admin/images/contacts/pic777.jpg" class="avatar avatar-md rounded-circle" alt="">
-												<img src="~/Admin/images/contacts/pic555.jpg" class="avatar avatar-md rounded-circle" alt="">
-												<img src="~/Admin/images/contacts/pic666.jpg" class="avatar avatar-md rounded-circle" alt="">
-											</div>
-										</td>
-										<td class="pe-0">
-											<span class="badge badge-primary light border-0">Inprogress</span>
-										</td>
-										<td>
-											<span>06 Sep 2021</span>
-										</td>
-									</tr>
-									<tr>
-										<td>Mercury</td>
-										<td>
-											<div class="d-flex align-items-center">
-												<img src="~/Admin/images/contacts/pic2.jpg" class="avatar avatar-md rounded-circle" alt="">
-												<p class="mb-0 ms-2">Oliver Noah</p>
-											</div>
-										</td>
-										<td class="pe-0">
-											<div class="tbl-progress-box">
-												<div class="progress">
-													<div class="progress-bar bg-danger" style="width:30%; height:5px; border-radius:4px;" role="progressbar"></div>
-												</div>
-												<span class="text-danger">30%</span>
-											</div>
-										</td>
-										<td class="pe-0">
-											<div class="avatar-list avatar-list-stacked">
-												<img src="~/Admin/images/contacts/pic1.jpg" class="avatar avatar-md rounded-circle" alt="">
-												<img src="~/Admin/images/contacts/pic777.jpg" class="avatar avatar-md rounded-circle" alt="">
-												<img src="~/Admin/images/contacts/pic666.jpg" class="avatar avatar-md rounded-circle" alt="">
-											</div>
-										</td>
-										<td class="pe-0">
-											<span class="badge badge-danger light border-0">Pending</span>
-										</td>
-										<td>
-											<span>06 Sep 2021</span>
-										</td>
-									</tr>
-									<tr>
-										<td>Whistler</td>
-										<td>
-											<div class="d-flex align-items-center">
-												<img src="~/Admin/images/contacts/pic999.jpg" class="avatar avatar-md rounded-circle" alt="">
-												<p class="mb-0 ms-2">Elijah James</p>
-											</div>
-										</td>
-										<td class="pe-0">
-											<div class="tbl-progress-box">
-												<div class="progress">
-													<div class="progress-bar bg-success" style="width:40%; height:5px; border-radius:4px;" role="progressbar"></div>
-												</div>
-												<span class="text-success">40%</span>
-											</div>
-										</td>
-										<td class="pe-0">
-											<div class="avatar-list avatar-list-stacked">
-												<img src="~/Admin/images/contacts/pic666.jpg" class="avatar avatar-md rounded-circle" alt="">
-												<img src="~/Admin/images/contacts/pic555.jpg" class="avatar avatar-md rounded-circle" alt="">
-												<img src="~/Admin/images/contacts/pic1.jpg" class="avatar avatar-md rounded-circle" alt="">
-												<img src="~/Admin/images/contacts/pic666.jpg" class="avatar avatar-md rounded-circle" alt="">
-											</div>
-										</td>
-										<td class="pe-0">
-											<span class="badge badge-success light border-0">Completed</span>
-										</td>
-										<td>
-											<span>06 Sep 2021</span>
-										</td>
-									</tr>
-									<tr>
-										<td>Time Projects</td>
-										<td>
-											<div class="d-flex align-items-center">
-												<img src="~/Admin/images/contacts/pic2.jpg" class="avatar avatar-md rounded-circle" alt="">
-												<p class="mb-0 ms-2">Lucas</p>
-											</div>
-										</td>
-										<td class="pe-0">
-											<div class="tbl-progress-box">
-												<div class="progress">
-													<div class="progress-bar bg-danger" style="width:33%; height:5px; border-radius:4px;" role="progressbar"></div>
-												</div>
-												<span class="text-primary">33%</span>
-											</div>
-										</td>
-										<td class="pe-0">
-											<div class="avatar-list avatar-list-stacked">
-												<img src="~/Admin/images/contacts/pic1.jpg" class="avatar avatar-md rounded-circle" alt="">
-												<img src="~/Admin/images/contacts/pic555.jpg" class="avatar avatar-md rounded-circle" alt="">
-												<img src="~/Admin/images/contacts/pic999.jpg" class="avatar avatar-md rounded-circle" alt="">
-											</div>
-										</td>
-										<td class="pe-0">
-											<span class="badge badge-primary light border-0">Inprogress</span>
-										</td>
-										<td>
-											<span>06 Sep 2021</span>
-										</td>
-									</tr>
-									<tr>
-										<td>Fast Ball</td>
-										<td>
-											<div class="d-flex align-items-center">
-												<img src="~/Admin/images/contacts/pic1.jpg" class="avatar avatar-md rounded-circle" alt="">
-												<p class="mb-0 ms-2">William Risher</p>
-											</div>
-										</td>
-										<td class="pe-0">
-											<div class="tbl-progress-box">
-												<div class="progress">
-													<div class="progress-bar bg-primary" style="width:53%; height:5px; border-radius:4px;" role="progressbar"></div>
-												</div>
-												<span class="text-primary">53%</span>
-											</div>
-										</td>
-										<td class="pe-0">
-											<div class="avatar-list avatar-list-stacked">
-												<img src="~/Admin/images/contacts/pic1.jpg" class="avatar avatar-md  rounded-circle" alt="">
-												<img src="~/Admin/images/contacts/pic555.jpg" class="avatar avatar-md rounded-circle" alt="">
-												<img src="~/Admin/images/contacts/pic999.jpg" class="avatar avatar-md rounded-circle" alt="">
-											</div>
-										</td>
-										<td class="pe-0">
-											<span class="badge badge-primary light border-0">Inprogress</span>
-										</td>
-										<td>
-											<span>06 Sep 2021</span>
-										</td>
-									</tr>
-
-								</tbody>
-
-							</table>
 						</div>
-					</div>
+					</section>
 				</div>
-			</div>
-			<div class="col-xl-6 col-xxl-8 col-lg-7">
-				<div class="card h-auto">
-					<div class="card-header border-0 pb-3">
-						<h4 class="heading mb-0">Running Projects</h4>
-						<a href="javascript:void(0)" class="btn btn-sm btn-primary">View All</a>
-					</div>
-					<div class="card-body pt-0">
-						<div class="swiper mySwiper">
-							<div class="swiper-wrapper">
-								<div class="swiper-slide">
-									<div class="card">
-										<div class="card-body">
-											<div class="card-media">
-												<img src="~/Admin/images/p1.gif" alt="">
-											</div>
-											<div class="media-data">
-												<h4><a href="project.html">Development planning</a></h4>
-												<div class="d-flex align-items-center">
-													<div class="avatar-list avatar-list-stacked">
-														<img src="~/Admin/images/contacts/pic666.jpg" class="avatar avatar-md  rounded-circle" alt="">
-														<img src="~/Admin/images/contacts/pic555.jpg" class="avatar avatar-md rounded-circle" alt="">
-														<img src="~/Admin/images/contacts/pic1.jpg" class="avatar avatar-md rounded-circle" alt="">
-														<img src="~/Admin/images/contacts/pic666.jpg" class="avatar avatar-md  rounded-circle" alt="">
-													</div>
-													<span>21+ Team</span>
-												</div>
-												<div class="dateformat d-flex justify-content-between align-items-end">
-													<div>
-														<p>Due Date</p>
-														<span>06 Sep 2021</span>
-													</div>
-													<span class="badge badge-danger light border-0">Pending</span>
-												</div>
-											</div>
-										</div>
+				<div class="col-xl-6">
+					<section class="card card-featured-left card-featured-quaternary">
+						<div class="card-body">
+							<div class="widget-summary">
+								<div class="widget-summary-col widget-summary-col-icon">
+									<div class="summary-icon bg-quaternary">
+										<i class="fas fa-user"></i>
 									</div>
 								</div>
-								<div class="swiper-slide">
-									<div class="card">
-										<div class="card-body">
-											<div class="card-media">
-												<img src="~/Admin/images/p3.gif" alt="">
-											</div>
-											<div class="media-data">
-												<h4><a href="project.html">Desinging planning</a></h4>
-												<div class="d-flex align-items-center">
-													<div class="avatar-list avatar-list-stacked">
-														<img src="~/Admin/images/contacts/pic666.jpg" class="avatar avatar-md  rounded-circle" alt="">
-														<img src="~/Admin/images/contacts/pic555.jpg" class="avatar avatar-md rounded-circle" alt="">
-														<img src="~/Admin/images/contacts/pic1.jpg" class="avatar avatar-md rounded-circle" alt="">
-														<img src="~/Admin/images/contacts/pic666.jpg" class="avatar avatar-md  rounded-circle" alt="">
-													</div>
-													<span>21+ Team</span>
-												</div>
-												<div class="dateformat d-flex justify-content-between align-items-end">
-													<div>
-														<p>Due Date</p>
-														<span>06 Sep 2021</span>
-													</div>
-													<span class="badge badge-info light border-0">Inprogress</span>
-												</div>
-											</div>
+								<div class="widget-summary-col">
+									<div class="summary">
+										<h4 class="title">Today's Visitors</h4>
+										<div class="info">
+											<strong class="amount">3765</strong>
 										</div>
 									</div>
-								</div>
-								<div class="swiper-slide">
-									<div class="card">
-										<div class="card-body">
-											<div class="card-media">
-												<img src="~/Admin/images/p.gif" alt="">
-											</div>
-											<div class="media-data">
-												<h4><a href="project.html">Frontend Designing</a></h4>
-												<div class="d-flex align-items-center">
-													<div class="avatar-list avatar-list-stacked">
-														<img src="~/Admin/images/contacts/pic666.jpg" class="avatar avatar-md  rounded-circle" alt="">
-														<img src="~/Admin/images/contacts/pic555.jpg" class="avatar avatar-md rounded-circle" alt="">
-														<img src="~/Admin/images/contacts/pic1.jpg" class="avatar avatar-md rounded-circle" alt="">
-														<img src="~/Admin/images/contacts/pic666.jpg" class="avatar avatar-md  rounded-circle" alt="">
-													</div>
-													<span>21+ Team</span>
-												</div>
-												<div class="dateformat d-flex justify-content-between align-items-end">
-													<div>
-														<p>Due Date</p>
-														<span>06 Sep 2021</span>
-													</div>
-													<span class="badge badge-warning light border-0">Inprogress</span>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="swiper-slide">
-									<div class="card">
-										<div class="card-body">
-											<div class="card-media">
-												<img src="~/Admin/images/p2.gif" alt="">
-											</div>
-											<div class="media-data">
-												<h4>Compete this projects Monday</h4>
-												<div class="d-flex align-items-center">
-													<div class="avatar-list avatar-list-stacked">
-														<img src="~/Admin/images/contacts/pic666.jpg" class="avatar avatar-md  rounded-circle" alt="">
-														<img src="~/Admin/images/contacts/pic555.jpg" class="avatar avatar-md rounded-circle" alt="">
-														<img src="~/Admin/images/contacts/pic1.jpg" class="avatar avatar-md rounded-circle" alt="">
-														<img src="~/Admin/images/contacts/pic666.jpg" class="avatar avatar-md  rounded-circle" alt="">
-													</div>
-													<span>21+ Team</span>
-												</div>
-												<div class="dateformat d-flex justify-content-between align-items-end">
-													<div>
-														<p>Due Date</p>
-														<span>06 Sep 2021</span>
-													</div>
-													<span class="badge badge-primary light border-0">Inprogress</span>
-												</div>
-											</div>
-										</div>
+									<div class="summary-footer">
+										<a class="text-muted text-uppercase" href="#">(report)</a>
 									</div>
 								</div>
 							</div>
 						</div>
-					</div>
+					</section>
 				</div>
 			</div>
 		</div>
 	</div>
-</div>
+
+	<div class="row pt-4">
+		<div class="col-lg-6 mb-4 mb-lg-0">
+			<section class="card">
+				<header class="card-header">
+					<div class="card-actions">
+						<a href="#" class="card-action card-action-toggle" data-card-toggle></a>
+						<a href="#" class="card-action card-action-dismiss" data-card-dismiss></a>
+					</div>
+
+					<h2 class="card-title">Best Seller</h2>
+					<p class="card-subtitle">Customize the graphs as much as you want, there are so many options and features to display information using Porto Admin Template.</p>
+				</header>
+				<div class="card-body">
+
+					<!-- Flot: Basic -->
+					<div class="chart chart-md" id="flotDashBasic"></div>
+					<script>
+
+						var flotDashBasicData = [{
+							data: [
+								[0, 170],
+								[1, 169],
+								[2, 173],
+								[3, 188],
+								[4, 147],
+								[5, 113],
+								[6, 128],
+								[7, 169],
+								[8, 173],
+								[9, 128],
+								[10, 128]
+							],
+							label: "Series 1",
+							color: "#0088cc"
+						}, {
+							data: [
+								[0, 115],
+								[1, 124],
+								[2, 114],
+								[3, 121],
+								[4, 115],
+								[5, 83],
+								[6, 102],
+								[7, 148],
+								[8, 147],
+								[9, 103],
+								[10, 113]
+							],
+							label: "Series 2",
+							color: "#2baab1"
+						}, {
+							data: [
+								[0, 70],
+								[1, 69],
+								[2, 73],
+								[3, 88],
+								[4, 47],
+								[5, 13],
+								[6, 28],
+								[7, 69],
+								[8, 73],
+								[9, 28],
+								[10, 28]
+							],
+							label: "Series 3",
+							color: "#734ba9"
+						}];
+
+						// See: js/examples/examples.dashboard.js for more settings.
+
+					</script>
+
+				</div>
+			</section>
+		</div>
+		<div class="col-lg-6">
+			<section class="card">
+				<header class="card-header">
+					<div class="card-actions">
+						<a href="#" class="card-action card-action-toggle" data-card-toggle></a>
+						<a href="#" class="card-action card-action-dismiss" data-card-dismiss></a>
+					</div>
+					<h2 class="card-title">Server Usage</h2>
+					<p class="card-subtitle">It's easy to create custom graphs on Porto Admin Template, there are several graph types that you can use.</p>
+				</header>
+				<div class="card-body">
+
+					<!-- Flot: Curves -->
+					<div class="chart chart-md" id="flotDashRealTime"></div>
+
+				</div>
+			</section>
+		</div>
+	</div>
+
+	<div class="row pt-4 mt-2">
+		<div class="col-lg-6 col-xl-3">
+			<section class="card card-transparent">
+				<header class="card-header">
+					<div class="card-actions">
+						<a href="#" class="card-action card-action-toggle" data-card-toggle></a>
+						<a href="#" class="card-action card-action-dismiss" data-card-dismiss></a>
+					</div>
+
+					<h2 class="card-title">My Profile</h2>
+				</header>
+				<div class="card-body">
+					<section class="card card-group">
+						<header class="card-header bg-primary w-100">
+
+							<div class="widget-profile-info">
+								<div class="profile-picture">
+									<img src="~/Admin/img/!logged-user.jpg">
+								</div>
+								<div class="profile-info">
+									<h4 class="name font-weight-semibold">John Doe</h4>
+									<h5 class="role">Administrator</h5>
+									<div class="profile-footer">
+										<a href="#">(edit profile)</a>
+									</div>
+								</div>
+							</div>
+
+						</header>
+						<div id="accordion" class="w-100">
+							<div class="card card-accordion card-accordion-first">
+								<div class="card-header border-bottom-0">
+									<h4 class="card-title">
+										<a class="accordion-toggle" data-bs-toggle="collapse" data-bs-parent="#accordion" data-bs-target="#collapse1One">
+											<i class="fas fa-check me-1"></i> Tasks
+										</a>
+									</h4>
+								</div>
+								<div id="collapse1One" class="accordion-body collapse show">
+									<div class="card-body">
+										<ul class="widget-todo-list">
+											<li>
+												<div class="checkbox-custom checkbox-default">
+													<input type="checkbox" checked="" id="todoListItem1" class="todo-check">
+													<label class="todo-label" for="todoListItem1"><span>Curabitur ac sem at nibh egestas urabitur ac sem at nibh egestas.</span></label>
+												</div>
+												<div class="todo-actions">
+													<a class="todo-remove" href="#">
+														<i class="fas fa-times"></i>
+													</a>
+												</div>
+											</li>
+											<li>
+												<div class="checkbox-custom checkbox-default">
+													<input type="checkbox" id="todoListItem2" class="todo-check">
+													<label class="todo-label" for="todoListItem2"><span>Lorem ipsum dolor sit amet</span></label>
+												</div>
+												<div class="todo-actions">
+													<a class="todo-remove" href="#">
+														<i class="fas fa-times"></i>
+													</a>
+												</div>
+											</li>
+											<li>
+												<div class="checkbox-custom checkbox-default">
+													<input type="checkbox" id="todoListItem3" class="todo-check">
+													<label class="todo-label" for="todoListItem3"><span>Curabitur ac sem at nibh egestas</span></label>
+												</div>
+												<div class="todo-actions">
+													<a class="todo-remove" href="#">
+														<i class="fas fa-times"></i>
+													</a>
+												</div>
+											</li>
+											<li>
+												<div class="checkbox-custom checkbox-default">
+													<input type="checkbox" id="todoListItem4" class="todo-check">
+													<label class="todo-label" for="todoListItem4"><span>Lorem ipsum dolor sit amet</span></label>
+												</div>
+												<div class="todo-actions">
+													<a class="todo-remove" href="#">
+														<i class="fas fa-times"></i>
+													</a>
+												</div>
+											</li>
+											<li>
+												<div class="checkbox-custom checkbox-default">
+													<input type="checkbox" id="todoListItem5" class="todo-check">
+													<label class="todo-label" for="todoListItem5"><span>Curabitur ac sem at nibh egestas.</span></label>
+												</div>
+												<div class="todo-actions">
+													<a class="todo-remove" href="#">
+														<i class="fas fa-times"></i>
+													</a>
+												</div>
+											</li>
+											<li>
+												<div class="checkbox-custom checkbox-default">
+													<input type="checkbox" id="todoListItem6" class="todo-check">
+													<label class="todo-label" for="todoListItem6"><span>Lorem ipsum dolor sit amet</span></label>
+												</div>
+												<div class="todo-actions">
+													<a class="todo-remove" href="#">
+														<i class="fas fa-times"></i>
+													</a>
+												</div>
+											</li>
+											<li>
+												<div class="checkbox-custom checkbox-default">
+													<input type="checkbox" id="todoListItem7" class="todo-check">
+													<label class="todo-label" for="todoListItem7"><span>Curabitur ac sem at nibh egestas.</span></label>
+												</div>
+												<div class="todo-actions">
+													<a class="todo-remove" href="#">
+														<i class="fas fa-times"></i>
+													</a>
+												</div>
+											</li>
+										</ul>
+										<hr class="solid mt-3 mb-3">
+										<form method="get" class="form-horizontal form-bordered">
+											<div class="form-group row">
+												<div class="col-sm-12">
+													<div class="input-group mb-3">
+														<input type="text" class="form-control">
+														<button type="button" class="btn btn-primary" tabindex="-1">Add</button>
+													</div>
+												</div>
+											</div>
+										</form>
+									</div>
+								</div>
+							</div>
+							<div class="card card-accordion">
+								<div class="card-header border-bottom-0">
+									<h4 class="card-title">
+										<a class="accordion-toggle" data-bs-toggle="collapse" data-bs-parent="#accordion" data-bs-target="#collapse1Two">
+											<i class="fas fa-comment me-1"></i> Messages
+										</a>
+									</h4>
+								</div>
+								<div id="collapse1Two" class="accordion-body collapse">
+									<div class="card-body">
+										<ul class="simple-user-list mb-3">
+											<li>
+												<figure class="image rounded">
+													<img src="~/Admin/img/!sample-user.jpg" alt="Joseph Doe Junior" class="rounded-circle">
+												</figure>
+												<span class="title">Joseph Doe Junior</span>
+												<span class="message">Lorem ipsum dolor sit.</span>
+											</li>
+											<li>
+												<figure class="image rounded">
+													<img src="~/Admin/img/!sample-user.jpg" alt="Joseph Junior" class="rounded-circle">
+												</figure>
+												<span class="title">Joseph Junior</span>
+												<span class="message">Lorem ipsum dolor sit.</span>
+											</li>
+											<li>
+												<figure class="image rounded">
+													<img src="~/Admin/img/!sample-user.jpg" alt="Joe Junior" class="rounded-circle">
+												</figure>
+												<span class="title">Joe Junior</span>
+												<span class="message">Lorem ipsum dolor sit.</span>
+											</li>
+											<li>
+												<figure class="image rounded">
+													<img src="~/Admin/img/!sample-user.jpg" alt="Joseph Doe Junior" class="rounded-circle">
+												</figure>
+												<span class="title">Joseph Doe Junior</span>
+												<span class="message">Lorem ipsum dolor sit.</span>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+
+				</div>
+			</section>
+		</div>
+		<div class="col-lg-6 col-xl-3">
+			<section class="card card-transparent">
+				<header class="card-header">
+					<div class="card-actions">
+						<a href="#" class="card-action card-action-toggle" data-card-toggle></a>
+						<a href="#" class="card-action card-action-dismiss" data-card-dismiss></a>
+					</div>
+
+					<h2 class="card-title">My Stats</h2>
+				</header>
+				<div class="card-body">
+					<section class="card">
+						<div class="card-body">
+							<div class="small-chart float-end" id="sparklineBarDash"></div>
+							<script type="text/javascript">
+								var sparklineBarDashData = [5, 6, 7, 2, 0, 4 , 2, 4, 2, 0, 4 , 2, 4, 2, 0, 4];
+							</script>
+							<div class="h4 font-weight-bold mb-0">488</div>
+							<p class="text-3 text-muted mb-0">Average Profile Visits</p>
+						</div>
+					</section>
+					<section class="card">
+						<div class="card-body">
+							<div class="circular-bar circular-bar-xs m-0 mt-1 me-4 mb-0 float-end">
+								<div class="circular-bar-chart" data-percent="45" data-plugin-options='{ "barColor": "#2baab1", "delay": 300, "size": 50, "lineWidth": 4 }'>
+									<strong>Average</strong>
+									<label><span class="percent">45</span>%</label>
+								</div>
+							</div>
+							<div class="h4 font-weight-bold mb-0">12</div>
+							<p class="text-3 text-muted mb-0">Working Projects</p>
+						</div>
+					</section>
+					<section class="card">
+						<div class="card-body">
+							<div class="small-chart float-end" id="sparklineLineDash"></div>
+							<script type="text/javascript">
+								var sparklineLineDashData = [15, 16, 17, 19, 10, 15, 13, 12, 12, 14, 16, 17];
+							</script>
+							<div class="h4 font-weight-bold mb-0">89</div>
+							<p class="text-3 text-muted mb-0">Pending Tasks</p>
+						</div>
+					</section>
+				</div>
+			</section>
+			<section class="card mb-3">
+				<header class="card-header">
+					<div class="card-actions">
+						<a href="#" class="card-action card-action-toggle" data-card-toggle></a>
+						<a href="#" class="card-action card-action-dismiss" data-card-dismiss></a>
+					</div>
+
+					<h2 class="card-title">
+						<span class="badge badge-primary font-weight-normal va-middle p-2 me-e">298</span>
+						<span class="va-middle">Friends</span>
+					</h2>
+				</header>
+				<div class="card-body">
+					<div class="content">
+						<ul class="simple-user-list">
+							<li>
+								<figure class="image rounded">
+									<img src="~/Admin/img/!sample-user.jpg" alt="Joseph Doe Junior" class="rounded-circle">
+								</figure>
+								<span class="title">Joseph Doe Junior</span>
+								<span class="message truncate">Lorem ipsum dolor sit.</span>
+							</li>
+							<li>
+								<figure class="image rounded">
+									<img src="~/Admin/img/!sample-user.jpg" alt="Joseph Junior" class="rounded-circle">
+								</figure>
+								<span class="title">Joseph Junior</span>
+								<span class="message truncate">Lorem ipsum dolor sit.</span>
+							</li>
+							<li>
+								<figure class="image rounded">
+									<img src="~/Admin/img/!sample-user.jpg" alt="Joe Junior" class="rounded-circle">
+								</figure>
+								<span class="title">Joe Junior</span>
+								<span class="message truncate">Lorem ipsum dolor sit.</span>
+							</li>
+						</ul>
+						<hr class="dotted short">
+						<div class="text-end">
+							<a class="text-uppercase text-muted" href="#">(View All)</a>
+						</div>
+					</div>
+				</div>
+				<div class="card-footer">
+					<div class="input-group">
+						<input type="text" class="form-control" name="s" id="s" placeholder="Search...">
+						<button class="btn btn-default" type="submit"><i class="bx bx-search"></i></button>
+					</div>
+				</div>
+			</section>
+		</div>
+		<div class="col-lg-12 col-xl-6">
+			<section class="card">
+				<header class="card-header card-header-transparent">
+					<div class="card-actions">
+						<a href="#" class="card-action card-action-toggle" data-card-toggle></a>
+						<a href="#" class="card-action card-action-dismiss" data-card-dismiss></a>
+					</div>
+
+					<h2 class="card-title">Company Activity</h2>
+				</header>
+				<div class="card-body">
+					<div class="timeline timeline-simple mt-3 mb-3">
+						<div class="tm-body">
+							<div class="tm-title">
+								<h5 class="m-0 pt-2 pb-2 text-dark font-weight-semibold text-uppercase">November 2023</h5>
+							</div>
+							<ol class="tm-items">
+								<li>
+									<div class="tm-box">
+										<p class="text-muted mb-0">7 months ago.</p>
+										<p>
+											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas hendrerit augue at leo viverra, aliquam egestas lectus laoreet. Donec vehicula vestibulum ipsum, tincidunt ultrices elit suscipit ac. Sed eget risus laoreet, varius nibh id, luctus ligula. Nulla facilisi. <span class="text-primary">#awesome</span>
+										</p>
+									</div>
+								</li>
+								<li>
+									<div class="tm-box">
+										<p class="text-muted mb-0">7 months ago.</p>
+										<p>
+											Checkout! How cool is that! Etiam efficitur, sapien eget vehicula gravida, magna neque volutpat risus, vitae tempus odio arcu ac elit. Aenean porta orci eu mi fermentum varius. Curabitur ac sem at nibh egestas. Curabitur ac sem at nibh egestas.
+										</p>
+										<div class="thumbnail-gallery">
+											<a class="~/Admin/img-thumbnail lightbox" href="~/Admin/img/projects/project-4.jpg" data-plugin-options='{ "type":"image" }'>
+												<img class="~/Admin/img-fluid" width="215" src="~/Admin/img/projects/project-4.jpg">
+												<span class="zoom">
+													<i class="bx bx-search"></i>
+												</span>
+											</a>
+										</div>
+									</div>
+								</li>
+							</ol>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+	</div>
+	<div class="row pt-4 mt-1">
+		<div class="col-xl-6">
+			<section class="card card-transparent mb-3">
+				<header class="card-header">
+					<div class="card-actions">
+						<a href="#" class="card-action card-action-toggle" data-card-toggle></a>
+						<a href="#" class="card-action card-action-dismiss" data-card-dismiss></a>
+					</div>
+
+					<h2 class="card-title">Global Stats</h2>
+				</header>
+				<div class="card-body">
+					<div id="vectorMapWorld" style="height: 350px; width: 100%;"></div>
+				</div>
+			</section>
+		</div>
+		<div class="col-xl-6">
+			<section class="card">
+				<header class="card-header card-header-transparent">
+					<div class="card-actions">
+						<a href="#" class="card-action card-action-toggle" data-card-toggle></a>
+						<a href="#" class="card-action card-action-dismiss" data-card-dismiss></a>
+					</div>
+
+					<h2 class="card-title">Projects Stats</h2>
+				</header>
+				<div class="card-body">
+					<table class="table table-responsive-md table-striped mb-0">
+						<thead>
+							<tr>
+								<th>#</th>
+								<th>Project</th>
+								<th>Status</th>
+								<th>Progress</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>1</td>
+								<td>Porto - Responsive HTML5 Template</td>
+								<td><span class="badge badge-success">Success</span></td>
+								<td>
+									<div class="progress progress-sm progress-half-rounded m-0 mt-1 light">
+										<div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">
+											100%
+										</div>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td>2</td>
+								<td>Porto - Responsive Drupal 7 Theme</td>
+								<td><span class="badge badge-success">Success</span></td>
+								<td>
+									<div class="progress progress-sm progress-half-rounded m-0 mt-1 light">
+										<div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">
+											100%
+										</div>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td>3</td>
+								<td>Tucson - Responsive HTML5 Template</td>
+								<td><span class="badge badge-warning">Warning</span></td>
+								<td>
+									<div class="progress progress-sm progress-half-rounded m-0 mt-1 light">
+										<div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+											60%
+										</div>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td>4</td>
+								<td>Tucson - Responsive Business WordPress Theme</td>
+								<td><span class="badge badge-success">Success</span></td>
+								<td>
+									<div class="progress progress-sm progress-half-rounded m-0 mt-1 light">
+										<div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+											90%
+										</div>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td>5</td>
+								<td>Porto - Responsive Admin HTML5 Template</td>
+								<td><span class="badge badge-warning">Warning</span></td>
+								<td>
+									<div class="progress progress-sm progress-half-rounded m-0 mt-1 light">
+										<div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 45%;">
+											45%
+										</div>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td>6</td>
+								<td>Porto - Responsive HTML5 Template</td>
+								<td><span class="badge badge-danger">Danger</span></td>
+								<td>
+									<div class="progress progress-sm progress-half-rounded m-0 mt-1 light">
+										<div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 40%;">
+											40%
+										</div>
+									</div>
+								</td>
+							</tr>
+							<tr>
+								<td>7</td>
+								<td>Porto - Responsive Drupal 7 Theme</td>
+								<td><span class="badge badge-success">Success</span></td>
+								<td>
+									<div class="progress progress-sm progress-half-rounded mt-1 light">
+										<div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 95%;">
+											95%
+										</div>
+									</div>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</section>
+		</div>
+	</div>
+	<!-- end: page -->
+</section>

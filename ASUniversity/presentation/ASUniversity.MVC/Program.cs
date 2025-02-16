@@ -1,8 +1,11 @@
+using ASUniversity.Application.ServiceRegistration;
+using ASUniversity.Persistence.ServiceRegistration;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-
+builder.Services.AddPersistenceServices(builder.Configuration).AddApplicationServices();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -17,10 +20,11 @@ app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllerRoute(
-    name: "admin",
-    pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}");
+    "admin",
+    "{area:exists}/{controller=home}/{action=index}/{id?}"
+    );
 app.MapControllerRoute(
-    name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
-
+    "default",
+    "{controller=home}/{action=index}/{id?}"
+    );
 app.Run();

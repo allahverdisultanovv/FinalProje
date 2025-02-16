@@ -12,7 +12,9 @@ namespace ASUniversity.Persistence.Configuration
                 .Property(f => f.Name)
                 .IsRequired()
                 .HasColumnType("varchar(200)");
-
+            builder
+                .HasIndex(f => f.Name)
+                .IsUnique();
         }
     }
 }

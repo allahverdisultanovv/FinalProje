@@ -13,8 +13,18 @@ namespace ASUniversity.Persistence.Configuration
                 .IsRequired();
             builder
                 .Property(s => s.AdmissionYear)
-                .IsRequired()
-                .HasColumnType("date");
+                .IsRequired();
+            builder
+                .HasOne(s => s.Group)
+                .WithMany()
+                .HasForeignKey(s => s.GroupId)
+                .OnDelete(DeleteBehavior.Restrict);
+            builder
+              .HasOne(s => s.Specialization)
+              .WithMany()
+              .HasForeignKey(s => s.SpecializationId)
+              .OnDelete(DeleteBehavior.Restrict);
+
         }
     }
 }

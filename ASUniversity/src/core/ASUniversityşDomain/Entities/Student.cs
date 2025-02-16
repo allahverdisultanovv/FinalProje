@@ -9,13 +9,13 @@ namespace ASUniversity.Domain.Entities
 
         //relational
 
-        public int FacultyId { get; set; }
+
         public int GroupId { get; set; }
         public int SpecializationId { get; set; }
 
         public Group Group { get; set; }
-        public Faculty Faculty { get; set; }
         public Specialization Specialization { get; set; }
+        public IEnumerable<StudentExamResults> StudentExamResults { get; set; }
 
     }
 }

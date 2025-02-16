@@ -12,9 +12,7 @@ namespace ASUniversity.Persistence.Configuration
                 .Property(e => e.Classroom)
                 .IsRequired()
                 .HasColumnType("char(4)");
-            builder
-                .Property(e => e.SubjectId)
-                .IsRequired();
+
             builder
                 .Property(e => e.StartTime)
                 .HasColumnType("time");
@@ -27,9 +25,24 @@ namespace ASUniversity.Persistence.Configuration
             builder
                 .Property(e => e.ExamType)
                 .IsRequired();
+
             builder
-                .Property(e => e.TeacherId)
-                .IsRequired();
+               .HasOne(e => e.Subject)
+               .WithMany()
+               .HasForeignKey(e => e.SubjectId)
+               .OnDelete(DeleteBehavior.Restrict);
+
+            builder
+               .HasOne(e => e.Group)
+               .WithMany()
+               .HasForeignKey(e => e.GroupId)
+               .OnDelete(DeleteBehavior.Restrict);
+
+            //builder
+            //   .HasOne(e => e.Teacher)
+            //   .WithMany()
+            //   .HasForeignKey(e => e.TeacherId)
+            //   .OnDelete(DeleteBehavior.Restrict);
         }
     }
 }

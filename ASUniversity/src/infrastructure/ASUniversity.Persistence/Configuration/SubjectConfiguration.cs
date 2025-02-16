@@ -16,6 +16,7 @@ namespace ASUniversity.Persistence.Configuration
                 .Property(s => s.Name)
                 .IsRequired()
                 .HasColumnType("varchar(200)");
+
         }
     }
 }

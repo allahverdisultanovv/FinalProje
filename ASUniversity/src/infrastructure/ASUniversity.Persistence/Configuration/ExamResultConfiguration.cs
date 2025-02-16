@@ -12,6 +12,12 @@ namespace ASUniversity.Persistence.Configuration
                 .Property(e => e.Grade)
                 .IsRequired()
                 .HasColumnType("integer");
+            builder
+                .HasOne(er => er.Exam)
+                .WithMany()
+                .HasForeignKey(er => er.ExamId)
+                .OnDelete(DeleteBehavior.Restrict);
+
         }
     }
 }

@@ -5,8 +5,8 @@ namespace ASUniversity.Domain.Entities
     public class Exam : BaseEntity
     {
         public DateTime Date { get; set; }
-        public DateTime StartTime { get; set; }
-        public DateTime EndTime { get; set; }
+        public TimeSpan StartTime { get; set; }
+        public TimeSpan EndTime { get; set; }
         public ExamType ExamType { get; set; }
         public string Classroom { get; set; }
         //relational

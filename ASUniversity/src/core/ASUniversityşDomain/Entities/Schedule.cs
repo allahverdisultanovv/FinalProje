@@ -3,8 +3,8 @@
     public class Schedule : BaseEntity
     {
         public string DayOfWeek { get; set; }
-        public DateTime StartTime { get; set; }
-        public DateTime EndTime { get; set; }
+        public TimeSpan StartTime { get; set; }
+        public TimeSpan EndTime { get; set; }
         public string Classroom { get; set; }
         //relational
         public int GroupId { get; set; }

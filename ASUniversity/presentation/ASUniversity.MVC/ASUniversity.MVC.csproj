@@ -20,11 +20,16 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.12">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.7" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\..\src\core\ASUniversity.Application\ASUniversity.Application.csproj" />
+    <ProjectReference Include="..\..\src\infrastructure\ASUniversity.Persistence\ASUniversity.Persistence.csproj" />
   </ItemGroup>
 
 </Project>

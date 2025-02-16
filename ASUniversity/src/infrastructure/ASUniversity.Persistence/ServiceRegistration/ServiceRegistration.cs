@@ -1,7 +1,9 @@
 ﻿using ASUniversity.Application.Abstractions.Repositories;
+using ASUniversity.Application.Abstractions.Services;
 using ASUniversity.Domain.Entities;
 using ASUniversity.Persistence.Contexts;
 using ASUniversity.Persistence.Implementations.Repositories;
+using ASUniversity.Persistence.Implementations.Services;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -40,6 +42,8 @@ namespace ASUniversity.Persistence.ServiceRegistration
             services.AddScoped<ISubjectRepository, SubjectRepository>();
             services.AddScoped<IScheduleRepository, ScheduleRepository>();
 
+            services.AddScoped<ISubjectService, SubjectService>();
+            services.AddScoped<IFacultyService, FacultyService>();
 
 
             return services;

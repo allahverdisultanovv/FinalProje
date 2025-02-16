@@ -24,6 +24,18 @@ namespace ASUniversity.Persistence.Configuration
                 .Property(s => s.Classroom)
                 .IsRequired()
                 .HasColumnType("varchar(4)");
+
+            builder
+               .HasOne(s => s.Group)
+               .WithMany()
+               .HasForeignKey(s => s.GroupId)
+               .OnDelete(DeleteBehavior.Restrict);
+            builder
+                .HasOne(s => s.Subject)
+                .WithMany()
+                .HasForeignKey(s => s.SubjectId)
+                .OnDelete(DeleteBehavior.Restrict);
+
         }
     }
 }

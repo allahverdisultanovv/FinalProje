@@ -1,0 +1,34 @@
+﻿@using ASUniversity.Application.DTOs.Faculty
+@model FacultyCreateDto
+<section role="main" class="content-body card-margin">
+    <header class="page-header">
+        <h2>Create Faculty </h2>
+
+        
+    </header>
+    <div class="row">
+        <div class="col">
+            <section class="card">
+                <header class="card-header">
+                    <div class="card-actions">
+                        <a href="#" class="card-action card-action-toggle" data-card-toggle></a>
+                    </div>
+
+                </header>
+                <div class="card-body">
+                    <form class="form-horizontal form-bordered" method="post">
+                        <div class="form-group row pb-4">
+                            <label class="col-lg-3 control-label text-lg-end pt-2" style="color:white" asp-for="Name">Name:</label>
+                            <div class="col-lg-6">
+                                <input asp-for="Name" class="form-control" placeholder="Name">
+                            <span asp-validation-for="Name" class="text-danger "></span>
+                            </div>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary me-2">Submit</button>
+                    </form>
+                </div>
+            </section>
+        </div>
+    </div>
+</section>
