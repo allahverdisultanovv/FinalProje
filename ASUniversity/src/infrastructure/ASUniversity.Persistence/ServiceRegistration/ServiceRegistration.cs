@@ -44,6 +44,10 @@ namespace ASUniversity.Persistence.ServiceRegistration
 
             services.AddScoped<ISubjectService, SubjectService>();
             services.AddScoped<IFacultyService, FacultyService>();
+            services.AddScoped<IGroupService, GroupService>();
+
+            services.AddScoped<ISpecializationService, SpecializationService>();
+
 
 
             return services;

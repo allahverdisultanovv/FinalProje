@@ -1,0 +1,55 @@
+﻿@using ASUniversity.Application.DTOs.Specialization
+@model IEnumerable<SpecializationItemDto>
+@{
+    int count = 0;
+}
+<section role="main" class="content-body card-margin">
+    <header class="page-header">
+        <h2>Faculties Table</h2>
+    </header>
+
+    <div class="row">
+
+        <div class="col-lg-12">
+            <section class="card">
+                <header class="card-header">
+                    <div class="card-actions">
+                        <a href="#" class="card-action card-action-toggle" data-card-toggle></a>
+                    </div>
+
+                </header>
+                <div class="card-body">
+                    <h3><a asp-action="create" class="btn btn-success">Create Specialization</a></h3>
+
+                    <table class="table table-responsive-md table-hover mb-0">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Name</th>
+                                <th>Faculty Name</th>
+                                <th>Group Count</th>
+                                <th>Settings</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                count++;
+                                <tr>
+                                    <td>@count</td>
+                                    <td>@item.Name</td>
+                                    <td>@item.Faculty</td>
+                                    <td>@item.GroupCount</td>
+                                    <td>
+                                        <a class="btn btn-danger" asp-action="delete" asp-route-id="@item.Id">Delete</a>
+                                        <a class="btn btn-warning" asp-action="update" asp-route-id="@item.Id">Update</a>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </div>
+    </div>
+</section>

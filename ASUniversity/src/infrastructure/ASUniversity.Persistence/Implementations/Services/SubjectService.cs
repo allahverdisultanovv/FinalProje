@@ -56,13 +56,7 @@ namespace ASUniversity.Persistence.Implementations.Services
             SubjectUpdateDto subjectUpdateDto = _mapper.Map<SubjectUpdateDto>(subject);
             return subjectUpdateDto;
         }
-        //public async Task<SubjectCreateDto> GetByIdCreateAsync(int id)
-        //{
-        //    Subject subject = await _repository.GetByIdAsync(id);
-        //    if (subject is null) throw new Exception("Tapilmadi");
-        //    SubjectCreateDto subjectCreateDto = _mapper.Map<SubjectCreateDto>(subject);
-        //    return subjectCreateDto;
-        //}
+
 
         public async Task Update(int id, SubjectUpdateDto subjectUpdateDto)
         {
