@@ -2,7 +2,7 @@
 
 namespace ASUniversity.Domain.Entities
 {
-    public abstract class AppUser : IdentityUser
+    public class AppUser : IdentityUser
     {
         public string Name { get; set; }
         public string Surname { get; set; }

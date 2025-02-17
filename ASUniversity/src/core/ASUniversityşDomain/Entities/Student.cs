@@ -4,6 +4,7 @@ namespace ASUniversity.Domain.Entities
 {
     public class Student
     {
+        public int Id { get; set; }
         public Degree Degree { get; set; }
         public int AdmissionYear { get; set; }
 

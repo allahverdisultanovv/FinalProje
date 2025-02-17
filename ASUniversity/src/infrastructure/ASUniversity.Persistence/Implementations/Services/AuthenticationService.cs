@@ -84,5 +84,15 @@ namespace ASUniversity.Persistence.Implementations.Services
             }
             await _signInManager.SignInAsync(user, false);
         }
+        public async Task CreateRole()
+        {
+            foreach (UserRole role in Enum.GetValues(typeof(UserRole)))
+            {
+                if (!await _roleManager.RoleExistsAsync(role.ToString()))
+                {
+                    await _roleManager.CreateAsync(new IdentityRole() { Name = role.ToString() });
+                }
+            }
+        }
     }
 }

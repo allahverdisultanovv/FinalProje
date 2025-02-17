@@ -61,10 +61,6 @@ namespace ASUniversity.Persistence.Contexts.Migrations
                     b.Property<int>("TeacherId")
                         .HasColumnType("int");
 
-                    b.Property<string>("TeacherId1")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(450)");
-
                     b.HasKey("Id");
 
                     b.HasIndex("GroupId");
@@ -75,7 +71,7 @@ namespace ASUniversity.Persistence.Contexts.Migrations
 
                     b.HasIndex("SubjectId1");
 
-                    b.HasIndex("TeacherId1");
+                    b.HasIndex("TeacherId");
 
                     b.ToTable("Exams");
                 });
@@ -117,6 +113,9 @@ namespace ASUniversity.Persistence.Contexts.Migrations
                         .HasColumnType("varchar(200)");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("Name")
+                        .IsUnique();
 
                     b.ToTable("Faculties");
                 });
@@ -181,10 +180,6 @@ namespace ASUniversity.Persistence.Contexts.Migrations
                     b.Property<int>("TeacherId")
                         .HasColumnType("int");
 
-                    b.Property<string>("TeacherId1")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(450)");
-
                     b.HasKey("Id");
 
                     b.HasIndex("GroupId");
@@ -195,7 +190,7 @@ namespace ASUniversity.Persistence.Contexts.Migrations
 
                     b.HasIndex("SubjectId1");
 
-                    b.HasIndex("TeacherId1");
+                    b.HasIndex("TeacherId");
 
                     b.ToTable("Schedules");
                 });
@@ -222,6 +217,56 @@ namespace ASUniversity.Persistence.Contexts.Migrations
                     b.ToTable("Specializations");
                 });
 
+            modelBuilder.Entity("ASUniversity.Domain.Entities.Student", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("AdmissionYear")
+                        .HasColumnType("int");
+
+                    b.Property<string>("AppUserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<int>("Degree")
+                        .HasColumnType("int");
+
+                    b.Property<int>("FacultyId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("GroupId")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("GroupId1")
+                        .HasColumnType("int");
+
+                    b.Property<int>("SpecializationId")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("SpecializationId1")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("AppUserId");
+
+                    b.HasIndex("FacultyId");
+
+                    b.HasIndex("GroupId");
+
+                    b.HasIndex("GroupId1");
+
+                    b.HasIndex("SpecializationId");
+
+                    b.HasIndex("SpecializationId1");
+
+                    b.ToTable("Students");
+                });
+
             modelBuilder.Entity("ASUniversity.Domain.Entities.StudentExamResults", b =>
                 {
                     b.Property<int>("StudentId")
@@ -230,15 +275,9 @@ namespace ASUniversity.Persistence.Contexts.Migrations
                     b.Property<int>("ExamResultId")
                         .HasColumnType("int");
 
-                    b.Property<string>("StudentId1")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(450)");
-
                     b.HasKey("StudentId", "ExamResultId");
 
                     b.HasIndex("ExamResultId");
-
-                    b.HasIndex("StudentId1");
 
                     b.ToTable("StudentExamResults");
                 });
@@ -266,6 +305,33 @@ namespace ASUniversity.Persistence.Contexts.Migrations
                     b.HasIndex("FacultyId");
 
                     b.ToTable("Subjects");
+                });
+
+            modelBuilder.Entity("ASUniversity.Domain.Entities.Teacher", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("AppUserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<int>("FacultyId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Position")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("AppUserId");
+
+                    b.HasIndex("FacultyId");
+
+                    b.ToTable("Teachers");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
@@ -482,12 +548,6 @@ namespace ASUniversity.Persistence.Contexts.Migrations
                     b.Property<DateTime>("Birthday")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("FacultyId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("Gender")
-                        .HasColumnType("int");
-
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasMaxLength(50)
@@ -502,62 +562,7 @@ namespace ASUniversity.Persistence.Contexts.Migrations
                         .HasMaxLength(50)
                         .HasColumnType("nvarchar(50)");
 
-                    b.HasIndex("FacultyId");
-
                     b.HasDiscriminator().HasValue("AppUser");
-                });
-
-            modelBuilder.Entity("ASUniversity.Domain.Entities.Student", b =>
-                {
-                    b.HasBaseType("ASUniversity.Domain.Entities.AppUser");
-
-                    b.Property<int>("AdmissionYear")
-                        .HasColumnType("int");
-
-                    b.Property<int>("Degree")
-                        .HasColumnType("int");
-
-                    b.Property<int?>("FacultyId1")
-                        .HasColumnType("int");
-
-                    b.Property<int>("GroupId")
-                        .HasColumnType("int");
-
-                    b.Property<int?>("GroupId1")
-                        .HasColumnType("int");
-
-                    b.Property<int>("SpecializationId")
-                        .HasColumnType("int");
-
-                    b.Property<int?>("SpecializationId1")
-                        .HasColumnType("int");
-
-                    b.HasIndex("FacultyId1");
-
-                    b.HasIndex("GroupId");
-
-                    b.HasIndex("GroupId1");
-
-                    b.HasIndex("SpecializationId");
-
-                    b.HasIndex("SpecializationId1");
-
-                    b.HasDiscriminator().HasValue("Student");
-                });
-
-            modelBuilder.Entity("ASUniversity.Domain.Entities.Teacher", b =>
-                {
-                    b.HasBaseType("ASUniversity.Domain.Entities.AppUser");
-
-                    b.Property<int>("FacultyId2")
-                        .HasColumnType("int");
-
-                    b.Property<int>("Position")
-                        .HasColumnType("int");
-
-                    b.HasIndex("FacultyId2");
-
-                    b.HasDiscriminator().HasValue("Teacher");
                 });
 
             modelBuilder.Entity("ASUniversity.Domain.Entities.Exam", b =>
@@ -584,7 +589,7 @@ namespace ASUniversity.Persistence.Contexts.Migrations
 
                     b.HasOne("ASUniversity.Domain.Entities.Teacher", "Teacher")
                         .WithMany("Exams")
-                        .HasForeignKey("TeacherId1")
+                        .HasForeignKey("TeacherId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
@@ -641,7 +646,7 @@ namespace ASUniversity.Persistence.Contexts.Migrations
 
                     b.HasOne("ASUniversity.Domain.Entities.Teacher", "Teacher")
                         .WithMany("Schedules")
-                        .HasForeignKey("TeacherId1")
+                        .HasForeignKey("TeacherId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
@@ -663,6 +668,49 @@ namespace ASUniversity.Persistence.Contexts.Migrations
                     b.Navigation("Faculty");
                 });
 
+            modelBuilder.Entity("ASUniversity.Domain.Entities.Student", b =>
+                {
+                    b.HasOne("ASUniversity.Domain.Entities.AppUser", "AppUser")
+                        .WithMany()
+                        .HasForeignKey("AppUserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("ASUniversity.Domain.Entities.Faculty", "Faculty")
+                        .WithMany("Students")
+                        .HasForeignKey("FacultyId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("ASUniversity.Domain.Entities.Group", "Group")
+                        .WithMany()
+                        .HasForeignKey("GroupId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.HasOne("ASUniversity.Domain.Entities.Group", null)
+                        .WithMany("Students")
+                        .HasForeignKey("GroupId1");
+
+                    b.HasOne("ASUniversity.Domain.Entities.Specialization", "Specialization")
+                        .WithMany()
+                        .HasForeignKey("SpecializationId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.HasOne("ASUniversity.Domain.Entities.Specialization", null)
+                        .WithMany("Students")
+                        .HasForeignKey("SpecializationId1");
+
+                    b.Navigation("AppUser");
+
+                    b.Navigation("Faculty");
+
+                    b.Navigation("Group");
+
+                    b.Navigation("Specialization");
+                });
+
             modelBuilder.Entity("ASUniversity.Domain.Entities.StudentExamResults", b =>
                 {
                     b.HasOne("ASUniversity.Domain.Entities.ExamResult", "ExamResult")
@@ -673,7 +721,7 @@ namespace ASUniversity.Persistence.Contexts.Migrations
 
                     b.HasOne("ASUniversity.Domain.Entities.Student", "Student")
                         .WithMany("StudentExamResults")
-                        .HasForeignKey("StudentId1")
+                        .HasForeignKey("StudentId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
@@ -689,6 +737,25 @@ namespace ASUniversity.Persistence.Contexts.Migrations
                         .HasForeignKey("FacultyId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+
+                    b.Navigation("Faculty");
+                });
+
+            modelBuilder.Entity("ASUniversity.Domain.Entities.Teacher", b =>
+                {
+                    b.HasOne("ASUniversity.Domain.Entities.AppUser", "AppUser")
+                        .WithMany()
+                        .HasForeignKey("AppUserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("ASUniversity.Domain.Entities.Faculty", "Faculty")
+                        .WithMany("Teachers")
+                        .HasForeignKey("FacultyId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("AppUser");
 
                     b.Navigation("Faculty");
                 });
@@ -744,57 +811,6 @@ namespace ASUniversity.Persistence.Contexts.Migrations
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("ASUniversity.Domain.Entities.AppUser", b =>
-                {
-                    b.HasOne("ASUniversity.Domain.Entities.Faculty", "Faculty")
-                        .WithMany()
-                        .HasForeignKey("FacultyId")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
-
-                    b.Navigation("Faculty");
-                });
-
-            modelBuilder.Entity("ASUniversity.Domain.Entities.Student", b =>
-                {
-                    b.HasOne("ASUniversity.Domain.Entities.Faculty", null)
-                        .WithMany("Students")
-                        .HasForeignKey("FacultyId1");
-
-                    b.HasOne("ASUniversity.Domain.Entities.Group", "Group")
-                        .WithMany()
-                        .HasForeignKey("GroupId")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
-
-                    b.HasOne("ASUniversity.Domain.Entities.Group", null)
-                        .WithMany("Students")
-                        .HasForeignKey("GroupId1");
-
-                    b.HasOne("ASUniversity.Domain.Entities.Specialization", "Specialization")
-                        .WithMany()
-                        .HasForeignKey("SpecializationId")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
-
-                    b.HasOne("ASUniversity.Domain.Entities.Specialization", null)
-                        .WithMany("Students")
-                        .HasForeignKey("SpecializationId1");
-
-                    b.Navigation("Group");
-
-                    b.Navigation("Specialization");
-                });
-
-            modelBuilder.Entity("ASUniversity.Domain.Entities.Teacher", b =>
-                {
-                    b.HasOne("ASUniversity.Domain.Entities.Faculty", null)
-                        .WithMany("Teachers")
-                        .HasForeignKey("FacultyId2")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-                });
-
             modelBuilder.Entity("ASUniversity.Domain.Entities.ExamResult", b =>
                 {
                     b.Navigation("StudentExamResults");
@@ -827,16 +843,16 @@ namespace ASUniversity.Persistence.Contexts.Migrations
                     b.Navigation("Students");
                 });
 
+            modelBuilder.Entity("ASUniversity.Domain.Entities.Student", b =>
+                {
+                    b.Navigation("StudentExamResults");
+                });
+
             modelBuilder.Entity("ASUniversity.Domain.Entities.Subject", b =>
                 {
                     b.Navigation("Exams");
 
                     b.Navigation("Schedules");
-                });
-
-            modelBuilder.Entity("ASUniversity.Domain.Entities.Student", b =>
-                {
-                    b.Navigation("StudentExamResults");
                 });
 
             modelBuilder.Entity("ASUniversity.Domain.Entities.Teacher", b =>

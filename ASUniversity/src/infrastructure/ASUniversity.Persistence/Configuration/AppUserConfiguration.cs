@@ -20,11 +20,7 @@ namespace ASUniversity.Persistence.Configuration
             builder
                 .Property(u => u.Birthday)
                 .IsRequired();
-            builder
-               .HasOne(u => u.Faculty)
-               .WithMany()
-               .HasForeignKey(t => t.FacultyId)
-               .OnDelete(DeleteBehavior.Restrict);
+
 
         }
     }

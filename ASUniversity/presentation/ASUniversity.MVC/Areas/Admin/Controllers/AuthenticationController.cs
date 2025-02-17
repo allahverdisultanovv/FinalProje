@@ -1,9 +1,16 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using ASUniversity.Application.Abstractions.Services;
+using Microsoft.AspNetCore.Mvc;
 
 namespace ASUniversity.MVC.Areas.Admin.Controllers
 {
     public class AuthenticationController : Controller
     {
+        private readonly IAuthenticationService _service;
+
+        public AuthenticationController(IAuthenticationService service)
+        {
+            _service = service;
+        }
         //    private readonly UserManager<AppUser> _userManager;
         //    private readonly SignInManager<AppUser> _signInManager;
         //    private readonly AppDbContext _context;
@@ -75,5 +82,10 @@ namespace ASUniversity.MVC.Areas.Admin.Controllers
         //        return View(model);
         //    }
         //}
+        public async Task<IActionResult> CreateRoles()
+        {
+            await _service.CreateRole();
+            return RedirectToAction("Index", "Home");
+        }
     }
 }
