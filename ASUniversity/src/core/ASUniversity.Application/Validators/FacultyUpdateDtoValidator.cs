@@ -10,7 +10,7 @@ namespace ASUniversity.Application.Validators
             RuleFor(f => f.Name)
                    .MaximumLength(200).WithMessage("Maksimun uzunluq 200 simvol")
                    .NotEmpty().WithMessage("Fill in the gaps")
-                   .Matches(@"^[A-Za-z]*$").WithMessage("Only can use this elements A-Z a-z and whitespace");
+                   .Matches(@"^[A-Za-z\s]*$").WithMessage("Only can use this elements A-Z a-z and whitespace");
         }
     }
 }

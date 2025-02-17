@@ -1,6 +1,13 @@
-﻿namespace ASUniversity.Application.DTOs.Faculty
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace ASUniversity.Application.DTOs.Faculty
 {
-    public record FacultyCreateDto(string Name) { }
+    public class FacultyCreateDto()
+    {
+        [Required(ErrorMessage = "Name cant empty")]
+        [RegularExpression(@"^[A-Za-z\s]*$", ErrorMessage = "Name only can be letters")]
+        public string Name { get; set; }
+    }
 
 
 

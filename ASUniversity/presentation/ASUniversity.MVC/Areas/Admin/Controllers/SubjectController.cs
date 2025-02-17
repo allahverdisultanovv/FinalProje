@@ -31,6 +31,7 @@ namespace ASUniversity.MVC.Areas.Admin.Controllers
         [HttpPost]
         public async Task<IActionResult> Create(SubjectCreateDto subjectCreateDto)
         {
+            subjectCreateDto.Faculties = await _facultyService.GetAllSelectAsync();
             if (!ModelState.IsValid) return View(subjectCreateDto);
             await _service.CreateAsync(subjectCreateDto);
             return RedirectToAction(nameof(Index));

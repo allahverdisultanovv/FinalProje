@@ -2,14 +2,16 @@
 
 namespace ASUniversity.Domain.Entities
 {
-    public class Student : AppUser
+    public class Student
     {
         public Degree Degree { get; set; }
         public int AdmissionYear { get; set; }
 
         //relational
-
-
+        public string AppUserId { get; set; }
+        public AppUser AppUser { get; set; }
+        public int FacultyId { get; set; }
+        public Faculty Faculty { get; set; }
         public int GroupId { get; set; }
         public int SpecializationId { get; set; }
 
