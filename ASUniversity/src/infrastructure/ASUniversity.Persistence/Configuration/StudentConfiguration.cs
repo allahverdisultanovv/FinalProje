@@ -16,12 +16,12 @@ namespace ASUniversity.Persistence.Configuration
                 .IsRequired();
             builder
                 .HasOne(s => s.Group)
-                .WithMany()
+                .WithMany(X => X.Students)
                 .HasForeignKey(s => s.GroupId)
                 .OnDelete(DeleteBehavior.Restrict);
             builder
               .HasOne(s => s.Specialization)
-              .WithMany()
+              .WithMany(s => s.Students)
               .HasForeignKey(s => s.SpecializationId)
               .OnDelete(DeleteBehavior.Restrict);
 

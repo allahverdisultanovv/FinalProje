@@ -1,0 +1,54 @@
+﻿@using ASUniversity.Application.DTOs.Authentication;
+@using ASUniversity.Domain.Entities
+@model LoginDto
+
+
+<section class="body-sign student">
+
+    <div class="center-sign">
+
+        <div class="panel card-sign">
+            <div class="card-title-sign mt-3 text-end">
+                <h2 class="title text-uppercase font-weight-bold m-0"><i class="bx bx-user-circle me-1 text-6 position-relative top-5"></i> Register</h2>
+            </div>
+            <div class="card-body">
+                <form method="post">
+                    <div class="form-group mb-3" asp-validation-summary="ModelOnly">
+                            
+                    </div>
+                    <div class="form-group mb-3">
+                        <label asp-for="EmailOrUsernameOrFIN">UserName , email or fin </label>
+                        <input asp-for="EmailOrUsernameOrFIN" class="form-control form-control-lg" placeholder="Username email or FIN" />
+                        <span asp-validation-for="EmailOrUsernameOrFIN"></span>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label asp-for="Password">Password</label>
+                        <input asp-for="Password" class="form-control form-control-lg" placeholder="Password" />
+                        <span asp-validation-for="Password"></span>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label asp-for="IsPersistence">Remember me</label>
+                        <input asp-for="IsPersistence" />
+                    </div>
+                    
+
+                    <div class="row">
+
+                        <div class="col-sm-4 text-end">
+                            <button type="submit" class="btn btn-primary mt-2">Login</button>
+                        </div>
+                    </div>
+
+
+
+                </form>
+            </div>
+        </div>
+
+        <p class="text-center text-muted mt-3 mb-3">&copy; Copyright 2023. All Rights Reserved.</p>
+    </div>
+</section>
+
+
+
+

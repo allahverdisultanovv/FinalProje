@@ -3,6 +3,7 @@ using ASUniversity.Application.Abstractions.Services;
 using ASUniversity.Application.DTOs.Subject;
 using ASUniversity.Domain.Entities;
 using AutoMapper;
+using Microsoft.AspNetCore.Mvc.ModelBinding;
 
 namespace ASUniversity.Persistence.Implementations.Services
 {
@@ -16,20 +17,24 @@ namespace ASUniversity.Persistence.Implementations.Services
             _repository = repository;
             _mapper = mapper;
         }
-        public async Task CreateAsync(SubjectCreateDto subjectCreateDto)
+        public async Task CreateAsync(SubjectCreateDto subjectCreateDto, ModelStateDictionary modelstate)
         {
             bool result = await _repository.AnyAsync(s => s.Name == subjectCreateDto.Name);
             if (result)
-                throw new Exception("Subject already exists");
-            Subject subject = new Subject()
+                modelstate.AddModelError(string.Empty, "subject aready exist");
+            else
             {
-                FacultyId = subjectCreateDto.FacultyId,
-                Name = subjectCreateDto.Name,
-                Credits = subjectCreateDto.Credits,
 
-            };
-            await _repository.AddAsync(subject);
-            await _repository.SaveChangesAsync();
+                Subject subject = new Subject()
+                {
+                    FacultyId = subjectCreateDto.FacultyId,
+                    Name = subjectCreateDto.Name,
+                    Credits = subjectCreateDto.Credits,
+
+                };
+                await _repository.AddAsync(subject);
+                await _repository.SaveChangesAsync();
+            }
         }
 
         public async Task Delete(int id)
@@ -46,7 +51,12 @@ namespace ASUniversity.Persistence.Implementations.Services
             return (_mapper.Map<IEnumerable<SubjectItemDto>>(subjects));
         }
 
-
+        public async Task<IEnumerable<SubjectItemDto>> GetAllSelectAsync()
+        {
+            IEnumerable<Subject> subjects = _repository.GetAllSelect();
+            IEnumerable<SubjectItemDto> subjectItems = _mapper.Map<IEnumerable<SubjectItemDto>>(subjects);
+            return (subjectItems);
+        }
 
         public async Task<SubjectUpdateDto> GetByIdUpdateAsync(int id)
         {

@@ -280,3 +280,6 @@ C:\Users\Allahverdi\Desktop\CodeFinal\ASUniversity\presentation\ASUniversity.MVC
 C:\Users\Allahverdi\Desktop\CodeFinal\ASUniversity\presentation\ASUniversity.MVC\bin\Debug\net8.0\FluentValidation.dll
 C:\Users\Allahverdi\Desktop\CodeFinal\ASUniversity\presentation\ASUniversity.MVC\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
 C:\Users\Allahverdi\Desktop\CodeFinal\ASUniversity\presentation\ASUniversity.MVC\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
+C:\Users\Allahverdi\Desktop\CodeFinal\ASUniversity\presentation\ASUniversity.MVC\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\Allahverdi\Desktop\CodeFinal\ASUniversity\presentation\ASUniversity.MVC\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\Allahverdi\Desktop\CodeFinal\ASUniversity\presentation\ASUniversity.MVC\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll

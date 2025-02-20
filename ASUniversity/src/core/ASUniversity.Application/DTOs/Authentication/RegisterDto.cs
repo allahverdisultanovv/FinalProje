@@ -1,4 +1,8 @@
-﻿using ASUniversity.Domain.Enums;
+﻿using ASUniversity.Application.DTOs.Faculty;
+using ASUniversity.Application.DTOs.Group;
+using ASUniversity.Application.DTOs.Specialization;
+using ASUniversity.Domain.Enums;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using System.ComponentModel.DataAnnotations;
 
 namespace ASUniversity.Application.DTOs.Authentication
@@ -12,25 +16,30 @@ namespace ASUniversity.Application.DTOs.Authentication
         [MinLength(3)]
         [MaxLength(25)]
         public string SurName { get; set; }
-        [MinLength(4)]
-        [MaxLength(100)]
-        public string Username { get; set; }
-        [MaxLength(256)]
-        [DataType(DataType.EmailAddress)]
-        public string Email { get; set; }
-        [DataType(DataType.Password)]
-        public string Password { get; set; }
-        [DataType(DataType.Password)]
-        [Compare(nameof(Password))]
-        public string ComfirmPassword { get; set; }
+        [Required]
+        [MaxLength(7)]
+        public string FIN { get; set; }
 
         public int FacultyId { get; set; }
-        public string Role { get; set; }
+        [Required]
         public int GroupId { get; set; }
-        public int SpecializationId { get; set; }
-        public Position Position { get; set; }
-        public int AdmissionYear { get; set; }
-        public Degree Degree { get; set; }
+        [Required]
+        public int? SpecializationId { get; set; }
+        [Required]
+        public int? AdmissionYear { get; set; }
+        [Required]
+        public Degree? Degree { get; set; }
+        [Required]
+        public Position? Position { get; set; }
+
+        public IEnumerable<SelectListItem>? Positions { get; set; }
+        public IEnumerable<SelectListItem>? Degrees { get; set; }
+        public IEnumerable<GroupItemDto>? Groups { get; set; }
+        public IEnumerable<FacultyItemDto>? Faculties { get; set; }
+        public IEnumerable<SpecializationItemDto>? Specializations { get; set; }
+
+
+
 
 
     }

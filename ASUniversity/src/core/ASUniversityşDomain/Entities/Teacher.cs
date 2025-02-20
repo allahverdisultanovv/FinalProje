@@ -2,9 +2,8 @@
 
 namespace ASUniversity.Domain.Entities
 {
-    public class Teacher
+    public class Teacher : BaseEntity
     {
-        public int Id { get; set; }
 
         public Position Position { get; set; }
         //relational

@@ -8,12 +8,12 @@ namespace ASUniversity.MVC.Areas.Admin.Controllers
     public class GroupController : Controller
     {
         private readonly IGroupService _service;
-        private readonly ISpecializationService __specializationService;
+        private readonly ISpecializationService _specializationService;
 
         public GroupController(IGroupService service, ISpecializationService specializationService)
         {
             _service = service;
-            __specializationService = specializationService;
+            _specializationService = specializationService;
         }
         public async Task<IActionResult> Index(int page = 1, int take = 5)
         {
@@ -24,7 +24,7 @@ namespace ASUniversity.MVC.Areas.Admin.Controllers
         {
             GroupCreateDto groupCreateDto = new GroupCreateDto()
             {
-                Specializations = await __specializationService.GetAllSelectAsync()
+                Specializations = await _specializationService.GetAllSelectAsync()
             };
             return View(groupCreateDto);
         }
@@ -40,7 +40,7 @@ namespace ASUniversity.MVC.Areas.Admin.Controllers
         {
             if (id == null || id < 1) return BadRequest();
             GroupUpdateDto groupUpdateDto = await _service.GetByIdUpdateAsync(id.Value);
-            groupUpdateDto.Specializations = await __specializationService.GetAllSelectAsync();
+            groupUpdateDto.Specializations = await _specializationService.GetAllSelectAsync();
             return View(groupUpdateDto);
         }
         [HttpPost]

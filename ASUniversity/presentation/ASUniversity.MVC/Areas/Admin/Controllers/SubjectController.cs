@@ -33,7 +33,12 @@ namespace ASUniversity.MVC.Areas.Admin.Controllers
         {
             subjectCreateDto.Faculties = await _facultyService.GetAllSelectAsync();
             if (!ModelState.IsValid) return View(subjectCreateDto);
-            await _service.CreateAsync(subjectCreateDto);
+            await _service.CreateAsync(subjectCreateDto, ModelState);
+            if (ModelState.ErrorCount > 0)
+            {
+                ModelState.AddModelError(nameof(subjectCreateDto.Name), "slam");
+                return View(subjectCreateDto);
+            }
             return RedirectToAction(nameof(Index));
         }
         public async Task<IActionResult> Update(int? id)

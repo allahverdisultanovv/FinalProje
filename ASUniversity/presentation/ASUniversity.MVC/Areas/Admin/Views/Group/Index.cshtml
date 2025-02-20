@@ -26,7 +26,6 @@
                             <tr>
                                 <th>#</th>
                                 <th>Name</th>
-                                <th>Faculty Name</th>
                                 <th>Specialization Name</th>
                                 <th>Students Count</th>
                                 <th>Settings</th>
@@ -39,13 +38,13 @@
                                 <tr>
                                     <td>@count</td>
                                     <td>@item.Name</td>
-                                    <td>@item.Faculty</td>
                                     <td>@item.Specialization</td>
                                     <td>senin </td>
                                     <td>
                                         <a class="btn btn-danger" asp-action="delete" asp-route-id="@item.Id">Delete</a>
                                         <a class="btn btn-warning" asp-action="update" asp-route-id="@item.Id">Update</a>
                                     </td>
+
                                 </tr>
                             }
                         </tbody>

@@ -12,6 +12,11 @@ namespace ASUniversity.Persistence.Configuration
                 .Property(g => g.Name)
                 .IsRequired()
                 .HasColumnType("varchar(10)");
+            builder
+                 .HasOne(g => g.Specialization)
+            .WithMany(f => f.Groups)
+            .HasForeignKey(g => g.SpecializationId)
+            .OnDelete(DeleteBehavior.Restrict);
         }
     }
 }

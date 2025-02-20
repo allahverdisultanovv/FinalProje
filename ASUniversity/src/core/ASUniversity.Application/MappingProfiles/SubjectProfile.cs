@@ -9,12 +9,10 @@ namespace ASUniversity.Application.MappingProfiles
         public SubjectProfile()
         {
             CreateMap<Subject, SubjectItemDto>()
-                .ForMember(nameof(SubjectItemDto.Faculty),
-                opt => opt.MapFrom(p => p.Faculty.Name)
-                )
                 .ForCtorParam(nameof(SubjectItemDto.Faculty),
                 opt => opt.MapFrom(p => p.Faculty.Name)
                 );
+
             CreateMap<SubjectCreateDto, Subject>().ReverseMap();
             CreateMap<SubjectUpdateDto, Subject>().ReverseMap();
 

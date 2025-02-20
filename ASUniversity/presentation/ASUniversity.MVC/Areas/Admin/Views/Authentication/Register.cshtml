@@ -1,0 +1,193 @@
+﻿@using ASUniversity.Application.DTOs.Authentication;
+@using ASUniversity.Domain.Entities
+@model RegisterDto
+
+
+<section class="body-sign student">
+   
+    <div class="center-sign">
+        <ul class="nav nav-tabs">
+
+
+            <li class="nav-item ">
+                <a class="nav-link " >Student</a>
+            </li>
+            <li class="nav-item teacherli">
+                <a class="nav-link "  >Teacher</a>
+            </li>
+        </ul>
+        <a href="/" class="logo float-start">
+            <h3>AS University Student</h3>
+        </a>
+
+        <div class="panel card-sign">
+            <div class="card-title-sign mt-3 text-end">
+                <h2 class="title text-uppercase font-weight-bold m-0"><i class="bx bx-user-circle me-1 text-6 position-relative top-5"></i> Register</h2>
+            </div>
+            <div class="card-body">
+                <form method="post"> 
+                    <div class="form-group mb-3">
+                        <label asp-for="Name">Name</label>
+                        <input asp-for="Name" class="form-control form-control-lg" placeholder="Name" />
+                        <span asp-validation-for="Name"></span>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label asp-for="SurName">SurName</label>
+                        <input asp-for="SurName" class="form-control form-control-lg" placeholder="SurName" />
+                        <span asp-validation-for="SurName"></span>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label asp-for="FIN">FIN</label>
+                        <input asp-for="FIN" class="form-control form-control-lg" placeholder="FIN" />
+                        <span asp-validation-for="FIN"></span>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label asp-for="AdmissionYear">AdmissionYear</label>
+                        <input asp-for="AdmissionYear" class="form-control form-control-lg" placeholder="AdmissionYear" />
+                        <span asp-validation-for="AdmissionYear"></span>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label asp-for="Degree">Degree</label>
+                        <select class="form-control" asp-for="Degree" asp-items="Model.Degrees"></select>
+                        <span asp-validation-for="Degree"></span>
+                    </div>
+                    <div class="form-group mb-3">
+
+                        <label asp-for="FacultyId">Faculty</label>
+                        <select class="form-control" asp-for="FacultyId" asp-items="new SelectList(Model.Faculties,nameof(Faculty.Id),nameof(Faculty.Name))"></select>
+                        <span asp-validation-for="FacultyId" class="text-danger "></span>
+                    </div>
+                    <div class="form-group mb-3">
+
+                        <label asp-for="SpecializationId">Specialization</label>
+                        <select class="form-control" asp-for="SpecializationId" asp-items="new SelectList(Model.Specializations,nameof(Specialization.Id),nameof(Specialization.Name))"></select>
+                        <span asp-validation-for="SpecializationId" class="text-danger "></span>
+                    </div>
+
+                    <div class="form-group mb-3">
+
+                        <label asp-for="GroupId">Group</label>
+                        <select class="form-control" asp-for="GroupId" asp-items="new SelectList(Model.Groups,nameof(Group.Id),nameof(Group.Name))"></select>
+                        <span asp-validation-for="GroupId" class="text-danger "></span>
+                    </div>
+
+                    <div class="row">
+
+                        <div class="col-sm-4 text-end">
+                            <button type="submit" class="btn btn-primary mt-2">Register</button>
+                        </div>
+                    </div>
+
+
+
+                </form>
+            </div>
+        </div>
+
+        <p class="text-center text-muted mt-3 mb-3">&copy; Copyright 2023. All Rights Reserved.</p>
+    </div>
+</section>
+
+
+<section class="body-sign teacher" style="display:none">
+    
+    <div class="center-sign">
+        <ul class="nav nav-tabs">
+            
+            
+            <li class="nav-item studentli " >
+                <a class="nav-link" >Student</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " >Teacher</a>
+            </li>
+        </ul>
+        <a href="/" class="logo float-start">
+            <h3>AS University Teacher</h3>
+        </a>
+
+        <div class="panel card-sign">
+            <div class="card-title-sign mt-3 text-end">
+                <h2 class="title text-uppercase font-weight-bold m-0"><i class="bx bx-user-circle me-1 text-6 position-relative top-5"></i> Register</h2>
+            </div>
+            <div class="card-body">
+                <form method="post">
+                    <div class="form-group mb-3">
+                        <label asp-for="Name">Name</label>
+                        <input asp-for="Name" class="form-control form-control-lg" placeholder="Name" />
+                        <span asp-validation-for="Name"></span>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label asp-for="SurName">SurName</label>
+                        <input asp-for="SurName" class="form-control form-control-lg" placeholder="SurName" />
+                        <span asp-validation-for="SurName"></span>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label asp-for="FIN">FIN</label>
+                        <input asp-for="FIN" class="form-control form-control-lg" placeholder="FIN" />
+                        <span asp-validation-for="FIN"></span>
+                    </div>
+                   
+                    <div class="form-group mb-3">
+                        <label asp-for="Position">Position</label>
+                        <select class="form-control" asp-for="Position" asp-items="Model.Positions"></select>
+                        <span asp-validation-for="Position"></span>
+                    </div>
+                    <div class="form-group mb-3">
+
+                        <label asp-for="FacultyId">Faculty</label>
+                        <select class="form-control" asp-for="FacultyId" asp-items="new SelectList(Model.Faculties,nameof(Faculty.Id),nameof(Faculty.Name))"></select>
+                        <span asp-validation-for="FacultyId" class="text-danger "></span>
+                    </div>
+                    
+
+                    <div class="row">
+
+                        <div class="col-sm-4 text-end">
+                            <button type="submit" class="btn btn-primary mt-2">Register</button>
+                        </div>
+                    </div>
+
+
+
+                </form>
+            </div>
+        </div>
+
+        <p class="text-center text-muted mt-3 mb-3">&copy; Copyright 2023. All Rights Reserved.</p>
+    </div>
+</section>
+
+
+<script>
+       console.log(document.querySelector(".student") )
+            console.log(document.querySelector(".teacher") )
+
+        document.querySelector(".studentli").addEventListener("click",function(){
+            console.log(document.querySelector(".student") )
+            console.log(document.querySelector(".teacher") )
+            document.querySelector(".student").setAttribute("style","display:table")
+            document.querySelector(".teacher").setAttribute("style","display:none")
+    })
+        document.querySelector(".teacherli").addEventListener("click",function(){
+            console.log(document.querySelector(".teacher"))
+            console.log(document.querySelector(".student"))
+            document.querySelector(".student").setAttribute("style","display:none")
+            document.querySelector(".teacher").setAttribute("style","display:table")
+    })
+    //     document.querySelector(".studentli").addEventListener("click", function () {
+    //     document.querySelector(".student").style.display = "block";
+    //     document.querySelector(".teacher").style.display = "none";
+
+    //     document.querySelectorAll(".teacherli a").classList.remove("active").add("disabled");
+    //     document.querySelectorAll(".studentli a").classList.add("active").remove("disabled");
+    // });
+
+    // document.querySelector(".teacherli").addEventListener("click", function () {
+    //     document.querySelector(".student").style.display = "none";
+    //     document.querySelector(".teacher").style.display = "block";
+
+    //     document.querySelectorAll(".teacherli a").classList.add("active").remove("disabled");
+    //     document.querySelectorAll(".studentli a").classList.remove("active").add("disabled");
+    // });
+</script>    

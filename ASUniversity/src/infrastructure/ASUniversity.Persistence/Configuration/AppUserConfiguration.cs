@@ -20,6 +20,15 @@ namespace ASUniversity.Persistence.Configuration
             builder
                 .Property(u => u.Birthday)
                 .IsRequired();
+            builder
+                .Property(u => u.FIN)
+                .IsRequired()
+                .HasColumnType("char(7)");
+            builder
+                .HasIndex(u => u.FIN)
+                .IsUnique();
+
+
 
 
         }

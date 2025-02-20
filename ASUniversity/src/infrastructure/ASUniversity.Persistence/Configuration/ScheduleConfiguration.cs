@@ -29,12 +29,12 @@ namespace ASUniversity.Persistence.Configuration
                .HasOne(s => s.Group)
                .WithMany()
                .HasForeignKey(s => s.GroupId)
-               .OnDelete(DeleteBehavior.Restrict);
+               .OnDelete(DeleteBehavior.NoAction);
             builder
                 .HasOne(s => s.Subject)
                 .WithMany()
                 .HasForeignKey(s => s.SubjectId)
-                .OnDelete(DeleteBehavior.Restrict);
+                .OnDelete(DeleteBehavior.NoAction);
 
         }
     }

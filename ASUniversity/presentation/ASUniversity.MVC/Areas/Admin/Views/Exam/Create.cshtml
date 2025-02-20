@@ -1,0 +1,43 @@
+﻿@using ASUniversity.Application.DTOs.Exam
+@using ASUniversity.Domain.Entities
+@model ExamCreateDto
+<section role="main" class="content-body card-margin">
+    <header class="page-header">
+        <h2>Create Exam </h2>
+
+
+    </header>
+    <div class="row">
+        <div class="col">
+            <section class="card">
+                <header class="card-header">
+                    <div class="card-actions">
+                        <a href="#" class="card-action card-action-toggle" data-card-toggle></a>
+                    </div>
+
+                </header>
+                <div class="card-body">
+                    <form class="form-horizontal form-bordered" method="post">
+                        <div class="form-group row pb-4">
+                            <label class="col-lg-3 control-label text-lg-end pt-2" style="color:white" asp-for="Day">Day:</label>
+                            <div class="col-lg-6">
+                                <input asp-for="Day" class="form-control" placeholder="Day">
+                                <span asp-validation-for="Day" class="text-danger "></span>
+                            </div>
+                        </div>
+
+                        <div class="form-group row pb-4">
+                            <label class="col-lg-3 control-label text-lg-end pt-2" style="color:white" asp-for="TeacherId">Faculty:</label>
+                            <div class="col-lg-6">
+                                <select class="form-control" asp-for="TeacherId" asp-items="new SelectList(Model.Teachers,nameof(Teacher.Id),nameof(Teacher.AppUser.Name))"></select>
+                                <span asp-validation-for="TeacherId" class="text-danger "></span>
+                            </div>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary me-2">Submit</button>
+                    </form>
+                </div>
+            </section>
+        </div>
+    </div>
+</section>

@@ -1,87 +1,86 @@
 ﻿using ASUniversity.Application.Abstractions.Services;
+using ASUniversity.Application.DTOs.Authentication;
+using ASUniversity.Domain.Enums;
+using ASUniversity.Persistence.Extensions;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace ASUniversity.MVC.Areas.Admin.Controllers
 {
+    [Area("Admin")]
     public class AuthenticationController : Controller
     {
         private readonly IAuthenticationService _service;
+        private readonly IFacultyService _facultyService;
+        private readonly IGroupService _groupService;
+        private readonly ISpecializationService _specializationService;
 
-        public AuthenticationController(IAuthenticationService service)
+        public AuthenticationController(IAuthenticationService service, IFacultyService facultyService, IGroupService groupService, ISpecializationService specializationService)
         {
             _service = service;
+            _facultyService = facultyService;
+            _groupService = groupService;
+            _specializationService = specializationService;
         }
-        //    private readonly UserManager<AppUser> _userManager;
-        //    private readonly SignInManager<AppUser> _signInManager;
-        //    private readonly AppDbContext _context;
+        public async Task<IActionResult> Register()
+        {
+            RegisterDto registerDto = new RegisterDto()
+            {
+                Positions = Enum.GetValues(typeof(Position))
+                        .Cast<Position>()
+                        .Select(p => new SelectListItem
+                        {
+                            Value = ((int)p).ToString(),
+                            Text = EnumHelper.GetEnumDescription(p)
+                        })
+                        .ToList(),
+                Degrees = Enum.GetValues(typeof(Degree))
+                        .Cast<Degree>()
+                        .Select(d => new SelectListItem
+                        {
+                            Value = ((int)d).ToString(),
+                            Text = EnumHelper.GetEnumDescription(d)
+                        })
+                        .ToList(),
 
-        //    public AuthenticationController(UserManager<AppUser> userManager, SignInManager<AppUser> signInManager, AppDbContext context)
-        //    {
-        //        _userManager = userManager;
-        //        _signInManager = signInManager;
-        //        _context = context;
-        //    }
 
-        //    // GET: /Account/Register
-        //    public IActionResult Register()
-        //    {
-        //        return View();
-        //    }
+                Faculties = await _facultyService.GetAllSelectAsync(),
+                Groups = await _groupService.GetAllSelectAsync(),
+                Specializations = await _specializationService.GetAllSelectAsync(),
+            };
+            return View(registerDto);
+        }
+        [HttpPost]
+        public async Task<IActionResult> Register(RegisterDto registerDto)
+        {
 
-        //    // POST: /Account/Register
-        //    [HttpPost]
-        //    [ValidateAntiForgeryToken]
-        //    public async Task<IActionResult> Register(RegisterDto model)
-        //    {
-        //        if (ModelState.IsValid)
-        //        {
-        //            AppUser user = new AppUser
-        //            {
-        //                Name=model.Name,
-        //                UserName = model.Username,
-        //                Email = model.Email,
+            if (registerDto.Degree is not null)
+            {
+                await _service.Register(registerDto, "Student");
 
-        //            };
+            }
+            else
+            {
+                await _service.Register(registerDto, "Teacher");
+            }
 
-        //            IdentityResult result = await _userManager.CreateAsync(user, model.Password);
-        //            if (result.Succeeded)
-        //            {
-        //                if (model.Role == "Student")
-        //                {
-        //                    var student = new Student
-        //                    {
-        //                        SpecializationId = model.SpecializationId,
-        //                        GroupId = model.GroupId,
-        //                        AppUserId = user.Id
-        //                    };
-        //                    _context.Students.Add(student);
-        //                }
-        //                else if (model.Role == "Teacher")
-        //                {
-        //                    var teacher = new Teacher
-        //                    {
-        //                        Position = model.Position,
-        //                        AppUserId = user.Id
-        //                    };
-        //                    _context.Teachers.Add(teacher);
-        //                }
 
-        //                await _context.SaveChangesAsync();
 
-        //                // İstifadəçi uğurla qeydiyyatdan keçdi
-        //                return RedirectToAction("Index", "Home");
-        //            }
+            return RedirectToAction("Index", "Home");
+        }
 
-        //            // Qeydiyyat uğursuz olarsa, səhvləri ModelState-ə əlavə et
-        //            foreach (var error in result.Errors)
-        //            {
-        //                ModelState.AddModelError(string.Empty, error.Description);
-        //            }
-        //        }
-
-        //        return View(model);
-        //    }
-        //}
+        public IActionResult Login()
+        {
+            return View();
+        }
+        [HttpPost]
+        public async Task<IActionResult> Login(LoginDto loginDto)
+        {
+            bool result = await _service.Login(loginDto, ModelState);
+            if (!result)
+                ModelState.AddModelError(string.Empty, "Username or password is incorrect");
+            return RedirectToAction("Index", "Home");
+        }
         public async Task<IActionResult> CreateRoles()
         {
             await _service.CreateRole();

@@ -8,9 +8,9 @@ namespace ASUniversity.Application.MappingProfiles
     {
         public GroupProfile()
         {
-            CreateMap<Group, GroupItemDto>().
-                ForCtorParam(nameof(GroupItemDto.Faculty),
-                opt => opt.MapFrom(g => g.Specialization.Faculty.Name))
+            CreateMap<Group, GroupItemDto>()
+
+
                 .ForCtorParam(nameof(GroupItemDto.Specialization),
                 opt => opt.MapFrom(g => g.Specialization.Name))
                 ;

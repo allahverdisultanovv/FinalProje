@@ -2,8 +2,10 @@
 {
     public class LoginDto
     {
-        public string EmailOrUsername { get; set; }
+        public string EmailOrUsernameOrFIN { get; set; }
         public string Password { get; set; }
         public bool IsPersistence { get; set; }
+
+
     }
 }

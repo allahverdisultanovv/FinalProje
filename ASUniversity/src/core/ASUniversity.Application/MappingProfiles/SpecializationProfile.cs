@@ -13,12 +13,10 @@ namespace ASUniversity.Application.MappingProfiles
               opt => opt.MapFrom(
                   s => s.Groups.Count()
                   )
-              ).ForMember(nameof(SpecializationItemDto.Faculty),
-                opt => opt.MapFrom(p => p.Faculty.Name)
+              ).ForCtorParam(nameof(SpecializationItemDto.Faculty),
+                opt => opt.MapFrom(s => s.Faculty.Name)
                 )
-                .ForCtorParam(nameof(SpecializationItemDto.Faculty),
-                opt => opt.MapFrom(p => p.Faculty.Name)
-                );
+               ;
             CreateMap<SpecializationCreateDto, Specialization>();
             CreateMap<SpecializationUpdateDto, Specialization>().ReverseMap();
 

@@ -41,12 +41,17 @@ namespace ASUniversity.Persistence.ServiceRegistration
             services.AddScoped<ISpecializationRepository, SpecializationRepository>();
             services.AddScoped<ISubjectRepository, SubjectRepository>();
             services.AddScoped<IScheduleRepository, ScheduleRepository>();
+            services.AddScoped<IStudentRepository, StudentRepository>();
+            services.AddScoped<ITeacherRepository, TeacherRepository>();
 
             services.AddScoped<ISubjectService, SubjectService>();
             services.AddScoped<IFacultyService, FacultyService>();
             services.AddScoped<IGroupService, GroupService>();
-
+            services.AddScoped<IAuthenticationService, AuthenticationService>();
             services.AddScoped<ISpecializationService, SpecializationService>();
+            services.AddScoped<IStudentService, StudentService>();
+            services.AddScoped<ITeacherService, TeacherService>();
+            services.AddScoped<IExamService, ExamService>();
 
 
 
