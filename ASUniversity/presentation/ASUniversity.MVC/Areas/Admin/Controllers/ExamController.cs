@@ -52,5 +52,33 @@ namespace ASUniversity.MVC.Areas.Admin.Controllers
             await _service.CreateAsync(examCreateDto);
             return RedirectToAction(nameof(Index));
         }
+        public async Task<IActionResult> Update(int id)
+        {
+            ExamUpdateDto examUpdateDto = await _service.GetByIdUpdateAsync(id);
+            examUpdateDto.Groups = await _groupService.GetAllSelectAsync();
+            examUpdateDto.Teachers = await _teacherService.GetAllSelectAsync();
+            examUpdateDto.ExamTypes = Enum.GetValues(typeof(ExamType))
+                        .Cast<ExamType>()
+                        .Select(p => new SelectListItem
+                        {
+                            Value = ((int)p).ToString(),
+                            Text = EnumHelper.GetEnumDescription(p)
+                        })
+                        .ToList();
+            examUpdateDto.Subjects = await _subjectService.GetAllSelectAsync();
+            return View(examUpdateDto);
+        }
+        [HttpPost]
+        public async Task<IActionResult> Update(int id, ExamUpdateDto examUpdateDto)
+        {
+            if (!ModelState.IsValid) return View(examUpdateDto);
+            await _service.Update(id, examUpdateDto);
+            return RedirectToAction(nameof(Index));
+        }
+        public async Task<IActionResult> Delete(int id)
+        {
+            await _service.Delete(id);
+            return RedirectToAction(nameof(Index));
+        }
     }
 }

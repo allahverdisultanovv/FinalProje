@@ -27,8 +27,8 @@
                                 <th>#</th>
                                 <th>Date</th>
                                 <th>Group</th>
-                                <th></th>
-                                <th>Students Count</th>
+                                <th>Exam Type</th>
+                                <th>Teacher</th>
                                 <th>Settings</th>
                             </tr>
                         </thead>
@@ -38,7 +38,7 @@
                                 count++;
                                 <tr>
                                     <td>@count</td>
-                                    <td>@item.Date</td>
+                                    <td>@item.Date.ToString("dd-MMM-yyyy")</td>
                                     <td>@item.Group</td>
                                     <td>@item.Type</td>
                                     <td>@item.Teacher</td>

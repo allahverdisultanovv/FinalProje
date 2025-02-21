@@ -7,6 +7,7 @@ namespace ASUniversity.Application.Abstractions.Services
     {
         Task CreateAsync(Teacher teacher);
         Task<IEnumerable<TeacherItemDto>> GetAllSelectAsync();
+        Task<GetTeacherDto> GetIndex(string id);
 
     }
 }

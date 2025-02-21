@@ -46,7 +46,6 @@ namespace ASUniversity.MVC.Areas.Admin.Controllers
 
                 Faculties = await _facultyService.GetAllSelectAsync(),
                 Groups = await _groupService.GetAllSelectAsync(),
-                Specializations = await _specializationService.GetAllSelectAsync(),
             };
             return View(registerDto);
         }

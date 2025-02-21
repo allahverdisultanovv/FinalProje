@@ -17,8 +17,4 @@
     <ProjectReference Include="..\ASUniversityşDomain\ASUniversity.Domain.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="DTOs\Student\" />
-  </ItemGroup>
-
 </Project>

@@ -15,9 +15,16 @@ namespace ASUniversity.Persistence.Implementations.Repositories
             _context = context;
             _table = _context.Set<T>();
         }
-        public IQueryable<T> GetAllSelect()
+        public IQueryable<T> GetAllSelect(params string[]? includes)
         {
             IQueryable<T> query = _table;
+            if (includes != null)
+            {
+                for (int i = 0; i < includes.Length; i++)
+                {
+                    query = query.Include(includes[i]);
+                }
+            }
             return query;
         }
         public IQueryable<T> GetAll(

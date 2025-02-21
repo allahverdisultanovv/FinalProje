@@ -1,8 +1,9 @@
-﻿using ASUniversity.Application.DTOs.Teacher;
+﻿using ASUniversity.Application.DTOs.Group;
+using ASUniversity.Application.DTOs.Subject;
+using ASUniversity.Application.DTOs.Teacher;
 using ASUniversity.Domain.Enums;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using System.ComponentModel.DataAnnotations;
-using A = ASUniversity.Domain.Entities;
 
 namespace ASUniversity.Application.DTOs.Exam
 {
@@ -19,17 +20,17 @@ namespace ASUniversity.Application.DTOs.Exam
         [MaxLength(4)]
         public string Classroom { get; set; }
         [Required]
-        public int FacultyId { get; set; }
+        public int TeacherId { get; set; }
         [Required]
 
         public int SubjectId { get; set; }
         [Required]
 
         public int GroupId { get; set; }
-        public IEnumerable<A.Subject>? Subjects { get; set; }
+        public IEnumerable<SubjectItemDto>? Subjects { get; set; }
 
         public IEnumerable<TeacherItemDto>? Teachers { get; set; }
-        public IEnumerable<A.Group>? Groups { get; set; }
+        public IEnumerable<GroupItemDto>? Groups { get; set; }
         public IEnumerable<SelectListItem> ExamTypes { get; set; }
     }
 }

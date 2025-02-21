@@ -28,13 +28,13 @@ namespace ASUniversity.Persistence.Configuration
 
             builder
                .HasOne(e => e.Subject)
-               .WithMany()
+               .WithMany(e => e.Exams)
                .HasForeignKey(e => e.SubjectId)
                .OnDelete(DeleteBehavior.Restrict);
 
             builder
                .HasOne(e => e.Group)
-               .WithMany()
+               .WithMany(e => e.Exams)
                .HasForeignKey(e => e.GroupId)
                .OnDelete(DeleteBehavior.Restrict);
 

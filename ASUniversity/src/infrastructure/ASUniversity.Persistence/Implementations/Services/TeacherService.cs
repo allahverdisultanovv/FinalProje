@@ -28,5 +28,12 @@ namespace ASUniversity.Persistence.Implementations.Services
             IEnumerable<TeacherItemDto> teacherItems = _mapper.Map<IEnumerable<TeacherItemDto>>(teachers);
             return (teacherItems);
         }
+
+        public async Task<GetTeacherDto> GetIndex(string id)
+        {
+            Teacher teacher = await _repository.GetTeacherWithAppUserId(id);
+            GetTeacherDto getTeacherDto = _mapper.Map<GetTeacherDto>(teacher);
+            return (getTeacherDto);
+        }
     }
 }

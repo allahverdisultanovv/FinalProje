@@ -51,19 +51,7 @@
                         <select class="form-control" asp-for="Degree" asp-items="Model.Degrees"></select>
                         <span asp-validation-for="Degree"></span>
                     </div>
-                    <div class="form-group mb-3">
-
-                        <label asp-for="FacultyId">Faculty</label>
-                        <select class="form-control" asp-for="FacultyId" asp-items="new SelectList(Model.Faculties,nameof(Faculty.Id),nameof(Faculty.Name))"></select>
-                        <span asp-validation-for="FacultyId" class="text-danger "></span>
-                    </div>
-                    <div class="form-group mb-3">
-
-                        <label asp-for="SpecializationId">Specialization</label>
-                        <select class="form-control" asp-for="SpecializationId" asp-items="new SelectList(Model.Specializations,nameof(Specialization.Id),nameof(Specialization.Name))"></select>
-                        <span asp-validation-for="SpecializationId" class="text-danger "></span>
-                    </div>
-
+                    
                     <div class="form-group mb-3">
 
                         <label asp-for="GroupId">Group</label>
@@ -127,7 +115,16 @@
                         <input asp-for="FIN" class="form-control form-control-lg" placeholder="FIN" />
                         <span asp-validation-for="FIN"></span>
                     </div>
-                   
+                    <div class="form-group mb-3">
+                        <label asp-for="Exprience">Exprience</label>
+                        <input asp-for="Exprience" class="form-control form-control-lg" placeholder="Exprience" />
+                        <span asp-validation-for="Exprience"></span>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label asp-for="Salary">Salary</label>
+                        <input asp-for="Salary" class="form-control form-control-lg" placeholder="Salary" />
+                        <span asp-validation-for="Salary"></span>
+                    </div>
                     <div class="form-group mb-3">
                         <label asp-for="Position">Position</label>
                         <select class="form-control" asp-for="Position" asp-items="Model.Positions"></select>
@@ -138,6 +135,11 @@
                         <label asp-for="FacultyId">Faculty</label>
                         <select class="form-control" asp-for="FacultyId" asp-items="new SelectList(Model.Faculties,nameof(Faculty.Id),nameof(Faculty.Name))"></select>
                         <span asp-validation-for="FacultyId" class="text-danger "></span>
+                    </div>
+                    <div class="form-group mb-3">
+                        <label asp-for="Description">Description</label>
+                        <input asp-for="Description" class="form-control form-control-lg" placeholder="Description" />
+                        <span asp-validation-for="Description"></span>
                     </div>
                     
 

@@ -15,7 +15,7 @@ namespace ASUniversity.Application.Abstractions.Repositories
             bool isTracking = false,
             bool ignoreQuery = false,
             params string[]? includes);
-        IQueryable<T> GetAllSelect();
+        IQueryable<T> GetAllSelect(params string[]? includes);
         Task<T> GetByIdAsync(int id, params string[] includes);
         Task AddAsync(T entity);
         void Update(T entity);

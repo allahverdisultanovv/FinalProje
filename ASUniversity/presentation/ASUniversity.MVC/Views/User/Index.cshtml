@@ -1,0 +1,116 @@
+﻿@using ASUniversity.Application.DTOs.User
+@model GetUserDto
+@{
+   var teacher = Model.Teacher;
+}
+<main>
+
+        <!-- Banner area start here -->
+        <section class="banner-inner-area sub-bg bg-image" data-background="assets/images/bg/banner-inner-bg.png">
+            <div class="banner-inner__shape1">
+                <img class="animation__sunMove" src="assets/images/shape/banner-inner-shape1.png" alt="image">
+            </div>
+            <div class="banner-inner__shape2">
+                <img src="assets/images/shape/banner-inner-shape2.png" alt="image">
+            </div>
+            <div class="banner-inner__shape3">
+                <img class="animation__arryLeftRight" src="assets/images/shape/banner-inner-shape3.png" alt="image">
+            </div>
+            <div class="banner-inner__shape4">
+                <img class="animation__arryUpDown" src="assets/images/shape/banner-inner-shape4.png" alt="image">
+            </div>
+            <div class="banner-inner__shape5">
+                <img src="assets/images/shape/banner-inner-shape5.png" alt="image">
+            </div>
+            <div class="banner-inner__circle">
+                <img class="slide-effect1" src="assets/images/shape/banner-inner-circle.png" alt="image">
+            </div>
+            <div class="banner-inner__circle2">
+                <img class="slide-effect2" src="assets/images/shape/banner-inner-circle2.png" alt="image">
+            </div>
+            <div class="banner-inner__dots">
+                <img class="pxl-image-zoom" src="assets/images/shape/banner-inner-dots.png" alt="image">
+            </div>
+            <div class="container">
+                <div class="banner-inner__content">
+                    <h1>
+                        Instructors Details 1
+                    </h1>
+                    <ul>
+                        <li><a asp-action="index" asp-controller="home">Home</a></li>
+                        <li><i class="fa-regular fa-angle-right"></i></li>
+                        <li>Instructors Details 1</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- Banner area end here -->
+
+        <!-- Team area start here 
+            @if(Model.Teacher is not null){
+        <section class="team-details-area pt-120 pb-120">
+            <div class="container">
+                <div class="team-details__item">
+                    <div class="row g-4 align-items-center">
+                        <div class="col-lg-4">
+                            <div class="image">
+                                <img src="~/assets/images/default.jpg" alt="image">
+                            </div>
+                        </div>
+                        <div class="col-lg-8">
+                            <div class="team-details__content">
+
+                                <h2>@teacher.Name @teacher.Surname</h2>
+                                <span>@teacher.Faculty</span>
+                                <p class="mt-25">@teacher.Description</p>
+                                <ul class="bor-top bor-bottom pt-30 pb-30">
+                                    <li>Experience: @teacher.Exprience</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+            }
+            else{
+            <section class="team-details-area pt-120 pb-120">
+            <div class="container">
+                <div class="team-details__item">
+                    <div class="row g-4 align-items-center">
+                        <div class="col-lg-4">
+                            <div class="image">
+                                <img src="~/assets/image/default.jpg" alt="image">
+                            </div>
+                        </div>
+                        <div class="col-lg-8">
+                            <div class="team-details__content">
+                                <h2>Kawser Ahmed</h2>
+                                <span>Web Design</span>
+                                <p class="mt-25">Adipiscing elit. Mauris viverra nisl quis mollis laoreet. Ut eget lacus
+                                    a felis
+                                    accumsan
+                                    pharetra in dignissim enim. In
+                                    amet odio mollis urna aliquet volutpat. Sed bibendum nisl vehicula imperdiet
+                                    imperdiet,
+                                    augue massa fringilla.</p>
+                                <ul class="bor-top bor-bottom pt-30 pb-30">
+                                    <li>Experience: 10 Years</li>
+                                </ul>
+                                <div class="team-details__social">
+                                    <div class="social-icons">
+                                        <a href="#0"><i class="fa-brands fa-facebook-f"></i></a>
+                                        <a href="#0"><i class="fa-brands fa-twitter"></i></a>
+                                        <a href="#0"><i class="fa-brands fa-linkedin-in"></i></a>
+                                        <a href="#0"><i class="fa-brands fa-youtube"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+            }
+        <!-- Team area end here -->
+    </main>

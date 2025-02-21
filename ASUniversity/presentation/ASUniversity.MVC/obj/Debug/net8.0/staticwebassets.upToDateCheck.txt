@@ -5646,6 +5646,7 @@ wwwroot\assets\images\courses\courses-user3.jpg
 wwwroot\assets\images\courses\courses-user4.jpg
 wwwroot\assets\images\courses\courses-user5.jpg
 wwwroot\assets\images\courses\courses-user6.jpg
+wwwroot\assets\images\default.jpg
 wwwroot\assets\images\error\error-image.png
 wwwroot\assets\images\event\event-details.jpg
 wwwroot\assets\images\event\event-five-image1.jpg

@@ -1,4 +1,5 @@
-﻿using ASUniversity.Domain.Entities;
+﻿using ASUniversity.Application.DTOs.Student;
+using ASUniversity.Domain.Entities;
 
 namespace ASUniversity.Application.Abstractions.Services
 {
@@ -9,5 +10,9 @@ namespace ASUniversity.Application.Abstractions.Services
 
         //Task Delete(int id);
         Task CreateAsync(Student student);
+        Task<GetStudentDto> GetIndex(string id);
+
+
+
     }
 }

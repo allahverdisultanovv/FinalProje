@@ -38,7 +38,7 @@ namespace ASUniversity.Persistence.Implementations.Services
 
         public async Task<IEnumerable<FacultyItemDto>> GetAllAsync(int page, int take)
         {
-            IEnumerable<Faculty> faculties = _repository.GetAll(skip: (page - 1) * take, take: take);
+            IEnumerable<Faculty> faculties = _repository.GetAll(skip: (page - 1) * take, take: take, includes: ["Specializations", "Teachers", "Students"]);
             return (_mapper.Map<IEnumerable<FacultyItemDto>>(faculties));
         }
         public async Task<IEnumerable<FacultyItemDto>> GetAllSelectAsync()

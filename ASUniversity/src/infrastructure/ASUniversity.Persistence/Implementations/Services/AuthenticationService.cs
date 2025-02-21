@@ -1,5 +1,7 @@
 ﻿using ASUniversity.Application.Abstractions.Services;
 using ASUniversity.Application.DTOs.Authentication;
+using ASUniversity.Application.DTOs.Group;
+using ASUniversity.Application.DTOs.Specialization;
 using ASUniversity.Domain.Entities;
 using ASUniversity.Domain.Enums;
 using Microsoft.AspNetCore.Identity;
@@ -15,19 +17,26 @@ namespace ASUniversity.Persistence.Implementations.Services
         private readonly RoleManager<IdentityRole> _roleManager;
         private readonly IStudentService _studentService;
         private readonly ITeacherService _teacherService;
+        private readonly IGroupService _groupService;
+        private readonly ISpecializationService _specializationService;
 
         public AuthenticationService(
             UserManager<AppUser> userManager,
             SignInManager<AppUser> signInManager,
             RoleManager<IdentityRole> roleManager,
             IStudentService studentService,
-            ITeacherService teacherService)
+            ITeacherService teacherService,
+            IGroupService groupService,
+            ISpecializationService specializationService
+            )
         {
             _userManager = userManager;
             _signInManager = signInManager;
             _roleManager = roleManager;
             _studentService = studentService;
             _teacherService = teacherService;
+            _groupService = groupService;
+            _specializationService = specializationService;
         }
         public async Task<bool> Login(LoginDto loginDto, ModelStateDictionary ModelState)
         {
@@ -65,7 +74,9 @@ namespace ASUniversity.Persistence.Implementations.Services
                 UserName = GeneretaUserName(registerDto.Name, registerDto.SurName, registerDto.FIN),
                 Surname = Char.ToUpper(registerDto.SurName[0]) + registerDto.SurName.Substring(1).ToLower(),
                 FIN = registerDto.FIN,
-                Email = GeneretaUserName(registerDto.Name, registerDto.SurName, registerDto.FIN).ToLower() + "@as.edu.az"
+                Email = GeneretaUserName(registerDto.Name, registerDto.SurName, registerDto.FIN).ToLower() + "@as.edu.az",
+                Image = "default.jpg",
+                Birthday = registerDto.BirthDay
 
 
             };
@@ -81,13 +92,15 @@ namespace ASUniversity.Persistence.Implementations.Services
             }
             if (role == "Student")
             {
+                GroupUpdateDto group = await _groupService.GetByIdUpdateAsync(registerDto.GroupId.Value);
+                SpecializationUpdateDto specialization = await _specializationService.GetByIdUpdateAsync(group.SpecializationId);
                 Student student = new Student()
                 {
-                    SpecializationId = registerDto.SpecializationId.Value,
+                    SpecializationId = group.SpecializationId,
                     AdmissionYear = registerDto.AdmissionYear.Value,
                     AppUserId = user.Id,
-                    FacultyId = registerDto.FacultyId,
-                    GroupId = registerDto.GroupId,
+                    FacultyId = specialization.FacultyId,
+                    GroupId = registerDto.GroupId.Value,
                     Degree = registerDto.Degree.Value
                 };
                 await _studentService.CreateAsync(student);
@@ -98,8 +111,12 @@ namespace ASUniversity.Persistence.Implementations.Services
                 Teacher teacher = new Teacher()
                 {
                     AppUserId = user.Id,
-                    FacultyId = registerDto.FacultyId,
+                    FacultyId = registerDto.FacultyId.Value,
                     Position = registerDto.Position.Value,
+                    Commencement = DateTime.Now.Year,
+                    Experience = registerDto.Exprience.Value,
+                    Description = registerDto.Description,
+                    Salary = registerDto.Salary.Value
                 };
                 await _teacherService.CreateAsync(teacher);
                 await _userManager.AddToRoleAsync(user, UserRole.Teacher.ToString());

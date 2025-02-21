@@ -22597,6 +22597,10 @@
       "PackagePath": "staticwebassets\\assets\\images\\courses\\courses-user6.jpg"
     },
     {
+      "Id": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\presentation\\ASUniversity.MVC\\wwwroot\\assets\\images\\default.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\default.jpg"
+    },
+    {
       "Id": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\presentation\\ASUniversity.MVC\\wwwroot\\assets\\images\\error\\error-image.png",
       "PackagePath": "staticwebassets\\assets\\images\\error\\error-image.png"
     },

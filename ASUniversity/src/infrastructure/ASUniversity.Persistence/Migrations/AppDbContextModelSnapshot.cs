@@ -46,16 +46,10 @@ namespace ASUniversity.Persistence.Migrations
                     b.Property<int>("GroupId")
                         .HasColumnType("int");
 
-                    b.Property<int?>("GroupId1")
-                        .HasColumnType("int");
-
                     b.Property<TimeSpan>("StartTime")
                         .HasColumnType("time");
 
                     b.Property<int>("SubjectId")
-                        .HasColumnType("int");
-
-                    b.Property<int?>("SubjectId1")
                         .HasColumnType("int");
 
                     b.Property<int>("TeacherId")
@@ -65,11 +59,7 @@ namespace ASUniversity.Persistence.Migrations
 
                     b.HasIndex("GroupId");
 
-                    b.HasIndex("GroupId1");
-
                     b.HasIndex("SubjectId");
-
-                    b.HasIndex("SubjectId1");
 
                     b.HasIndex("TeacherId");
 
@@ -309,11 +299,24 @@ namespace ASUniversity.Persistence.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(450)");
 
+                    b.Property<int>("Commencement")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("Experience")
+                        .HasColumnType("int");
+
                     b.Property<int>("FacultyId")
                         .HasColumnType("int");
 
                     b.Property<int>("Position")
                         .HasColumnType("int");
+
+                    b.Property<decimal>("Salary")
+                        .HasColumnType("decimal(18,2)");
 
                     b.HasKey("Id");
 
@@ -542,6 +545,10 @@ namespace ASUniversity.Persistence.Migrations
                         .IsRequired()
                         .HasColumnType("char(7)");
 
+                    b.Property<string>("Image")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasMaxLength(50)
@@ -562,24 +569,16 @@ namespace ASUniversity.Persistence.Migrations
             modelBuilder.Entity("ASUniversity.Domain.Entities.Exam", b =>
                 {
                     b.HasOne("ASUniversity.Domain.Entities.Group", "Group")
-                        .WithMany()
+                        .WithMany("Exams")
                         .HasForeignKey("GroupId")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
-                    b.HasOne("ASUniversity.Domain.Entities.Group", null)
-                        .WithMany("Exams")
-                        .HasForeignKey("GroupId1");
-
                     b.HasOne("ASUniversity.Domain.Entities.Subject", "Subject")
-                        .WithMany()
+                        .WithMany("Exams")
                         .HasForeignKey("SubjectId")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
-
-                    b.HasOne("ASUniversity.Domain.Entities.Subject", null)
-                        .WithMany("Exams")
-                        .HasForeignKey("SubjectId1");
 
                     b.HasOne("ASUniversity.Domain.Entities.Teacher", "Teacher")
                         .WithMany("Exams")

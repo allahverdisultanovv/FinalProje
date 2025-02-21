@@ -36,7 +36,7 @@ namespace ASUniversity.Persistence.Implementations.Services
 
         public async Task<IEnumerable<GroupItemDto>> GetAllAsync(int page, int take)
         {
-            IEnumerable<Group> groups = _repository.GetAll(skip: (page - 1) * take, take: take, includes: ["Specialization"]);
+            IEnumerable<Group> groups = _repository.GetAll(skip: (page - 1) * take, take: take, includes: ["Specialization", "Students"]);
             return (_mapper.Map<IEnumerable<GroupItemDto>>(groups));
         }
 
