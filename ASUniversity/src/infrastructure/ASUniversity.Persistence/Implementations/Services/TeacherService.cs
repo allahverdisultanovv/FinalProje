@@ -24,7 +24,7 @@ namespace ASUniversity.Persistence.Implementations.Services
 
         public async Task<IEnumerable<TeacherItemDto>> GetAllSelectAsync()
         {
-            IEnumerable<Teacher> teachers = _repository.GetAllSelect();
+            IEnumerable<Teacher> teachers = _repository.GetAllSelect(["AppUser"]);
             IEnumerable<TeacherItemDto> teacherItems = _mapper.Map<IEnumerable<TeacherItemDto>>(teachers);
             return (teacherItems);
         }

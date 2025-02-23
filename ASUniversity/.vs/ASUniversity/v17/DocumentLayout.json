@@ -3,12 +3,104 @@
   "WorkspaceRootPath": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BDB9CC96-BDEB-4B13-A007-A29A938C7541}|src\\core\\ASUniversity.Application\\ASUniversity.Application.csproj|c:\\users\\allahverdi\\desktop\\codefinal\\asuniversity\\src\\core\\asuniversity.application\\dtos\\schedule\\scheduleupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BDB9CC96-BDEB-4B13-A007-A29A938C7541}|src\\core\\ASUniversity.Application\\ASUniversity.Application.csproj|solutionrelative:src\\core\\asuniversity.application\\dtos\\schedule\\scheduleupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{69374EA7-4B80-4DDD-890F-F2A97EDCBCAF}|presentation\\ASUniversity.MVC\\ASUniversity.MVC.csproj|c:\\users\\allahverdi\\desktop\\codefinal\\asuniversity\\presentation\\asuniversity.mvc\\areas\\admin\\views\\schedule\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{69374EA7-4B80-4DDD-890F-F2A97EDCBCAF}|presentation\\ASUniversity.MVC\\ASUniversity.MVC.csproj|solutionrelative:presentation\\asuniversity.mvc\\areas\\admin\\views\\schedule\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69374EA7-4B80-4DDD-890F-F2A97EDCBCAF}|presentation\\ASUniversity.MVC\\ASUniversity.MVC.csproj|c:\\users\\allahverdi\\desktop\\codefinal\\asuniversity\\presentation\\asuniversity.mvc\\areas\\admin\\views\\schedule\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{69374EA7-4B80-4DDD-890F-F2A97EDCBCAF}|presentation\\ASUniversity.MVC\\ASUniversity.MVC.csproj|solutionrelative:presentation\\asuniversity.mvc\\areas\\admin\\views\\schedule\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69374EA7-4B80-4DDD-890F-F2A97EDCBCAF}|presentation\\ASUniversity.MVC\\ASUniversity.MVC.csproj|c:\\users\\allahverdi\\desktop\\codefinal\\asuniversity\\presentation\\asuniversity.mvc\\areas\\admin\\controllers\\schedulecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69374EA7-4B80-4DDD-890F-F2A97EDCBCAF}|presentation\\ASUniversity.MVC\\ASUniversity.MVC.csproj|solutionrelative:presentation\\asuniversity.mvc\\areas\\admin\\controllers\\schedulecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01D44737-C697-4F7D-90C7-A1192FA1915C}|src\\core\\ASUniversity\u015FDomain\\ASUniversity.Domain.csproj|c:\\users\\allahverdi\\desktop\\codefinal\\asuniversity\\src\\core\\asuniversity\u015Fdomain\\entities\\schedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01D44737-C697-4F7D-90C7-A1192FA1915C}|src\\core\\ASUniversity\u015FDomain\\ASUniversity.Domain.csproj|solutionrelative:src\\core\\asuniversity\u015Fdomain\\entities\\schedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BDB9CC96-BDEB-4B13-A007-A29A938C7541}|src\\core\\ASUniversity.Application\\ASUniversity.Application.csproj|c:\\users\\allahverdi\\desktop\\codefinal\\asuniversity\\src\\core\\asuniversity.application\\dtos\\schedule\\scheduleitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BDB9CC96-BDEB-4B13-A007-A29A938C7541}|src\\core\\ASUniversity.Application\\ASUniversity.Application.csproj|solutionrelative:src\\core\\asuniversity.application\\dtos\\schedule\\scheduleitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDB9CC96-BDEB-4B13-A007-A29A938C7541}|src\\core\\ASUniversity.Application\\ASUniversity.Application.csproj|c:\\users\\allahverdi\\desktop\\codefinal\\asuniversity\\src\\core\\asuniversity.application\\dtos\\exam\\examitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDB9CC96-BDEB-4B13-A007-A29A938C7541}|src\\core\\ASUniversity.Application\\ASUniversity.Application.csproj|solutionrelative:src\\core\\asuniversity.application\\dtos\\exam\\examitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B95E3132-E1CA-471D-A361-799FDE3D82CB}|src\\infrastructure\\ASUniversity.Persistence\\ASUniversity.Persistence.csproj|c:\\users\\allahverdi\\desktop\\codefinal\\asuniversity\\src\\infrastructure\\asuniversity.persistence\\implementations\\services\\scheduleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B95E3132-E1CA-471D-A361-799FDE3D82CB}|src\\infrastructure\\ASUniversity.Persistence\\ASUniversity.Persistence.csproj|solutionrelative:src\\infrastructure\\asuniversity.persistence\\implementations\\services\\scheduleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDB9CC96-BDEB-4B13-A007-A29A938C7541}|src\\core\\ASUniversity.Application\\ASUniversity.Application.csproj|c:\\users\\allahverdi\\desktop\\codefinal\\asuniversity\\src\\core\\asuniversity.application\\abstractions\\services\\ischeduleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDB9CC96-BDEB-4B13-A007-A29A938C7541}|src\\core\\ASUniversity.Application\\ASUniversity.Application.csproj|solutionrelative:src\\core\\asuniversity.application\\abstractions\\services\\ischeduleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69374EA7-4B80-4DDD-890F-F2A97EDCBCAF}|presentation\\ASUniversity.MVC\\ASUniversity.MVC.csproj|c:\\users\\allahverdi\\desktop\\codefinal\\asuniversity\\presentation\\asuniversity.mvc\\areas\\admin\\views\\group\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{69374EA7-4B80-4DDD-890F-F2A97EDCBCAF}|presentation\\ASUniversity.MVC\\ASUniversity.MVC.csproj|solutionrelative:presentation\\asuniversity.mvc\\areas\\admin\\views\\group\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69374EA7-4B80-4DDD-890F-F2A97EDCBCAF}|presentation\\ASUniversity.MVC\\ASUniversity.MVC.csproj|c:\\users\\allahverdi\\desktop\\codefinal\\asuniversity\\presentation\\asuniversity.mvc\\areas\\admin\\views\\group\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{69374EA7-4B80-4DDD-890F-F2A97EDCBCAF}|presentation\\ASUniversity.MVC\\ASUniversity.MVC.csproj|solutionrelative:presentation\\asuniversity.mvc\\areas\\admin\\views\\group\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69374EA7-4B80-4DDD-890F-F2A97EDCBCAF}|presentation\\ASUniversity.MVC\\ASUniversity.MVC.csproj|c:\\users\\allahverdi\\desktop\\codefinal\\asuniversity\\presentation\\asuniversity.mvc\\areas\\admin\\controllers\\groupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69374EA7-4B80-4DDD-890F-F2A97EDCBCAF}|presentation\\ASUniversity.MVC\\ASUniversity.MVC.csproj|solutionrelative:presentation\\asuniversity.mvc\\areas\\admin\\controllers\\groupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B95E3132-E1CA-471D-A361-799FDE3D82CB}|src\\infrastructure\\ASUniversity.Persistence\\ASUniversity.Persistence.csproj|c:\\users\\allahverdi\\desktop\\codefinal\\asuniversity\\src\\infrastructure\\asuniversity.persistence\\implementations\\services\\subjectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B95E3132-E1CA-471D-A361-799FDE3D82CB}|src\\infrastructure\\ASUniversity.Persistence\\ASUniversity.Persistence.csproj|solutionrelative:src\\infrastructure\\asuniversity.persistence\\implementations\\services\\subjectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDB9CC96-BDEB-4B13-A007-A29A938C7541}|src\\core\\ASUniversity.Application\\ASUniversity.Application.csproj|c:\\users\\allahverdi\\desktop\\codefinal\\asuniversity\\src\\core\\asuniversity.application\\dtos\\subject\\subjectitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDB9CC96-BDEB-4B13-A007-A29A938C7541}|src\\core\\ASUniversity.Application\\ASUniversity.Application.csproj|solutionrelative:src\\core\\asuniversity.application\\dtos\\subject\\subjectitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B95E3132-E1CA-471D-A361-799FDE3D82CB}|src\\infrastructure\\ASUniversity.Persistence\\ASUniversity.Persistence.csproj|c:\\users\\allahverdi\\desktop\\codefinal\\asuniversity\\src\\infrastructure\\asuniversity.persistence\\implementations\\services\\teacherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B95E3132-E1CA-471D-A361-799FDE3D82CB}|src\\infrastructure\\ASUniversity.Persistence\\ASUniversity.Persistence.csproj|solutionrelative:src\\infrastructure\\asuniversity.persistence\\implementations\\services\\teacherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69374EA7-4B80-4DDD-890F-F2A97EDCBCAF}|presentation\\ASUniversity.MVC\\ASUniversity.MVC.csproj|c:\\users\\allahverdi\\desktop\\codefinal\\asuniversity\\presentation\\asuniversity.mvc\\areas\\admin\\controllers\\examcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69374EA7-4B80-4DDD-890F-F2A97EDCBCAF}|presentation\\ASUniversity.MVC\\ASUniversity.MVC.csproj|solutionrelative:presentation\\asuniversity.mvc\\areas\\admin\\controllers\\examcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B95E3132-E1CA-471D-A361-799FDE3D82CB}|src\\infrastructure\\ASUniversity.Persistence\\ASUniversity.Persistence.csproj|c:\\users\\allahverdi\\desktop\\codefinal\\asuniversity\\src\\infrastructure\\asuniversity.persistence\\implementations\\services\\groupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B95E3132-E1CA-471D-A361-799FDE3D82CB}|src\\infrastructure\\ASUniversity.Persistence\\ASUniversity.Persistence.csproj|solutionrelative:src\\infrastructure\\asuniversity.persistence\\implementations\\services\\groupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDB9CC96-BDEB-4B13-A007-A29A938C7541}|src\\core\\ASUniversity.Application\\ASUniversity.Application.csproj|c:\\users\\allahverdi\\desktop\\codefinal\\asuniversity\\src\\core\\asuniversity.application\\dtos\\group\\groupitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDB9CC96-BDEB-4B13-A007-A29A938C7541}|src\\core\\ASUniversity.Application\\ASUniversity.Application.csproj|solutionrelative:src\\core\\asuniversity.application\\dtos\\group\\groupitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDB9CC96-BDEB-4B13-A007-A29A938C7541}|src\\core\\ASUniversity.Application\\ASUniversity.Application.csproj|c:\\users\\allahverdi\\desktop\\codefinal\\asuniversity\\src\\core\\asuniversity.application\\abstractions\\services\\igroupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDB9CC96-BDEB-4B13-A007-A29A938C7541}|src\\core\\ASUniversity.Application\\ASUniversity.Application.csproj|solutionrelative:src\\core\\asuniversity.application\\abstractions\\services\\igroupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDB9CC96-BDEB-4B13-A007-A29A938C7541}|src\\core\\ASUniversity.Application\\ASUniversity.Application.csproj|c:\\users\\allahverdi\\desktop\\codefinal\\asuniversity\\src\\core\\asuniversity.application\\abstractions\\services\\iteacherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDB9CC96-BDEB-4B13-A007-A29A938C7541}|src\\core\\ASUniversity.Application\\ASUniversity.Application.csproj|solutionrelative:src\\core\\asuniversity.application\\abstractions\\services\\iteacherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B95E3132-E1CA-471D-A361-799FDE3D82CB}|src\\infrastructure\\ASUniversity.Persistence\\ASUniversity.Persistence.csproj|c:\\users\\allahverdi\\desktop\\codefinal\\asuniversity\\src\\infrastructure\\asuniversity.persistence\\implementations\\services\\specializationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B95E3132-E1CA-471D-A361-799FDE3D82CB}|src\\infrastructure\\ASUniversity.Persistence\\ASUniversity.Persistence.csproj|solutionrelative:src\\infrastructure\\asuniversity.persistence\\implementations\\services\\specializationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDB9CC96-BDEB-4B13-A007-A29A938C7541}|src\\core\\ASUniversity.Application\\ASUniversity.Application.csproj|c:\\users\\allahverdi\\desktop\\codefinal\\asuniversity\\src\\core\\asuniversity.application\\dtos\\schedule\\scheduleupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDB9CC96-BDEB-4B13-A007-A29A938C7541}|src\\core\\ASUniversity.Application\\ASUniversity.Application.csproj|solutionrelative:src\\core\\asuniversity.application\\dtos\\schedule\\scheduleupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01D44737-C697-4F7D-90C7-A1192FA1915C}|src\\core\\ASUniversity\u015FDomain\\ASUniversity.Domain.csproj|c:\\users\\allahverdi\\desktop\\codefinal\\asuniversity\\src\\core\\asuniversity\u015Fdomain\\entities\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01D44737-C697-4F7D-90C7-A1192FA1915C}|src\\core\\ASUniversity\u015FDomain\\ASUniversity.Domain.csproj|solutionrelative:src\\core\\asuniversity\u015Fdomain\\entities\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDB9CC96-BDEB-4B13-A007-A29A938C7541}|src\\core\\ASUniversity.Application\\ASUniversity.Application.csproj|c:\\users\\allahverdi\\desktop\\codefinal\\asuniversity\\src\\core\\asuniversity.application\\dtos\\teacher\\getteacherdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDB9CC96-BDEB-4B13-A007-A29A938C7541}|src\\core\\ASUniversity.Application\\ASUniversity.Application.csproj|solutionrelative:src\\core\\asuniversity.application\\dtos\\teacher\\getteacherdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDB9CC96-BDEB-4B13-A007-A29A938C7541}|src\\core\\ASUniversity.Application\\ASUniversity.Application.csproj|c:\\users\\allahverdi\\desktop\\codefinal\\asuniversity\\src\\core\\asuniversity.application\\mappingprofiles\\teacherprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDB9CC96-BDEB-4B13-A007-A29A938C7541}|src\\core\\ASUniversity.Application\\ASUniversity.Application.csproj|solutionrelative:src\\core\\asuniversity.application\\mappingprofiles\\teacherprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDB9CC96-BDEB-4B13-A007-A29A938C7541}|src\\core\\ASUniversity.Application\\ASUniversity.Application.csproj|c:\\users\\allahverdi\\desktop\\codefinal\\asuniversity\\src\\core\\asuniversity.application\\dtos\\teacher\\teacheritemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BDB9CC96-BDEB-4B13-A007-A29A938C7541}|src\\core\\ASUniversity.Application\\ASUniversity.Application.csproj|solutionrelative:src\\core\\asuniversity.application\\dtos\\teacher\\teacheritemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BDB9CC96-BDEB-4B13-A007-A29A938C7541}|src\\core\\ASUniversity.Application\\ASUniversity.Application.csproj|c:\\users\\allahverdi\\desktop\\codefinal\\asuniversity\\src\\core\\asuniversity.application\\dtos\\schedule\\schedulecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,20 +111,12 @@
       "RelativeMoniker": "D:0:0:{BDB9CC96-BDEB-4B13-A007-A29A938C7541}|src\\core\\ASUniversity.Application\\ASUniversity.Application.csproj|solutionrelative:src\\core\\asuniversity.application\\dtos\\authentication\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{01D44737-C697-4F7D-90C7-A1192FA1915C}|src\\core\\ASUniversity\u015FDomain\\ASUniversity.Domain.csproj|c:\\users\\allahverdi\\desktop\\codefinal\\asuniversity\\src\\core\\asuniversity\u015Fdomain\\entities\\schedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01D44737-C697-4F7D-90C7-A1192FA1915C}|src\\core\\ASUniversity\u015FDomain\\ASUniversity.Domain.csproj|solutionrelative:src\\core\\asuniversity\u015Fdomain\\entities\\schedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{01D44737-C697-4F7D-90C7-A1192FA1915C}|src\\core\\ASUniversity\u015FDomain\\ASUniversity.Domain.csproj|c:\\users\\allahverdi\\desktop\\codefinal\\asuniversity\\src\\core\\asuniversity\u015Fdomain\\enums\\dayofweek.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{01D44737-C697-4F7D-90C7-A1192FA1915C}|src\\core\\ASUniversity\u015FDomain\\ASUniversity.Domain.csproj|solutionrelative:src\\core\\asuniversity\u015Fdomain\\enums\\dayofweek.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{01D44737-C697-4F7D-90C7-A1192FA1915C}|src\\core\\ASUniversity\u015FDomain\\ASUniversity.Domain.csproj|c:\\users\\allahverdi\\desktop\\codefinal\\asuniversity\\src\\core\\asuniversity\u015Fdomain\\entities\\specialization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{01D44737-C697-4F7D-90C7-A1192FA1915C}|src\\core\\ASUniversity\u015FDomain\\ASUniversity.Domain.csproj|solutionrelative:src\\core\\asuniversity\u015Fdomain\\entities\\specialization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BDB9CC96-BDEB-4B13-A007-A29A938C7541}|src\\core\\ASUniversity.Application\\ASUniversity.Application.csproj|c:\\users\\allahverdi\\desktop\\codefinal\\asuniversity\\src\\core\\asuniversity.application\\abstractions\\services\\ischeduleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BDB9CC96-BDEB-4B13-A007-A29A938C7541}|src\\core\\ASUniversity.Application\\ASUniversity.Application.csproj|solutionrelative:src\\core\\asuniversity.application\\abstractions\\services\\ischeduleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BDB9CC96-BDEB-4B13-A007-A29A938C7541}|src\\core\\ASUniversity.Application\\ASUniversity.Application.csproj|c:\\users\\allahverdi\\desktop\\codefinal\\asuniversity\\src\\core\\asuniversity.application\\abstractions\\repositories\\istudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -61,18 +145,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{69374EA7-4B80-4DDD-890F-F2A97EDCBCAF}|presentation\\ASUniversity.MVC\\ASUniversity.MVC.csproj|c:\\users\\allahverdi\\desktop\\codefinal\\asuniversity\\presentation\\asuniversity.mvc\\areas\\admin\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{69374EA7-4B80-4DDD-890F-F2A97EDCBCAF}|presentation\\ASUniversity.MVC\\ASUniversity.MVC.csproj|solutionrelative:presentation\\asuniversity.mvc\\areas\\admin\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BDB9CC96-BDEB-4B13-A007-A29A938C7541}|src\\core\\ASUniversity.Application\\ASUniversity.Application.csproj|c:\\users\\allahverdi\\desktop\\codefinal\\asuniversity\\src\\core\\asuniversity.application\\dtos\\teacher\\getteacherdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BDB9CC96-BDEB-4B13-A007-A29A938C7541}|src\\core\\ASUniversity.Application\\ASUniversity.Application.csproj|solutionrelative:src\\core\\asuniversity.application\\dtos\\teacher\\getteacherdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01D44737-C697-4F7D-90C7-A1192FA1915C}|src\\core\\ASUniversity\u015FDomain\\ASUniversity.Domain.csproj|c:\\users\\allahverdi\\desktop\\codefinal\\asuniversity\\src\\core\\asuniversity\u015Fdomain\\entities\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01D44737-C697-4F7D-90C7-A1192FA1915C}|src\\core\\ASUniversity\u015FDomain\\ASUniversity.Domain.csproj|solutionrelative:src\\core\\asuniversity\u015Fdomain\\entities\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BDB9CC96-BDEB-4B13-A007-A29A938C7541}|src\\core\\ASUniversity.Application\\ASUniversity.Application.csproj|c:\\users\\allahverdi\\desktop\\codefinal\\asuniversity\\src\\core\\asuniversity.application\\mappingprofiles\\teacherprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BDB9CC96-BDEB-4B13-A007-A29A938C7541}|src\\core\\ASUniversity.Application\\ASUniversity.Application.csproj|solutionrelative:src\\core\\asuniversity.application\\mappingprofiles\\teacherprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B95E3132-E1CA-471D-A361-799FDE3D82CB}|src\\infrastructure\\ASUniversity.Persistence\\ASUniversity.Persistence.csproj|c:\\users\\allahverdi\\desktop\\codefinal\\asuniversity\\src\\infrastructure\\asuniversity.persistence\\implementations\\services\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -107,20 +179,12 @@
       "RelativeMoniker": "D:0:0:{BDB9CC96-BDEB-4B13-A007-A29A938C7541}|src\\core\\ASUniversity.Application\\ASUniversity.Application.csproj|solutionrelative:src\\core\\asuniversity.application\\abstractions\\services\\ispecializationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BDB9CC96-BDEB-4B13-A007-A29A938C7541}|src\\core\\ASUniversity.Application\\ASUniversity.Application.csproj|c:\\users\\allahverdi\\desktop\\codefinal\\asuniversity\\src\\core\\asuniversity.application\\abstractions\\services\\igroupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BDB9CC96-BDEB-4B13-A007-A29A938C7541}|src\\core\\ASUniversity.Application\\ASUniversity.Application.csproj|solutionrelative:src\\core\\asuniversity.application\\abstractions\\services\\igroupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BDB9CC96-BDEB-4B13-A007-A29A938C7541}|src\\core\\ASUniversity.Application\\ASUniversity.Application.csproj|c:\\users\\allahverdi\\desktop\\codefinal\\asuniversity\\src\\core\\asuniversity.application\\dtos\\group\\groupupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BDB9CC96-BDEB-4B13-A007-A29A938C7541}|src\\core\\ASUniversity.Application\\ASUniversity.Application.csproj|solutionrelative:src\\core\\asuniversity.application\\dtos\\group\\groupupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{69374EA7-4B80-4DDD-890F-F2A97EDCBCAF}|presentation\\ASUniversity.MVC\\ASUniversity.MVC.csproj|c:\\users\\allahverdi\\desktop\\codefinal\\asuniversity\\presentation\\asuniversity.mvc\\areas\\admin\\views\\authentication\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{69374EA7-4B80-4DDD-890F-F2A97EDCBCAF}|presentation\\ASUniversity.MVC\\ASUniversity.MVC.csproj|solutionrelative:presentation\\asuniversity.mvc\\areas\\admin\\views\\authentication\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B95E3132-E1CA-471D-A361-799FDE3D82CB}|src\\infrastructure\\ASUniversity.Persistence\\ASUniversity.Persistence.csproj|c:\\users\\allahverdi\\desktop\\codefinal\\asuniversity\\src\\infrastructure\\asuniversity.persistence\\implementations\\services\\groupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B95E3132-E1CA-471D-A361-799FDE3D82CB}|src\\infrastructure\\ASUniversity.Persistence\\ASUniversity.Persistence.csproj|solutionrelative:src\\infrastructure\\asuniversity.persistence\\implementations\\services\\groupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B95E3132-E1CA-471D-A361-799FDE3D82CB}|src\\infrastructure\\ASUniversity.Persistence\\ASUniversity.Persistence.csproj|c:\\users\\allahverdi\\desktop\\codefinal\\asuniversity\\src\\infrastructure\\asuniversity.persistence\\implementations\\services\\facultyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -139,16 +203,8 @@
       "RelativeMoniker": "D:0:0:{69374EA7-4B80-4DDD-890F-F2A97EDCBCAF}|presentation\\ASUniversity.MVC\\ASUniversity.MVC.csproj|solutionrelative:presentation\\asuniversity.mvc\\areas\\admin\\views\\exam\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B95E3132-E1CA-471D-A361-799FDE3D82CB}|src\\infrastructure\\ASUniversity.Persistence\\ASUniversity.Persistence.csproj|c:\\users\\allahverdi\\desktop\\codefinal\\asuniversity\\src\\infrastructure\\asuniversity.persistence\\implementations\\services\\specializationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B95E3132-E1CA-471D-A361-799FDE3D82CB}|src\\infrastructure\\ASUniversity.Persistence\\ASUniversity.Persistence.csproj|solutionrelative:src\\infrastructure\\asuniversity.persistence\\implementations\\services\\specializationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BDB9CC96-BDEB-4B13-A007-A29A938C7541}|src\\core\\ASUniversity.Application\\ASUniversity.Application.csproj|c:\\users\\allahverdi\\desktop\\codefinal\\asuniversity\\src\\core\\asuniversity.application\\abstractions\\services\\iexamservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BDB9CC96-BDEB-4B13-A007-A29A938C7541}|src\\core\\ASUniversity.Application\\ASUniversity.Application.csproj|solutionrelative:src\\core\\asuniversity.application\\abstractions\\services\\iexamservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{69374EA7-4B80-4DDD-890F-F2A97EDCBCAF}|presentation\\ASUniversity.MVC\\ASUniversity.MVC.csproj|c:\\users\\allahverdi\\desktop\\codefinal\\asuniversity\\presentation\\asuniversity.mvc\\areas\\admin\\controllers\\examcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69374EA7-4B80-4DDD-890F-F2A97EDCBCAF}|presentation\\ASUniversity.MVC\\ASUniversity.MVC.csproj|solutionrelative:presentation\\asuniversity.mvc\\areas\\admin\\controllers\\examcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{69374EA7-4B80-4DDD-890F-F2A97EDCBCAF}|presentation\\ASUniversity.MVC\\ASUniversity.MVC.csproj|c:\\users\\allahverdi\\desktop\\codefinal\\asuniversity\\presentation\\asuniversity.mvc\\areas\\admin\\controllers\\facultycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -157,10 +213,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{01D44737-C697-4F7D-90C7-A1192FA1915C}|src\\core\\ASUniversity\u015FDomain\\ASUniversity.Domain.csproj|c:\\users\\allahverdi\\desktop\\codefinal\\asuniversity\\src\\core\\asuniversity\u015Fdomain\\entities\\exam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{01D44737-C697-4F7D-90C7-A1192FA1915C}|src\\core\\ASUniversity\u015FDomain\\ASUniversity.Domain.csproj|solutionrelative:src\\core\\asuniversity\u015Fdomain\\entities\\exam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BDB9CC96-BDEB-4B13-A007-A29A938C7541}|src\\core\\ASUniversity.Application\\ASUniversity.Application.csproj|c:\\users\\allahverdi\\desktop\\codefinal\\asuniversity\\src\\core\\asuniversity.application\\dtos\\exam\\examitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BDB9CC96-BDEB-4B13-A007-A29A938C7541}|src\\core\\ASUniversity.Application\\ASUniversity.Application.csproj|solutionrelative:src\\core\\asuniversity.application\\dtos\\exam\\examitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{69374EA7-4B80-4DDD-890F-F2A97EDCBCAF}|presentation\\ASUniversity.MVC\\ASUniversity.MVC.csproj|c:\\users\\allahverdi\\desktop\\codefinal\\asuniversity\\presentation\\asuniversity.mvc\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -173,18 +225,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{01D44737-C697-4F7D-90C7-A1192FA1915C}|src\\core\\ASUniversity\u015FDomain\\ASUniversity.Domain.csproj|c:\\users\\allahverdi\\desktop\\codefinal\\asuniversity\\src\\core\\asuniversity\u015Fdomain\\entities\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{01D44737-C697-4F7D-90C7-A1192FA1915C}|src\\core\\ASUniversity\u015FDomain\\ASUniversity.Domain.csproj|solutionrelative:src\\core\\asuniversity\u015Fdomain\\entities\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\infrastructure\\ASUniversity.Persistence\\Migrations\\20250221143129_AppUserModified1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\infrastructure\\ASUniversity.Persistence\\Migrations\\20250221143129_AppUserModified1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\infrastructure\\ASUniversity.Persistence\\Migrations\\20250221142322_AppUserModified.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\infrastructure\\ASUniversity.Persistence\\Migrations\\20250221142322_AppUserModified.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B95E3132-E1CA-471D-A361-799FDE3D82CB}|src\\infrastructure\\ASUniversity.Persistence\\ASUniversity.Persistence.csproj|c:\\users\\allahverdi\\desktop\\codefinal\\asuniversity\\src\\infrastructure\\asuniversity.persistence\\implementations\\services\\teacherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B95E3132-E1CA-471D-A361-799FDE3D82CB}|src\\infrastructure\\ASUniversity.Persistence\\ASUniversity.Persistence.csproj|solutionrelative:src\\infrastructure\\asuniversity.persistence\\implementations\\services\\teacherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B95E3132-E1CA-471D-A361-799FDE3D82CB}|src\\infrastructure\\ASUniversity.Persistence\\ASUniversity.Persistence.csproj|c:\\users\\allahverdi\\desktop\\codefinal\\asuniversity\\src\\infrastructure\\asuniversity.persistence\\implementations\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -211,16 +251,8 @@
       "RelativeMoniker": "D:0:0:{BDB9CC96-BDEB-4B13-A007-A29A938C7541}|src\\core\\ASUniversity.Application\\ASUniversity.Application.csproj|solutionrelative:src\\core\\asuniversity.application\\abstractions\\services\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BDB9CC96-BDEB-4B13-A007-A29A938C7541}|src\\core\\ASUniversity.Application\\ASUniversity.Application.csproj|c:\\users\\allahverdi\\desktop\\codefinal\\asuniversity\\src\\core\\asuniversity.application\\abstractions\\services\\iteacherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BDB9CC96-BDEB-4B13-A007-A29A938C7541}|src\\core\\ASUniversity.Application\\ASUniversity.Application.csproj|solutionrelative:src\\core\\asuniversity.application\\abstractions\\services\\iteacherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BDB9CC96-BDEB-4B13-A007-A29A938C7541}|src\\core\\ASUniversity.Application\\ASUniversity.Application.csproj|c:\\users\\allahverdi\\desktop\\codefinal\\asuniversity\\src\\core\\asuniversity.application\\dtos\\student\\studentitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BDB9CC96-BDEB-4B13-A007-A29A938C7541}|src\\core\\ASUniversity.Application\\ASUniversity.Application.csproj|solutionrelative:src\\core\\asuniversity.application\\dtos\\student\\studentitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B95E3132-E1CA-471D-A361-799FDE3D82CB}|src\\infrastructure\\ASUniversity.Persistence\\ASUniversity.Persistence.csproj|c:\\users\\allahverdi\\desktop\\codefinal\\asuniversity\\src\\infrastructure\\asuniversity.persistence\\implementations\\services\\subjectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B95E3132-E1CA-471D-A361-799FDE3D82CB}|src\\infrastructure\\ASUniversity.Persistence\\ASUniversity.Persistence.csproj|solutionrelative:src\\infrastructure\\asuniversity.persistence\\implementations\\services\\subjectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BDB9CC96-BDEB-4B13-A007-A29A938C7541}|src\\core\\ASUniversity.Application\\ASUniversity.Application.csproj|c:\\users\\allahverdi\\desktop\\codefinal\\asuniversity\\src\\core\\asuniversity.application\\abstractions\\services\\isubjectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -233,10 +265,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B95E3132-E1CA-471D-A361-799FDE3D82CB}|src\\infrastructure\\ASUniversity.Persistence\\ASUniversity.Persistence.csproj|c:\\users\\allahverdi\\desktop\\codefinal\\asuniversity\\src\\infrastructure\\asuniversity.persistence\\implementations\\repositories\\generic\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B95E3132-E1CA-471D-A361-799FDE3D82CB}|src\\infrastructure\\ASUniversity.Persistence\\ASUniversity.Persistence.csproj|solutionrelative:src\\infrastructure\\asuniversity.persistence\\implementations\\repositories\\generic\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BDB9CC96-BDEB-4B13-A007-A29A938C7541}|src\\core\\ASUniversity.Application\\ASUniversity.Application.csproj|c:\\users\\allahverdi\\desktop\\codefinal\\asuniversity\\src\\core\\asuniversity.application\\dtos\\teacher\\teacheritemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BDB9CC96-BDEB-4B13-A007-A29A938C7541}|src\\core\\ASUniversity.Application\\ASUniversity.Application.csproj|solutionrelative:src\\core\\asuniversity.application\\dtos\\teacher\\teacheritemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{01D44737-C697-4F7D-90C7-A1192FA1915C}|src\\core\\ASUniversity\u015FDomain\\ASUniversity.Domain.csproj|c:\\users\\allahverdi\\desktop\\codefinal\\asuniversity\\src\\core\\asuniversity\u015Fdomain\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -267,20 +295,12 @@
       "RelativeMoniker": "D:0:0:{BDB9CC96-BDEB-4B13-A007-A29A938C7541}|src\\core\\ASUniversity.Application\\ASUniversity.Application.csproj|solutionrelative:src\\core\\asuniversity.application\\dtos\\exam\\examupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{69374EA7-4B80-4DDD-890F-F2A97EDCBCAF}|presentation\\ASUniversity.MVC\\ASUniversity.MVC.csproj|c:\\users\\allahverdi\\desktop\\codefinal\\asuniversity\\presentation\\asuniversity.mvc\\areas\\admin\\controllers\\groupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69374EA7-4B80-4DDD-890F-F2A97EDCBCAF}|presentation\\ASUniversity.MVC\\ASUniversity.MVC.csproj|solutionrelative:presentation\\asuniversity.mvc\\areas\\admin\\controllers\\groupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BDB9CC96-BDEB-4B13-A007-A29A938C7541}|src\\core\\ASUniversity.Application\\ASUniversity.Application.csproj|c:\\users\\allahverdi\\desktop\\codefinal\\asuniversity\\src\\core\\asuniversity.application\\dtos\\exam\\examcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BDB9CC96-BDEB-4B13-A007-A29A938C7541}|src\\core\\ASUniversity.Application\\ASUniversity.Application.csproj|solutionrelative:src\\core\\asuniversity.application\\dtos\\exam\\examcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BDB9CC96-BDEB-4B13-A007-A29A938C7541}|src\\core\\ASUniversity.Application\\ASUniversity.Application.csproj|c:\\users\\allahverdi\\desktop\\codefinal\\asuniversity\\src\\core\\asuniversity.application\\mappingprofiles\\subjectprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BDB9CC96-BDEB-4B13-A007-A29A938C7541}|src\\core\\ASUniversity.Application\\ASUniversity.Application.csproj|solutionrelative:src\\core\\asuniversity.application\\mappingprofiles\\subjectprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BDB9CC96-BDEB-4B13-A007-A29A938C7541}|src\\core\\ASUniversity.Application\\ASUniversity.Application.csproj|c:\\users\\allahverdi\\desktop\\codefinal\\asuniversity\\src\\core\\asuniversity.application\\dtos\\subject\\subjectitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BDB9CC96-BDEB-4B13-A007-A29A938C7541}|src\\core\\ASUniversity.Application\\ASUniversity.Application.csproj|solutionrelative:src\\core\\asuniversity.application\\dtos\\subject\\subjectitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B95E3132-E1CA-471D-A361-799FDE3D82CB}|src\\infrastructure\\ASUniversity.Persistence\\ASUniversity.Persistence.csproj|c:\\users\\allahverdi\\desktop\\codefinal\\asuniversity\\src\\infrastructure\\asuniversity.persistence\\serviceregistration\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -293,10 +313,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{BDB9CC96-BDEB-4B13-A007-A29A938C7541}|src\\core\\ASUniversity.Application\\ASUniversity.Application.csproj|c:\\users\\allahverdi\\desktop\\codefinal\\asuniversity\\src\\core\\asuniversity.application\\mappingprofiles\\groupprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BDB9CC96-BDEB-4B13-A007-A29A938C7541}|src\\core\\ASUniversity.Application\\ASUniversity.Application.csproj|solutionrelative:src\\core\\asuniversity.application\\mappingprofiles\\groupprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BDB9CC96-BDEB-4B13-A007-A29A938C7541}|src\\core\\ASUniversity.Application\\ASUniversity.Application.csproj|c:\\users\\allahverdi\\desktop\\codefinal\\asuniversity\\src\\core\\asuniversity.application\\dtos\\group\\groupitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BDB9CC96-BDEB-4B13-A007-A29A938C7541}|src\\core\\ASUniversity.Application\\ASUniversity.Application.csproj|solutionrelative:src\\core\\asuniversity.application\\dtos\\group\\groupitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BDB9CC96-BDEB-4B13-A007-A29A938C7541}|src\\core\\ASUniversity.Application\\ASUniversity.Application.csproj|c:\\users\\allahverdi\\desktop\\codefinal\\asuniversity\\src\\core\\asuniversity.application\\mappingprofiles\\facultyprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -419,10 +435,6 @@
       "RelativeMoniker": "D:0:0:{BDB9CC96-BDEB-4B13-A007-A29A938C7541}|src\\core\\ASUniversity.Application\\ASUniversity.Application.csproj|solutionrelative:src\\core\\asuniversity.application\\dtos\\group\\groupcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{69374EA7-4B80-4DDD-890F-F2A97EDCBCAF}|presentation\\ASUniversity.MVC\\ASUniversity.MVC.csproj|c:\\users\\allahverdi\\desktop\\codefinal\\asuniversity\\presentation\\asuniversity.mvc\\areas\\admin\\views\\group\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{69374EA7-4B80-4DDD-890F-F2A97EDCBCAF}|presentation\\ASUniversity.MVC\\ASUniversity.MVC.csproj|solutionrelative:presentation\\asuniversity.mvc\\areas\\admin\\views\\group\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{69374EA7-4B80-4DDD-890F-F2A97EDCBCAF}|presentation\\ASUniversity.MVC\\ASUniversity.MVC.csproj|c:\\users\\allahverdi\\desktop\\codefinal\\asuniversity\\presentation\\asuniversity.mvc\\areas\\admin\\views\\specialization\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{69374EA7-4B80-4DDD-890F-F2A97EDCBCAF}|presentation\\ASUniversity.MVC\\ASUniversity.MVC.csproj|solutionrelative:presentation\\asuniversity.mvc\\areas\\admin\\views\\specialization\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -469,10 +481,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{01D44737-C697-4F7D-90C7-A1192FA1915C}|src\\core\\ASUniversity\u015FDomain\\ASUniversity.Domain.csproj|c:\\users\\allahverdi\\desktop\\codefinal\\asuniversity\\src\\core\\asuniversity\u015Fdomain\\enums\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{01D44737-C697-4F7D-90C7-A1192FA1915C}|src\\core\\ASUniversity\u015FDomain\\ASUniversity.Domain.csproj|solutionrelative:src\\core\\asuniversity\u015Fdomain\\enums\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{69374EA7-4B80-4DDD-890F-F2A97EDCBCAF}|presentation\\ASUniversity.MVC\\ASUniversity.MVC.csproj|c:\\users\\allahverdi\\desktop\\codefinal\\asuniversity\\presentation\\asuniversity.mvc\\areas\\admin\\views\\group\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{69374EA7-4B80-4DDD-890F-F2A97EDCBCAF}|presentation\\ASUniversity.MVC\\ASUniversity.MVC.csproj|solutionrelative:presentation\\asuniversity.mvc\\areas\\admin\\views\\group\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BDB9CC96-BDEB-4B13-A007-A29A938C7541}|src\\core\\ASUniversity.Application\\ASUniversity.Application.csproj|c:\\users\\allahverdi\\desktop\\codefinal\\asuniversity\\src\\core\\asuniversity.application\\dtos\\faculty\\facultycreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -669,6 +677,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{B95E3132-E1CA-471D-A361-799FDE3D82CB}|src\\infrastructure\\ASUniversity.Persistence\\ASUniversity.Persistence.csproj|c:\\users\\allahverdi\\desktop\\codefinal\\asuniversity\\src\\infrastructure\\asuniversity.persistence\\migrations\\20250221103539_examconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B95E3132-E1CA-471D-A361-799FDE3D82CB}|src\\infrastructure\\ASUniversity.Persistence\\ASUniversity.Persistence.csproj|solutionrelative:src\\infrastructure\\asuniversity.persistence\\migrations\\20250221103539_examconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B95E3132-E1CA-471D-A361-799FDE3D82CB}|src\\infrastructure\\ASUniversity.Persistence\\ASUniversity.Persistence.csproj|c:\\users\\allahverdi\\desktop\\codefinal\\asuniversity\\src\\infrastructure\\asuniversity.persistence\\migrations\\20250221143129_appusermodified1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B95E3132-E1CA-471D-A361-799FDE3D82CB}|src\\infrastructure\\ASUniversity.Persistence\\ASUniversity.Persistence.csproj|solutionrelative:src\\infrastructure\\asuniversity.persistence\\migrations\\20250221143129_appusermodified1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B95E3132-E1CA-471D-A361-799FDE3D82CB}|src\\infrastructure\\ASUniversity.Persistence\\ASUniversity.Persistence.csproj|c:\\users\\allahverdi\\desktop\\codefinal\\asuniversity\\src\\infrastructure\\asuniversity.persistence\\migrations\\20250221142322_appusermodified.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B95E3132-E1CA-471D-A361-799FDE3D82CB}|src\\infrastructure\\ASUniversity.Persistence\\ASUniversity.Persistence.csproj|solutionrelative:src\\infrastructure\\asuniversity.persistence\\migrations\\20250221142322_appusermodified.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -678,71 +694,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ScheduleItemDto.cs",
-              "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity.Application\\DTOs\\Schedule\\ScheduleItemDto.cs",
-              "RelativeDocumentMoniker": "src\\core\\ASUniversity.Application\\DTOs\\Schedule\\ScheduleItemDto.cs",
-              "ToolTip": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity.Application\\DTOs\\Schedule\\ScheduleItemDto.cs",
-              "RelativeToolTip": "src\\core\\ASUniversity.Application\\DTOs\\Schedule\\ScheduleItemDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T20:30:04.703Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ScheduleUpdateDto.cs",
-              "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity.Application\\DTOs\\Schedule\\ScheduleUpdateDto.cs",
-              "RelativeDocumentMoniker": "src\\core\\ASUniversity.Application\\DTOs\\Schedule\\ScheduleUpdateDto.cs",
-              "ToolTip": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity.Application\\DTOs\\Schedule\\ScheduleUpdateDto.cs",
-              "RelativeToolTip": "src\\core\\ASUniversity.Application\\DTOs\\Schedule\\ScheduleUpdateDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T20:29:41.002Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DayOfWeek.cs",
-              "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity\u015FDomain\\Enums\\DayOfWeek.cs",
-              "RelativeDocumentMoniker": "src\\core\\ASUniversity\u015FDomain\\Enums\\DayOfWeek.cs",
-              "ToolTip": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity\u015FDomain\\Enums\\DayOfWeek.cs",
-              "RelativeToolTip": "src\\core\\ASUniversity\u015FDomain\\Enums\\DayOfWeek.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T20:22:06.793Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Specialization.cs",
-              "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity\u015FDomain\\Entities\\Specialization.cs",
-              "RelativeDocumentMoniker": "src\\core\\ASUniversity\u015FDomain\\Entities\\Specialization.cs",
-              "ToolTip": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity\u015FDomain\\Entities\\Specialization.cs",
-              "RelativeToolTip": "src\\core\\ASUniversity\u015FDomain\\Entities\\Specialization.cs",
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\presentation\\ASUniversity.MVC\\Areas\\Admin\\Views\\Schedule\\Create.cshtml",
+              "RelativeDocumentMoniker": "presentation\\ASUniversity.MVC\\Areas\\Admin\\Views\\Schedule\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\presentation\\ASUniversity.MVC\\Areas\\Admin\\Views\\Schedule\\Create.cshtml",
+              "RelativeToolTip": "presentation\\ASUniversity.MVC\\Areas\\Admin\\Views\\Schedule\\Create.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T20:21:26.29Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-22T21:13:13.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\presentation\\ASUniversity.MVC\\Areas\\Admin\\Views\\Schedule\\Index.cshtml",
+              "RelativeDocumentMoniker": "presentation\\ASUniversity.MVC\\Areas\\Admin\\Views\\Schedule\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\presentation\\ASUniversity.MVC\\Areas\\Admin\\Views\\Schedule\\Index.cshtml",
+              "RelativeToolTip": "presentation\\ASUniversity.MVC\\Areas\\Admin\\Views\\Schedule\\Index.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-22T11:48:53.271Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ScheduleCreateDto.cs",
-              "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity.Application\\DTOs\\Schedule\\ScheduleCreateDto.cs",
-              "RelativeDocumentMoniker": "src\\core\\ASUniversity.Application\\DTOs\\Schedule\\ScheduleCreateDto.cs",
-              "ToolTip": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity.Application\\DTOs\\Schedule\\ScheduleCreateDto.cs",
-              "RelativeToolTip": "src\\core\\ASUniversity.Application\\DTOs\\Schedule\\ScheduleCreateDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABCAAAAAAAAAA==",
+              "Title": "ScheduleController.cs",
+              "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\presentation\\ASUniversity.MVC\\Areas\\Admin\\Controllers\\ScheduleController.cs",
+              "RelativeDocumentMoniker": "presentation\\ASUniversity.MVC\\Areas\\Admin\\Controllers\\ScheduleController.cs",
+              "ToolTip": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\presentation\\ASUniversity.MVC\\Areas\\Admin\\Controllers\\ScheduleController.cs",
+              "RelativeToolTip": "presentation\\ASUniversity.MVC\\Areas\\Admin\\Controllers\\ScheduleController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T20:21:13.569Z",
+              "WhenOpened": "2025-02-22T10:36:09.172Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\presentation\\ASUniversity.MVC\\Areas\\Admin\\Views\\Group\\Index.cshtml",
+              "RelativeDocumentMoniker": "presentation\\ASUniversity.MVC\\Areas\\Admin\\Views\\Group\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\presentation\\ASUniversity.MVC\\Areas\\Admin\\Views\\Group\\Index.cshtml",
+              "RelativeToolTip": "presentation\\ASUniversity.MVC\\Areas\\Admin\\Views\\Group\\Index.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAIwDUAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-16T22:54:59.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ScheduleService.cs",
+              "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\infrastructure\\ASUniversity.Persistence\\Implementations\\Services\\ScheduleService.cs",
+              "RelativeDocumentMoniker": "src\\infrastructure\\ASUniversity.Persistence\\Implementations\\Services\\ScheduleService.cs",
+              "ToolTip": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\infrastructure\\ASUniversity.Persistence\\Implementations\\Services\\ScheduleService.cs",
+              "RelativeToolTip": "src\\infrastructure\\ASUniversity.Persistence\\Implementations\\Services\\ScheduleService.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAgwCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T09:51:00.176Z",
               "EditorCaption": ""
             },
             {
@@ -753,14 +769,274 @@
               "RelativeDocumentMoniker": "src\\core\\ASUniversity.Application\\Abstractions\\Services\\IScheduleService.cs",
               "ToolTip": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity.Application\\Abstractions\\Services\\IScheduleService.cs",
               "RelativeToolTip": "src\\core\\ASUniversity.Application\\Abstractions\\Services\\IScheduleService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-21T20:16:05.116Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ScheduleItemDto.cs",
+              "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity.Application\\DTOs\\Schedule\\ScheduleItemDto.cs",
+              "RelativeDocumentMoniker": "src\\core\\ASUniversity.Application\\DTOs\\Schedule\\ScheduleItemDto.cs",
+              "ToolTip": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity.Application\\DTOs\\Schedule\\ScheduleItemDto.cs",
+              "RelativeToolTip": "src\\core\\ASUniversity.Application\\DTOs\\Schedule\\ScheduleItemDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T20:30:04.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ExamItemDto.cs",
+              "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity.Application\\DTOs\\Exam\\ExamItemDto.cs",
+              "RelativeDocumentMoniker": "src\\core\\ASUniversity.Application\\DTOs\\Exam\\ExamItemDto.cs",
+              "ToolTip": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity.Application\\DTOs\\Exam\\ExamItemDto.cs",
+              "RelativeToolTip": "src\\core\\ASUniversity.Application\\DTOs\\Exam\\ExamItemDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T11:09:40.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Schedule.cs",
+              "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity\u015FDomain\\Entities\\Schedule.cs",
+              "RelativeDocumentMoniker": "src\\core\\ASUniversity\u015FDomain\\Entities\\Schedule.cs",
+              "ToolTip": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity\u015FDomain\\Entities\\Schedule.cs",
+              "RelativeToolTip": "src\\core\\ASUniversity\u015FDomain\\Entities\\Schedule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T17:44:23.914Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\presentation\\ASUniversity.MVC\\Areas\\Admin\\Views\\Group\\Create.cshtml",
+              "RelativeDocumentMoniker": "presentation\\ASUniversity.MVC\\Areas\\Admin\\Views\\Group\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\presentation\\ASUniversity.MVC\\Areas\\Admin\\Views\\Group\\Create.cshtml",
+              "RelativeToolTip": "presentation\\ASUniversity.MVC\\Areas\\Admin\\Views\\Group\\Create.cshtml",
+              "ViewState": "AgIAABAAAAAAAAAAAAAIwCoAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-16T23:00:35.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GroupController.cs",
+              "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\presentation\\ASUniversity.MVC\\Areas\\Admin\\Controllers\\GroupController.cs",
+              "RelativeDocumentMoniker": "presentation\\ASUniversity.MVC\\Areas\\Admin\\Controllers\\GroupController.cs",
+              "ToolTip": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\presentation\\ASUniversity.MVC\\Areas\\Admin\\Controllers\\GroupController.cs",
+              "RelativeToolTip": "presentation\\ASUniversity.MVC\\Areas\\Admin\\Controllers\\GroupController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T23:04:14.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SubjectService.cs",
+              "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\infrastructure\\ASUniversity.Persistence\\Implementations\\Services\\SubjectService.cs",
+              "RelativeDocumentMoniker": "src\\infrastructure\\ASUniversity.Persistence\\Implementations\\Services\\SubjectService.cs",
+              "ToolTip": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\infrastructure\\ASUniversity.Persistence\\Implementations\\Services\\SubjectService.cs",
+              "RelativeToolTip": "src\\infrastructure\\ASUniversity.Persistence\\Implementations\\Services\\SubjectService.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAkwDMAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T08:27:53.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SubjectItemDto.cs",
+              "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity.Application\\DTOs\\Subject\\SubjectItemDto.cs",
+              "RelativeDocumentMoniker": "src\\core\\ASUniversity.Application\\DTOs\\Subject\\SubjectItemDto.cs",
+              "ToolTip": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity.Application\\DTOs\\Subject\\SubjectItemDto.cs",
+              "RelativeToolTip": "src\\core\\ASUniversity.Application\\DTOs\\Subject\\SubjectItemDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T08:40:11.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 13,
+              "Title": "TeacherService.cs",
+              "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\infrastructure\\ASUniversity.Persistence\\Implementations\\Services\\TeacherService.cs",
+              "RelativeDocumentMoniker": "src\\infrastructure\\ASUniversity.Persistence\\Implementations\\Services\\TeacherService.cs",
+              "ToolTip": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\infrastructure\\ASUniversity.Persistence\\Implementations\\Services\\TeacherService.cs",
+              "RelativeToolTip": "src\\infrastructure\\ASUniversity.Persistence\\Implementations\\Services\\TeacherService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T11:38:02.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ExamController.cs",
+              "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\presentation\\ASUniversity.MVC\\Areas\\Admin\\Controllers\\ExamController.cs",
+              "RelativeDocumentMoniker": "presentation\\ASUniversity.MVC\\Areas\\Admin\\Controllers\\ExamController.cs",
+              "ToolTip": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\presentation\\ASUniversity.MVC\\Areas\\Admin\\Controllers\\ExamController.cs",
+              "RelativeToolTip": "presentation\\ASUniversity.MVC\\Areas\\Admin\\Controllers\\ExamController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwA8AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T13:54:01.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "GroupService.cs",
+              "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\infrastructure\\ASUniversity.Persistence\\Implementations\\Services\\GroupService.cs",
+              "RelativeDocumentMoniker": "src\\infrastructure\\ASUniversity.Persistence\\Implementations\\Services\\GroupService.cs",
+              "ToolTip": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\infrastructure\\ASUniversity.Persistence\\Implementations\\Services\\GroupService.cs",
+              "RelativeToolTip": "src\\infrastructure\\ASUniversity.Persistence\\Implementations\\Services\\GroupService.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAjwCwAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T17:03:42.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "GroupItemDto.cs",
+              "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity.Application\\DTOs\\Group\\GroupItemDto.cs",
+              "RelativeDocumentMoniker": "src\\core\\ASUniversity.Application\\DTOs\\Group\\GroupItemDto.cs",
+              "ToolTip": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity.Application\\DTOs\\Group\\GroupItemDto.cs",
+              "RelativeToolTip": "src\\core\\ASUniversity.Application\\DTOs\\Group\\GroupItemDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T20:21:17.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IGroupService.cs",
+              "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity.Application\\Abstractions\\Services\\IGroupService.cs",
+              "RelativeDocumentMoniker": "src\\core\\ASUniversity.Application\\Abstractions\\Services\\IGroupService.cs",
+              "ToolTip": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity.Application\\Abstractions\\Services\\IGroupService.cs",
+              "RelativeToolTip": "src\\core\\ASUniversity.Application\\Abstractions\\Services\\IGroupService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T20:19:06.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Teacher.cs",
+              "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity\u015FDomain\\Entities\\Teacher.cs",
+              "RelativeDocumentMoniker": "src\\core\\ASUniversity\u015FDomain\\Entities\\Teacher.cs",
+              "ToolTip": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity\u015FDomain\\Entities\\Teacher.cs",
+              "RelativeToolTip": "src\\core\\ASUniversity\u015FDomain\\Entities\\Teacher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T17:12:19.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ITeacherService.cs",
+              "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity.Application\\Abstractions\\Services\\ITeacherService.cs",
+              "RelativeDocumentMoniker": "src\\core\\ASUniversity.Application\\Abstractions\\Services\\ITeacherService.cs",
+              "ToolTip": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity.Application\\Abstractions\\Services\\ITeacherService.cs",
+              "RelativeToolTip": "src\\core\\ASUniversity.Application\\Abstractions\\Services\\ITeacherService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T11:36:28.071Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "SpecializationService.cs",
+              "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\infrastructure\\ASUniversity.Persistence\\Implementations\\Services\\SpecializationService.cs",
+              "RelativeDocumentMoniker": "src\\infrastructure\\ASUniversity.Persistence\\Implementations\\Services\\SpecializationService.cs",
+              "ToolTip": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\infrastructure\\ASUniversity.Persistence\\Implementations\\Services\\SpecializationService.cs",
+              "RelativeToolTip": "src\\infrastructure\\ASUniversity.Persistence\\Implementations\\Services\\SpecializationService.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAswD8AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T20:47:42.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ScheduleUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity.Application\\DTOs\\Schedule\\ScheduleUpdateDto.cs",
+              "RelativeDocumentMoniker": "src\\core\\ASUniversity.Application\\DTOs\\Schedule\\ScheduleUpdateDto.cs",
+              "ToolTip": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity.Application\\DTOs\\Schedule\\ScheduleUpdateDto.cs",
+              "RelativeToolTip": "src\\core\\ASUniversity.Application\\DTOs\\Schedule\\ScheduleUpdateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T20:29:41.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "TeacherProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity.Application\\MappingProfiles\\TeacherProfile.cs",
+              "RelativeDocumentMoniker": "src\\core\\ASUniversity.Application\\MappingProfiles\\TeacherProfile.cs",
+              "ToolTip": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity.Application\\MappingProfiles\\TeacherProfile.cs",
+              "RelativeToolTip": "src\\core\\ASUniversity.Application\\MappingProfiles\\TeacherProfile.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAtwCQAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T14:45:43.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "TeacherItemDto.cs",
+              "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity.Application\\DTOs\\Teacher\\TeacherItemDto.cs",
+              "RelativeDocumentMoniker": "src\\core\\ASUniversity.Application\\DTOs\\Teacher\\TeacherItemDto.cs",
+              "ToolTip": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity.Application\\DTOs\\Teacher\\TeacherItemDto.cs",
+              "RelativeToolTip": "src\\core\\ASUniversity.Application\\DTOs\\Teacher\\TeacherItemDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T14:44:53.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ScheduleCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity.Application\\DTOs\\Schedule\\ScheduleCreateDto.cs",
+              "RelativeDocumentMoniker": "src\\core\\ASUniversity.Application\\DTOs\\Schedule\\ScheduleCreateDto.cs",
+              "ToolTip": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity.Application\\DTOs\\Schedule\\ScheduleCreateDto.cs",
+              "RelativeToolTip": "src\\core\\ASUniversity.Application\\DTOs\\Schedule\\ScheduleCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T20:21:13.569Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "GetTeacherDto.cs",
+              "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity.Application\\DTOs\\Teacher\\GetTeacherDto.cs",
+              "RelativeDocumentMoniker": "src\\core\\ASUniversity.Application\\DTOs\\Teacher\\GetTeacherDto.cs",
+              "ToolTip": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity.Application\\DTOs\\Teacher\\GetTeacherDto.cs",
+              "RelativeToolTip": "src\\core\\ASUniversity.Application\\DTOs\\Teacher\\GetTeacherDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T12:49:00.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
               "Title": "StudentProfile.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity.Application\\MappingProfiles\\StudentProfile.cs",
               "RelativeDocumentMoniker": "src\\core\\ASUniversity.Application\\MappingProfiles\\StudentProfile.cs",
@@ -768,12 +1044,35 @@
               "RelativeToolTip": "src\\core\\ASUniversity.Application\\MappingProfiles\\StudentProfile.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T13:31:30.595Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-21T13:31:30.595Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 28,
+              "Title": "Specialization.cs",
+              "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity\u015FDomain\\Entities\\Specialization.cs",
+              "RelativeDocumentMoniker": "src\\core\\ASUniversity\u015FDomain\\Entities\\Specialization.cs",
+              "ToolTip": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity\u015FDomain\\Entities\\Specialization.cs",
+              "RelativeToolTip": "src\\core\\ASUniversity\u015FDomain\\Entities\\Specialization.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T20:21:26.29Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "DayOfWeek.cs",
+              "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity\u015FDomain\\Enums\\DayOfWeek.cs",
+              "RelativeDocumentMoniker": "src\\core\\ASUniversity\u015FDomain\\Enums\\DayOfWeek.cs",
+              "ToolTip": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity\u015FDomain\\Enums\\DayOfWeek.cs",
+              "RelativeToolTip": "src\\core\\ASUniversity\u015FDomain\\Enums\\DayOfWeek.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T20:22:06.793Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
               "Title": "ExamResult.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity\u015FDomain\\Entities\\ExamResult.cs",
               "RelativeDocumentMoniker": "src\\core\\ASUniversity\u015FDomain\\Entities\\ExamResult.cs",
@@ -781,25 +1080,11 @@
               "RelativeToolTip": "src\\core\\ASUniversity\u015FDomain\\Entities\\ExamResult.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T17:36:31.926Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-04T17:36:31.926Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Schedule.cs",
-              "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity\u015FDomain\\Entities\\Schedule.cs",
-              "RelativeDocumentMoniker": "src\\core\\ASUniversity\u015FDomain\\Entities\\Schedule.cs",
-              "ToolTip": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity\u015FDomain\\Entities\\Schedule.cs",
-              "RelativeToolTip": "src\\core\\ASUniversity\u015FDomain\\Entities\\Schedule.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T17:44:23.914Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 26,
               "Title": "RegisterDto.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity.Application\\DTOs\\Authentication\\RegisterDto.cs",
               "RelativeDocumentMoniker": "src\\core\\ASUniversity.Application\\DTOs\\Authentication\\RegisterDto.cs",
@@ -807,12 +1092,11 @@
               "RelativeToolTip": "src\\core\\ASUniversity.Application\\DTOs\\Authentication\\RegisterDto.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAAwCQAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T14:46:43.361Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-17T14:46:43.361Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 35,
               "Title": "AuthenticationController.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\presentation\\ASUniversity.MVC\\Areas\\Admin\\Controllers\\AuthenticationController.cs",
               "RelativeDocumentMoniker": "presentation\\ASUniversity.MVC\\Areas\\Admin\\Controllers\\AuthenticationController.cs",
@@ -820,12 +1104,11 @@
               "RelativeToolTip": "presentation\\ASUniversity.MVC\\Areas\\Admin\\Controllers\\AuthenticationController.cs",
               "ViewState": "AgIAACcAAAAAAAAAAIAwwEkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T13:37:28.407Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-18T13:37:28.407Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 29,
               "Title": "IStudentRepository.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity.Application\\Abstractions\\Repositories\\IStudentRepository.cs",
               "RelativeDocumentMoniker": "src\\core\\ASUniversity.Application\\Abstractions\\Repositories\\IStudentRepository.cs",
@@ -833,38 +1116,11 @@
               "RelativeToolTip": "src\\core\\ASUniversity.Application\\Abstractions\\Repositories\\IStudentRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T11:09:24.496Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-18T11:09:24.496Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "GetTeacherDto.cs",
-              "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity.Application\\DTOs\\Teacher\\GetTeacherDto.cs",
-              "RelativeDocumentMoniker": "src\\core\\ASUniversity.Application\\DTOs\\Teacher\\GetTeacherDto.cs",
-              "ToolTip": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity.Application\\DTOs\\Teacher\\GetTeacherDto.cs",
-              "RelativeToolTip": "src\\core\\ASUniversity.Application\\DTOs\\Teacher\\GetTeacherDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T12:49:00.893Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Teacher.cs",
-              "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity\u015FDomain\\Entities\\Teacher.cs",
-              "RelativeDocumentMoniker": "src\\core\\ASUniversity\u015FDomain\\Entities\\Teacher.cs",
-              "ToolTip": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity\u015FDomain\\Entities\\Teacher.cs",
-              "RelativeToolTip": "src\\core\\ASUniversity\u015FDomain\\Entities\\Teacher.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBEAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T17:12:19.903Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 30,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\presentation\\ASUniversity.MVC\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "presentation\\ASUniversity.MVC\\Views\\_ViewImports.cshtml",
@@ -872,25 +1128,11 @@
               "RelativeToolTip": "presentation\\ASUniversity.MVC\\Views\\_ViewImports.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-09T11:42:38.19Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-09T11:42:38.19Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "TeacherProfile.cs",
-              "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity.Application\\MappingProfiles\\TeacherProfile.cs",
-              "RelativeDocumentMoniker": "src\\core\\ASUniversity.Application\\MappingProfiles\\TeacherProfile.cs",
-              "ToolTip": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity.Application\\MappingProfiles\\TeacherProfile.cs",
-              "RelativeToolTip": "src\\core\\ASUniversity.Application\\MappingProfiles\\TeacherProfile.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAIAwwBIAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T14:45:43.33Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 32,
               "Title": "Group.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity\u015FDomain\\Entities\\Group.cs",
               "RelativeDocumentMoniker": "src\\core\\ASUniversity\u015FDomain\\Entities\\Group.cs",
@@ -898,12 +1140,11 @@
               "RelativeToolTip": "src\\core\\ASUniversity\u015FDomain\\Entities\\Group.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T09:17:41.665Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-04T09:17:41.665Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 31,
               "Title": "Subject.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity\u015FDomain\\Entities\\Subject.cs",
               "RelativeDocumentMoniker": "src\\core\\ASUniversity\u015FDomain\\Entities\\Subject.cs",
@@ -911,12 +1152,11 @@
               "RelativeToolTip": "src\\core\\ASUniversity\u015FDomain\\Entities\\Subject.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T17:09:35.995Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-04T17:09:35.995Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 36,
               "Title": "AuthenticationService.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\infrastructure\\ASUniversity.Persistence\\Implementations\\Services\\AuthenticationService.cs",
               "RelativeDocumentMoniker": "src\\infrastructure\\ASUniversity.Persistence\\Implementations\\Services\\AuthenticationService.cs",
@@ -924,12 +1164,11 @@
               "RelativeToolTip": "src\\infrastructure\\ASUniversity.Persistence\\Implementations\\Services\\AuthenticationService.cs",
               "ViewState": "AgIAAGMAAAAAAAAAAAAQwGYAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T16:09:48.988Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-17T16:09:48.988Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 37,
               "Title": "IAuthenticationService.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity.Application\\Abstractions\\Services\\IAuthenticationService.cs",
               "RelativeDocumentMoniker": "src\\core\\ASUniversity.Application\\Abstractions\\Services\\IAuthenticationService.cs",
@@ -937,12 +1176,11 @@
               "RelativeToolTip": "src\\core\\ASUniversity.Application\\Abstractions\\Services\\IAuthenticationService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T16:05:35.526Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-17T16:05:35.526Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 39,
               "Title": "GetUserDto.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity.Application\\DTOs\\User\\GetUserDto.cs",
               "RelativeDocumentMoniker": "src\\core\\ASUniversity.Application\\DTOs\\User\\GetUserDto.cs",
@@ -950,12 +1188,11 @@
               "RelativeToolTip": "src\\core\\ASUniversity.Application\\DTOs\\User\\GetUserDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T12:45:29.011Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-21T12:45:29.011Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 40,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\presentation\\ASUniversity.MVC\\Views\\User\\Index.cshtml",
               "RelativeDocumentMoniker": "presentation\\ASUniversity.MVC\\Views\\User\\Index.cshtml",
@@ -963,12 +1200,11 @@
               "RelativeToolTip": "presentation\\ASUniversity.MVC\\Views\\User\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-21T13:39:41.879Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-21T13:39:41.879Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 38,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\presentation\\ASUniversity.MVC\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "presentation\\ASUniversity.MVC\\Controllers\\UserController.cs",
@@ -976,12 +1212,11 @@
               "RelativeToolTip": "presentation\\ASUniversity.MVC\\Controllers\\UserController.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAtwBYAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T10:44:40.719Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-21T10:44:40.719Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 41,
               "Title": "ExamService.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\infrastructure\\ASUniversity.Persistence\\Implementations\\Services\\ExamService.cs",
               "RelativeDocumentMoniker": "src\\infrastructure\\ASUniversity.Persistence\\Implementations\\Services\\ExamService.cs",
@@ -989,12 +1224,11 @@
               "RelativeToolTip": "src\\infrastructure\\ASUniversity.Persistence\\Implementations\\Services\\ExamService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T12:30:30.917Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-20T12:30:30.917Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 42,
               "Title": "ExamProfile.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity.Application\\MappingProfiles\\ExamProfile.cs",
               "RelativeDocumentMoniker": "src\\core\\ASUniversity.Application\\MappingProfiles\\ExamProfile.cs",
@@ -1002,12 +1236,11 @@
               "RelativeToolTip": "src\\core\\ASUniversity.Application\\MappingProfiles\\ExamProfile.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T12:36:03.051Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-20T12:36:03.051Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 43,
               "Title": "ISpecializationService.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity.Application\\Abstractions\\Services\\ISpecializationService.cs",
               "RelativeDocumentMoniker": "src\\core\\ASUniversity.Application\\Abstractions\\Services\\ISpecializationService.cs",
@@ -1015,25 +1248,11 @@
               "RelativeToolTip": "src\\core\\ASUniversity.Application\\Abstractions\\Services\\ISpecializationService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T20:39:07.751Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-16T20:39:07.751Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "IGroupService.cs",
-              "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity.Application\\Abstractions\\Services\\IGroupService.cs",
-              "RelativeDocumentMoniker": "src\\core\\ASUniversity.Application\\Abstractions\\Services\\IGroupService.cs",
-              "ToolTip": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity.Application\\Abstractions\\Services\\IGroupService.cs",
-              "RelativeToolTip": "src\\core\\ASUniversity.Application\\Abstractions\\Services\\IGroupService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T20:19:06.007Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 44,
               "Title": "GroupUpdateDto.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity.Application\\DTOs\\Group\\GroupUpdateDto.cs",
               "RelativeDocumentMoniker": "src\\core\\ASUniversity.Application\\DTOs\\Group\\GroupUpdateDto.cs",
@@ -1041,12 +1260,11 @@
               "RelativeToolTip": "src\\core\\ASUniversity.Application\\DTOs\\Group\\GroupUpdateDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T22:17:06.22Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-16T22:17:06.22Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 45,
               "Title": "Register.cshtml",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\presentation\\ASUniversity.MVC\\Areas\\Admin\\Views\\Authentication\\Register.cshtml",
               "RelativeDocumentMoniker": "presentation\\ASUniversity.MVC\\Areas\\Admin\\Views\\Authentication\\Register.cshtml",
@@ -1054,25 +1272,11 @@
               "RelativeToolTip": "presentation\\ASUniversity.MVC\\Areas\\Admin\\Views\\Authentication\\Register.cshtml",
               "ViewState": "AgIAAB4AAAAAAAAAAAAAADUAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-18T14:07:17.626Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-18T14:07:17.626Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "GroupService.cs",
-              "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\infrastructure\\ASUniversity.Persistence\\Implementations\\Services\\GroupService.cs",
-              "RelativeDocumentMoniker": "src\\infrastructure\\ASUniversity.Persistence\\Implementations\\Services\\GroupService.cs",
-              "ToolTip": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\infrastructure\\ASUniversity.Persistence\\Implementations\\Services\\GroupService.cs",
-              "RelativeToolTip": "src\\infrastructure\\ASUniversity.Persistence\\Implementations\\Services\\GroupService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAACGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T17:03:42.999Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 47,
               "Title": "FacultyRepository.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\infrastructure\\ASUniversity.Persistence\\Implementations\\Repositories\\FacultyRepository.cs",
               "RelativeDocumentMoniker": "src\\infrastructure\\ASUniversity.Persistence\\Implementations\\Repositories\\FacultyRepository.cs",
@@ -1080,12 +1284,11 @@
               "RelativeToolTip": "src\\infrastructure\\ASUniversity.Persistence\\Implementations\\Repositories\\FacultyRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-07T09:36:11.343Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-07T09:36:11.343Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 48,
               "Title": "Faculty.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity\u015FDomain\\Entities\\Faculty.cs",
               "RelativeDocumentMoniker": "src\\core\\ASUniversity\u015FDomain\\Entities\\Faculty.cs",
@@ -1093,12 +1296,11 @@
               "RelativeToolTip": "src\\core\\ASUniversity\u015FDomain\\Entities\\Faculty.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T07:45:29.531Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-03T07:45:29.531Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 49,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\presentation\\ASUniversity.MVC\\Areas\\Admin\\Views\\Exam\\Index.cshtml",
               "RelativeDocumentMoniker": "presentation\\ASUniversity.MVC\\Areas\\Admin\\Views\\Exam\\Index.cshtml",
@@ -1106,25 +1308,11 @@
               "RelativeToolTip": "presentation\\ASUniversity.MVC\\Areas\\Admin\\Views\\Exam\\Index.cshtml",
               "ViewState": "AgIAABUAAAAAAAAAAAAAACgAAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-20T13:54:28.871Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-20T13:54:28.871Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "SpecializationService.cs",
-              "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\infrastructure\\ASUniversity.Persistence\\Implementations\\Services\\SpecializationService.cs",
-              "RelativeDocumentMoniker": "src\\infrastructure\\ASUniversity.Persistence\\Implementations\\Services\\SpecializationService.cs",
-              "ToolTip": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\infrastructure\\ASUniversity.Persistence\\Implementations\\Services\\SpecializationService.cs",
-              "RelativeToolTip": "src\\infrastructure\\ASUniversity.Persistence\\Implementations\\Services\\SpecializationService.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAowCoAAABRAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T20:47:42.766Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 50,
               "Title": "IExamService.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity.Application\\Abstractions\\Services\\IExamService.cs",
               "RelativeDocumentMoniker": "src\\core\\ASUniversity.Application\\Abstractions\\Services\\IExamService.cs",
@@ -1132,25 +1320,11 @@
               "RelativeToolTip": "src\\core\\ASUniversity.Application\\Abstractions\\Services\\IExamService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T11:08:42.371Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-20T11:08:42.371Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "ExamController.cs",
-              "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\presentation\\ASUniversity.MVC\\Areas\\Admin\\Controllers\\ExamController.cs",
-              "RelativeDocumentMoniker": "presentation\\ASUniversity.MVC\\Areas\\Admin\\Controllers\\ExamController.cs",
-              "ToolTip": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\presentation\\ASUniversity.MVC\\Areas\\Admin\\Controllers\\ExamController.cs",
-              "RelativeToolTip": "presentation\\ASUniversity.MVC\\Areas\\Admin\\Controllers\\ExamController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBkAAABHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T13:54:01.006Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 46,
               "Title": "FacultyService.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\infrastructure\\ASUniversity.Persistence\\Implementations\\Services\\FacultyService.cs",
               "RelativeDocumentMoniker": "src\\infrastructure\\ASUniversity.Persistence\\Implementations\\Services\\FacultyService.cs",
@@ -1158,12 +1332,11 @@
               "RelativeToolTip": "src\\infrastructure\\ASUniversity.Persistence\\Implementations\\Services\\FacultyService.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAmwCgAAACYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T12:31:29.283Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-20T12:31:29.283Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 51,
               "Title": "FacultyController.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\presentation\\ASUniversity.MVC\\Areas\\Admin\\Controllers\\FacultyController.cs",
               "RelativeDocumentMoniker": "presentation\\ASUniversity.MVC\\Areas\\Admin\\Controllers\\FacultyController.cs",
@@ -1176,7 +1349,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 52,
               "Title": "Exam.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity\u015FDomain\\Entities\\Exam.cs",
               "RelativeDocumentMoniker": "src\\core\\ASUniversity\u015FDomain\\Entities\\Exam.cs",
@@ -1184,25 +1357,11 @@
               "RelativeToolTip": "src\\core\\ASUniversity\u015FDomain\\Entities\\Exam.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T17:28:27.57Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-04T17:28:27.57Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "ExamItemDto.cs",
-              "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity.Application\\DTOs\\Exam\\ExamItemDto.cs",
-              "RelativeDocumentMoniker": "src\\core\\ASUniversity.Application\\DTOs\\Exam\\ExamItemDto.cs",
-              "ToolTip": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity.Application\\DTOs\\Exam\\ExamItemDto.cs",
-              "RelativeToolTip": "src\\core\\ASUniversity.Application\\DTOs\\Exam\\ExamItemDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T11:09:40.967Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 53,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\presentation\\ASUniversity.MVC\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "presentation\\ASUniversity.MVC\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
@@ -1210,12 +1369,11 @@
               "RelativeToolTip": "presentation\\ASUniversity.MVC\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAHUAAAAAAAAAAAAAAIUAAABaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-13T13:23:36.744Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-13T13:23:36.744Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 54,
               "Title": "GetStudentDto.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity.Application\\DTOs\\Student\\GetStudentDto.cs",
               "RelativeDocumentMoniker": "src\\core\\ASUniversity.Application\\DTOs\\Student\\GetStudentDto.cs",
@@ -1223,12 +1381,11 @@
               "RelativeToolTip": "src\\core\\ASUniversity.Application\\DTOs\\Student\\GetStudentDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T13:30:36.771Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-21T13:30:36.771Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 55,
               "Title": "AppUser.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity\u015FDomain\\Entities\\AppUser.cs",
               "RelativeDocumentMoniker": "src\\core\\ASUniversity\u015FDomain\\Entities\\AppUser.cs",
@@ -1236,12 +1393,11 @@
               "RelativeToolTip": "src\\core\\ASUniversity\u015FDomain\\Entities\\AppUser.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T21:26:36.348Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-04T21:26:36.348Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 169,
               "Title": "20250221143129_AppUserModified1.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\infrastructure\\ASUniversity.Persistence\\Migrations\\20250221143129_AppUserModified1.cs",
               "RelativeDocumentMoniker": "src\\infrastructure\\ASUniversity.Persistence\\Migrations\\20250221143129_AppUserModified1.cs",
@@ -1249,12 +1405,11 @@
               "RelativeToolTip": "src\\infrastructure\\ASUniversity.Persistence\\Migrations\\20250221143129_AppUserModified1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T14:31:29.226Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-21T14:31:29.226Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 170,
               "Title": "20250221142322_AppUserModified.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\infrastructure\\ASUniversity.Persistence\\Migrations\\20250221142322_AppUserModified.cs",
               "RelativeDocumentMoniker": "src\\infrastructure\\ASUniversity.Persistence\\Migrations\\20250221142322_AppUserModified.cs",
@@ -1262,24 +1417,11 @@
               "RelativeToolTip": "src\\infrastructure\\ASUniversity.Persistence\\Migrations\\20250221142322_AppUserModified.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T14:23:22.304Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-21T14:23:22.304Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "TeacherService.cs",
-              "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\infrastructure\\ASUniversity.Persistence\\Implementations\\Services\\TeacherService.cs",
-              "RelativeDocumentMoniker": "src\\infrastructure\\ASUniversity.Persistence\\Implementations\\Services\\TeacherService.cs",
-              "ToolTip": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\infrastructure\\ASUniversity.Persistence\\Implementations\\Services\\TeacherService.cs",
-              "RelativeToolTip": "src\\infrastructure\\ASUniversity.Persistence\\Implementations\\Services\\TeacherService.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAA1wCQAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T11:38:02.325Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 56,
               "Title": "StudentService.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\infrastructure\\ASUniversity.Persistence\\Implementations\\Services\\StudentService.cs",
               "RelativeDocumentMoniker": "src\\infrastructure\\ASUniversity.Persistence\\Implementations\\Services\\StudentService.cs",
@@ -1291,7 +1433,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 57,
               "Title": "ITeacherRepository.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity.Application\\Abstractions\\Repositories\\ITeacherRepository.cs",
               "RelativeDocumentMoniker": "src\\core\\ASUniversity.Application\\Abstractions\\Repositories\\ITeacherRepository.cs",
@@ -1303,7 +1445,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 58,
               "Title": "TeacherRepository.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\infrastructure\\ASUniversity.Persistence\\Implementations\\Repositories\\TeacherRepository.cs",
               "RelativeDocumentMoniker": "src\\infrastructure\\ASUniversity.Persistence\\Implementations\\Repositories\\TeacherRepository.cs",
@@ -1315,7 +1457,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 59,
               "Title": "StudentRepository.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\infrastructure\\ASUniversity.Persistence\\Implementations\\Repositories\\StudentRepository.cs",
               "RelativeDocumentMoniker": "src\\infrastructure\\ASUniversity.Persistence\\Implementations\\Repositories\\StudentRepository.cs",
@@ -1327,7 +1469,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 60,
               "Title": "IRepository.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity.Application\\Abstractions\\Repositories\\Generic\\IRepository.cs",
               "RelativeDocumentMoniker": "src\\core\\ASUniversity.Application\\Abstractions\\Repositories\\Generic\\IRepository.cs",
@@ -1339,7 +1481,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 61,
               "Title": "IStudentService.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity.Application\\Abstractions\\Services\\IStudentService.cs",
               "RelativeDocumentMoniker": "src\\core\\ASUniversity.Application\\Abstractions\\Services\\IStudentService.cs",
@@ -1351,31 +1493,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
-              "Title": "ITeacherService.cs",
-              "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity.Application\\Abstractions\\Services\\ITeacherService.cs",
-              "RelativeDocumentMoniker": "src\\core\\ASUniversity.Application\\Abstractions\\Services\\ITeacherService.cs",
-              "ToolTip": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity.Application\\Abstractions\\Services\\ITeacherService.cs",
-              "RelativeToolTip": "src\\core\\ASUniversity.Application\\Abstractions\\Services\\ITeacherService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T11:36:28.071Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 54,
-              "Title": "SubjectService.cs",
-              "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\infrastructure\\ASUniversity.Persistence\\Implementations\\Services\\SubjectService.cs",
-              "RelativeDocumentMoniker": "src\\infrastructure\\ASUniversity.Persistence\\Implementations\\Services\\SubjectService.cs",
-              "ToolTip": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\infrastructure\\ASUniversity.Persistence\\Implementations\\Services\\SubjectService.cs",
-              "RelativeToolTip": "src\\infrastructure\\ASUniversity.Persistence\\Implementations\\Services\\SubjectService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T08:27:53.477Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 62,
               "Title": "StudentItemDto.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity.Application\\DTOs\\Student\\StudentItemDto.cs",
               "RelativeDocumentMoniker": "src\\core\\ASUniversity.Application\\DTOs\\Student\\StudentItemDto.cs",
@@ -1387,7 +1505,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 63,
               "Title": "ISubjectService.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity.Application\\Abstractions\\Services\\ISubjectService.cs",
               "RelativeDocumentMoniker": "src\\core\\ASUniversity.Application\\Abstractions\\Services\\ISubjectService.cs",
@@ -1399,7 +1517,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 64,
               "Title": "SubjectRepository.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\infrastructure\\ASUniversity.Persistence\\Implementations\\Repositories\\SubjectRepository.cs",
               "RelativeDocumentMoniker": "src\\infrastructure\\ASUniversity.Persistence\\Implementations\\Repositories\\SubjectRepository.cs",
@@ -1411,7 +1529,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 65,
               "Title": "Repository.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\infrastructure\\ASUniversity.Persistence\\Implementations\\Repositories\\Generic\\Repository.cs",
               "RelativeDocumentMoniker": "src\\infrastructure\\ASUniversity.Persistence\\Implementations\\Repositories\\Generic\\Repository.cs",
@@ -1424,19 +1542,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
-              "Title": "TeacherItemDto.cs",
-              "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity.Application\\DTOs\\Teacher\\TeacherItemDto.cs",
-              "RelativeDocumentMoniker": "src\\core\\ASUniversity.Application\\DTOs\\Teacher\\TeacherItemDto.cs",
-              "ToolTip": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity.Application\\DTOs\\Teacher\\TeacherItemDto.cs",
-              "RelativeToolTip": "src\\core\\ASUniversity.Application\\DTOs\\Teacher\\TeacherItemDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAIAAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T14:44:53.203Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 66,
               "Title": "Student.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity\u015FDomain\\Entities\\Student.cs",
               "RelativeDocumentMoniker": "src\\core\\ASUniversity\u015FDomain\\Entities\\Student.cs",
@@ -1448,7 +1554,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 67,
               "Title": "ExamConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\infrastructure\\ASUniversity.Persistence\\Configuration\\ExamConfiguration.cs",
               "RelativeDocumentMoniker": "src\\infrastructure\\ASUniversity.Persistence\\Configuration\\ExamConfiguration.cs",
@@ -1460,7 +1566,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 166,
+              "DocumentIndex": 168,
               "Title": "20250221103539_ExamConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\infrastructure\\ASUniversity.Persistence\\Migrations\\20250221103539_ExamConfiguration.cs",
               "RelativeDocumentMoniker": "src\\infrastructure\\ASUniversity.Persistence\\Migrations\\20250221103539_ExamConfiguration.cs",
@@ -1472,7 +1578,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 68,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\presentation\\ASUniversity.MVC\\appsettings.json",
               "RelativeDocumentMoniker": "presentation\\ASUniversity.MVC\\appsettings.json",
@@ -1484,7 +1590,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 69,
               "Title": "StudentConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\infrastructure\\ASUniversity.Persistence\\Configuration\\StudentConfiguration.cs",
               "RelativeDocumentMoniker": "src\\infrastructure\\ASUniversity.Persistence\\Configuration\\StudentConfiguration.cs",
@@ -1496,7 +1602,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 70,
               "Title": "Update.cshtml",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\presentation\\ASUniversity.MVC\\Areas\\Admin\\Views\\Exam\\Update.cshtml",
               "RelativeDocumentMoniker": "presentation\\ASUniversity.MVC\\Areas\\Admin\\Views\\Exam\\Update.cshtml",
@@ -1508,7 +1614,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 71,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\presentation\\ASUniversity.MVC\\Areas\\Admin\\Views\\Exam\\Create.cshtml",
               "RelativeDocumentMoniker": "presentation\\ASUniversity.MVC\\Areas\\Admin\\Views\\Exam\\Create.cshtml",
@@ -1520,7 +1626,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 72,
               "Title": "ExamUpdateDto.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity.Application\\DTOs\\Exam\\ExamUpdateDto.cs",
               "RelativeDocumentMoniker": "src\\core\\ASUniversity.Application\\DTOs\\Exam\\ExamUpdateDto.cs",
@@ -1532,19 +1638,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
-              "Title": "GroupController.cs",
-              "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\presentation\\ASUniversity.MVC\\Areas\\Admin\\Controllers\\GroupController.cs",
-              "RelativeDocumentMoniker": "presentation\\ASUniversity.MVC\\Areas\\Admin\\Controllers\\GroupController.cs",
-              "ToolTip": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\presentation\\ASUniversity.MVC\\Areas\\Admin\\Controllers\\GroupController.cs",
-              "RelativeToolTip": "presentation\\ASUniversity.MVC\\Areas\\Admin\\Controllers\\GroupController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T23:04:14.344Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 73,
               "Title": "ExamCreateDto.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity.Application\\DTOs\\Exam\\ExamCreateDto.cs",
               "RelativeDocumentMoniker": "src\\core\\ASUniversity.Application\\DTOs\\Exam\\ExamCreateDto.cs",
@@ -1556,19 +1650,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 69,
-              "Title": "SubjectItemDto.cs",
-              "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity.Application\\DTOs\\Subject\\SubjectItemDto.cs",
-              "RelativeDocumentMoniker": "src\\core\\ASUniversity.Application\\DTOs\\Subject\\SubjectItemDto.cs",
-              "ToolTip": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity.Application\\DTOs\\Subject\\SubjectItemDto.cs",
-              "RelativeToolTip": "src\\core\\ASUniversity.Application\\DTOs\\Subject\\SubjectItemDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAIAAABWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T08:40:11.958Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 70,
+              "DocumentIndex": 75,
               "Title": "ServiceRegistration.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\infrastructure\\ASUniversity.Persistence\\ServiceRegistration\\ServiceRegistration.cs",
               "RelativeDocumentMoniker": "src\\infrastructure\\ASUniversity.Persistence\\ServiceRegistration\\ServiceRegistration.cs",
@@ -1580,7 +1662,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 74,
               "Title": "SubjectProfile.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity.Application\\MappingProfiles\\SubjectProfile.cs",
               "RelativeDocumentMoniker": "src\\core\\ASUniversity.Application\\MappingProfiles\\SubjectProfile.cs",
@@ -1592,7 +1674,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 71,
+              "DocumentIndex": 76,
               "Title": "ExamType.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity\u015FDomain\\Enums\\ExamType.cs",
               "RelativeDocumentMoniker": "src\\core\\ASUniversity\u015FDomain\\Enums\\ExamType.cs",
@@ -1604,19 +1686,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 73,
-              "Title": "GroupItemDto.cs",
-              "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity.Application\\DTOs\\Group\\GroupItemDto.cs",
-              "RelativeDocumentMoniker": "src\\core\\ASUniversity.Application\\DTOs\\Group\\GroupItemDto.cs",
-              "ToolTip": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity.Application\\DTOs\\Group\\GroupItemDto.cs",
-              "RelativeToolTip": "src\\core\\ASUniversity.Application\\DTOs\\Group\\GroupItemDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T20:21:17.254Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 72,
+              "DocumentIndex": 77,
               "Title": "GroupProfile.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity.Application\\MappingProfiles\\GroupProfile.cs",
               "RelativeDocumentMoniker": "src\\core\\ASUniversity.Application\\MappingProfiles\\GroupProfile.cs",
@@ -1628,7 +1698,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 74,
+              "DocumentIndex": 78,
               "Title": "FacultyProfile.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity.Application\\MappingProfiles\\FacultyProfile.cs",
               "RelativeDocumentMoniker": "src\\core\\ASUniversity.Application\\MappingProfiles\\FacultyProfile.cs",
@@ -1640,7 +1710,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 75,
+              "DocumentIndex": 79,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\presentation\\ASUniversity.MVC\\Areas\\Admin\\Views\\Specialization\\Create.cshtml",
               "RelativeDocumentMoniker": "presentation\\ASUniversity.MVC\\Areas\\Admin\\Views\\Specialization\\Create.cshtml",
@@ -1652,7 +1722,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 76,
+              "DocumentIndex": 80,
               "Title": "SpecializationProfile.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity.Application\\MappingProfiles\\SpecializationProfile.cs",
               "RelativeDocumentMoniker": "src\\core\\ASUniversity.Application\\MappingProfiles\\SpecializationProfile.cs",
@@ -1664,7 +1734,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 77,
+              "DocumentIndex": 81,
               "Title": "IGroupRepository.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity.Application\\Abstractions\\Repositories\\IGroupRepository.cs",
               "RelativeDocumentMoniker": "src\\core\\ASUniversity.Application\\Abstractions\\Repositories\\IGroupRepository.cs",
@@ -1676,7 +1746,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 78,
+              "DocumentIndex": 82,
               "Title": "IFacultyRepository.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity.Application\\Abstractions\\Repositories\\IFacultyRepository.cs",
               "RelativeDocumentMoniker": "src\\core\\ASUniversity.Application\\Abstractions\\Repositories\\IFacultyRepository.cs",
@@ -1688,7 +1758,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 79,
+              "DocumentIndex": 83,
               "Title": "IExamResultRepository.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity.Application\\Abstractions\\Repositories\\IExamResultRepository.cs",
               "RelativeDocumentMoniker": "src\\core\\ASUniversity.Application\\Abstractions\\Repositories\\IExamResultRepository.cs",
@@ -1700,7 +1770,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 80,
+              "DocumentIndex": 84,
               "Title": "IExamRepository.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity.Application\\Abstractions\\Repositories\\IExamRepository.cs",
               "RelativeDocumentMoniker": "src\\core\\ASUniversity.Application\\Abstractions\\Repositories\\IExamRepository.cs",
@@ -1712,7 +1782,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 81,
+              "DocumentIndex": 85,
               "Title": "IFacultyService.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity.Application\\Abstractions\\Services\\IFacultyService.cs",
               "RelativeDocumentMoniker": "src\\core\\ASUniversity.Application\\Abstractions\\Services\\IFacultyService.cs",
@@ -1724,7 +1794,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 82,
+              "DocumentIndex": 86,
               "Title": "SpecializationController.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\presentation\\ASUniversity.MVC\\Areas\\Admin\\Controllers\\SpecializationController.cs",
               "RelativeDocumentMoniker": "presentation\\ASUniversity.MVC\\Areas\\Admin\\Controllers\\SpecializationController.cs",
@@ -1736,7 +1806,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 83,
+              "DocumentIndex": 87,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\presentation\\ASUniversity.MVC\\Areas\\Admin\\Views\\Faculty\\Index.cshtml",
               "RelativeDocumentMoniker": "presentation\\ASUniversity.MVC\\Areas\\Admin\\Views\\Faculty\\Index.cshtml",
@@ -1748,7 +1818,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 84,
+              "DocumentIndex": 88,
               "Title": "SubjectConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\infrastructure\\ASUniversity.Persistence\\Configuration\\SubjectConfiguration.cs",
               "RelativeDocumentMoniker": "src\\infrastructure\\ASUniversity.Persistence\\Configuration\\SubjectConfiguration.cs",
@@ -1760,7 +1830,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 162,
+              "DocumentIndex": 164,
               "Title": "20250220134459_Test12.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\infrastructure\\ASUniversity.Persistence\\Migrations\\20250220134459_Test12.cs",
               "RelativeDocumentMoniker": "src\\infrastructure\\ASUniversity.Persistence\\Migrations\\20250220134459_Test12.cs",
@@ -1772,7 +1842,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 163,
+              "DocumentIndex": 165,
               "Title": "20250220133840_Test11.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\infrastructure\\ASUniversity.Persistence\\Migrations\\20250220133840_Test11.cs",
               "RelativeDocumentMoniker": "src\\infrastructure\\ASUniversity.Persistence\\Migrations\\20250220133840_Test11.cs",
@@ -1784,7 +1854,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 86,
+              "DocumentIndex": 90,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\infrastructure\\ASUniversity.Persistence\\Contexts\\AppDbContext.cs",
               "RelativeDocumentMoniker": "src\\infrastructure\\ASUniversity.Persistence\\Contexts\\AppDbContext.cs",
@@ -1796,7 +1866,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 87,
+              "DocumentIndex": 91,
               "Title": "20250220130512_Test11.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\infrastructure\\ASUniversity.Persistence\\Migrations\\20250220130512_Test11.cs",
               "RelativeDocumentMoniker": "src\\infrastructure\\ASUniversity.Persistence\\Migrations\\20250220130512_Test11.cs",
@@ -1808,7 +1878,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 85,
+              "DocumentIndex": 89,
               "Title": "GroupConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\infrastructure\\ASUniversity.Persistence\\Configuration\\GroupConfiguration.cs",
               "RelativeDocumentMoniker": "src\\infrastructure\\ASUniversity.Persistence\\Configuration\\GroupConfiguration.cs",
@@ -1820,7 +1890,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 88,
+              "DocumentIndex": 92,
               "Title": "20250220130329_Test1.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\infrastructure\\ASUniversity.Persistence\\Migrations\\20250220130329_Test1.cs",
               "RelativeDocumentMoniker": "src\\infrastructure\\ASUniversity.Persistence\\Migrations\\20250220130329_Test1.cs",
@@ -1832,7 +1902,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 164,
+              "DocumentIndex": 166,
               "Title": "20250220125502_test.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\infrastructure\\ASUniversity.Persistence\\Migrations\\20250220125502_test.cs",
               "RelativeDocumentMoniker": "src\\infrastructure\\ASUniversity.Persistence\\Migrations\\20250220125502_test.cs",
@@ -1844,7 +1914,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 90,
+              "DocumentIndex": 94,
               "Title": "AppUserConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\infrastructure\\ASUniversity.Persistence\\Configuration\\AppUserConfiguration.cs",
               "RelativeDocumentMoniker": "src\\infrastructure\\ASUniversity.Persistence\\Configuration\\AppUserConfiguration.cs",
@@ -1856,7 +1926,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 89,
+              "DocumentIndex": 93,
               "Title": "BaseEntity.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity\u015FDomain\\Entities\\Base\\BaseEntity.cs",
               "RelativeDocumentMoniker": "src\\core\\ASUniversity\u015FDomain\\Entities\\Base\\BaseEntity.cs",
@@ -1868,7 +1938,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 92,
+              "DocumentIndex": 96,
               "Title": "SubjectUpdateDtoValidator.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity.Application\\Validators\\SubjectUpdateDtoValidator.cs",
               "RelativeDocumentMoniker": "src\\core\\ASUniversity.Application\\Validators\\SubjectUpdateDtoValidator.cs",
@@ -1880,7 +1950,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 91,
+              "DocumentIndex": 95,
               "Title": "SubjectCreateDtoValidator.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity.Application\\Validators\\SubjectCreateDtoValidator.cs",
               "RelativeDocumentMoniker": "src\\core\\ASUniversity.Application\\Validators\\SubjectCreateDtoValidator.cs",
@@ -1892,7 +1962,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 165,
+              "DocumentIndex": 167,
               "Title": "20250220102056_Initial.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\infrastructure\\ASUniversity.Persistence\\Migrations\\20250220102056_Initial.cs",
               "RelativeDocumentMoniker": "src\\infrastructure\\ASUniversity.Persistence\\Migrations\\20250220102056_Initial.cs",
@@ -1904,7 +1974,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 94,
+              "DocumentIndex": 98,
               "Title": "ScheduleConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\infrastructure\\ASUniversity.Persistence\\Configuration\\ScheduleConfiguration.cs",
               "RelativeDocumentMoniker": "src\\infrastructure\\ASUniversity.Persistence\\Configuration\\ScheduleConfiguration.cs",
@@ -1916,7 +1986,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 95,
+              "DocumentIndex": 99,
               "Title": "20250220101703_Initial.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\infrastructure\\ASUniversity.Persistence\\Migrations\\20250220101703_Initial.cs",
               "RelativeDocumentMoniker": "src\\infrastructure\\ASUniversity.Persistence\\Migrations\\20250220101703_Initial.cs",
@@ -1928,7 +1998,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 93,
+              "DocumentIndex": 97,
               "Title": "TeacherConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\infrastructure\\ASUniversity.Persistence\\Configuration\\TeacherConfiguration.cs",
               "RelativeDocumentMoniker": "src\\infrastructure\\ASUniversity.Persistence\\Configuration\\TeacherConfiguration.cs",
@@ -1940,7 +2010,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 98,
+              "DocumentIndex": 102,
               "Title": "20250219155140__initial.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\infrastructure\\ASUniversity.Persistence\\Migrations\\20250219155140__initial.cs",
               "RelativeDocumentMoniker": "src\\infrastructure\\ASUniversity.Persistence\\Migrations\\20250219155140__initial.cs",
@@ -1952,7 +2022,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 96,
+              "DocumentIndex": 100,
               "Title": "20250219155617__initial.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\infrastructure\\ASUniversity.Persistence\\Migrations\\20250219155617__initial.cs",
               "RelativeDocumentMoniker": "src\\infrastructure\\ASUniversity.Persistence\\Migrations\\20250219155617__initial.cs",
@@ -1964,7 +2034,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 97,
+              "DocumentIndex": 101,
               "Title": "ScheduleRepository.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\infrastructure\\ASUniversity.Persistence\\Implementations\\Repositories\\ScheduleRepository.cs",
               "RelativeDocumentMoniker": "src\\infrastructure\\ASUniversity.Persistence\\Implementations\\Repositories\\ScheduleRepository.cs",
@@ -1976,7 +2046,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 99,
+              "DocumentIndex": 103,
               "Title": "20250219154648__initial2.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\infrastructure\\ASUniversity.Persistence\\Contexts\\Migrations\\20250219154648__initial2.cs",
               "RelativeDocumentMoniker": "src\\infrastructure\\ASUniversity.Persistence\\Contexts\\Migrations\\20250219154648__initial2.cs",
@@ -1988,7 +2058,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 100,
+              "DocumentIndex": 104,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\presentation\\ASUniversity.MVC\\Program.cs",
               "RelativeDocumentMoniker": "presentation\\ASUniversity.MVC\\Program.cs",
@@ -2000,7 +2070,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 102,
+              "DocumentIndex": 106,
               "Title": "ServiceRegistration.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity.Application\\ServiceRegistration\\ServiceRegistration.cs",
               "RelativeDocumentMoniker": "src\\core\\ASUniversity.Application\\ServiceRegistration\\ServiceRegistration.cs",
@@ -2012,19 +2082,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 104,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\presentation\\ASUniversity.MVC\\Areas\\Admin\\Views\\Group\\Index.cshtml",
-              "RelativeDocumentMoniker": "presentation\\ASUniversity.MVC\\Areas\\Admin\\Views\\Group\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\presentation\\ASUniversity.MVC\\Areas\\Admin\\Views\\Group\\Index.cshtml",
-              "RelativeToolTip": "presentation\\ASUniversity.MVC\\Areas\\Admin\\Views\\Group\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-16T22:54:59.96Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 101,
+              "DocumentIndex": 105,
               "Title": "SpecializationConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\infrastructure\\ASUniversity.Persistence\\Configuration\\SpecializationConfiguration.cs",
               "RelativeDocumentMoniker": "src\\infrastructure\\ASUniversity.Persistence\\Configuration\\SpecializationConfiguration.cs",
@@ -2036,7 +2094,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 103,
+              "DocumentIndex": 107,
               "Title": "GroupCreateDto.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity.Application\\DTOs\\Group\\GroupCreateDto.cs",
               "RelativeDocumentMoniker": "src\\core\\ASUniversity.Application\\DTOs\\Group\\GroupCreateDto.cs",
@@ -2048,7 +2106,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 105,
+              "DocumentIndex": 108,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\presentation\\ASUniversity.MVC\\Areas\\Admin\\Views\\Specialization\\Index.cshtml",
               "RelativeDocumentMoniker": "presentation\\ASUniversity.MVC\\Areas\\Admin\\Views\\Specialization\\Index.cshtml",
@@ -2060,7 +2118,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 106,
+              "DocumentIndex": 109,
               "Title": "SpecializationItemDto.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity.Application\\DTOs\\Specialization\\SpecializationItemDto.cs",
               "RelativeDocumentMoniker": "src\\core\\ASUniversity.Application\\DTOs\\Specialization\\SpecializationItemDto.cs",
@@ -2072,7 +2130,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 107,
+              "DocumentIndex": 110,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\presentation\\ASUniversity.MVC\\Areas\\Admin\\Views\\Authentication\\Login.cshtml",
               "RelativeDocumentMoniker": "presentation\\ASUniversity.MVC\\Areas\\Admin\\Views\\Authentication\\Login.cshtml",
@@ -2084,7 +2142,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 108,
+              "DocumentIndex": 111,
               "Title": "SubjectController.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\presentation\\ASUniversity.MVC\\Areas\\Admin\\Controllers\\SubjectController.cs",
               "RelativeDocumentMoniker": "presentation\\ASUniversity.MVC\\Areas\\Admin\\Controllers\\SubjectController.cs",
@@ -2096,7 +2154,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 109,
+              "DocumentIndex": 112,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\presentation\\ASUniversity.MVC\\Areas\\Admin\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "presentation\\ASUniversity.MVC\\Areas\\Admin\\Views\\_ViewStart.cshtml",
@@ -2108,7 +2166,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 110,
+              "DocumentIndex": 113,
               "Title": "EnumHelper.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\infrastructure\\ASUniversity.Persistence\\Extensions\\EnumHelper.cs",
               "RelativeDocumentMoniker": "src\\infrastructure\\ASUniversity.Persistence\\Extensions\\EnumHelper.cs",
@@ -2120,7 +2178,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 111,
+              "DocumentIndex": 114,
               "Title": "Position.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity\u015FDomain\\Enums\\Position.cs",
               "RelativeDocumentMoniker": "src\\core\\ASUniversity\u015FDomain\\Enums\\Position.cs",
@@ -2132,7 +2190,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 112,
+              "DocumentIndex": 115,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\presentation\\ASUniversity.MVC\\Areas\\Admin\\Views\\Faculty\\Create.cshtml",
               "RelativeDocumentMoniker": "presentation\\ASUniversity.MVC\\Areas\\Admin\\Views\\Faculty\\Create.cshtml",
@@ -2144,7 +2202,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 113,
+              "DocumentIndex": 116,
               "Title": "LoginDto.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity.Application\\DTOs\\Authentication\\LoginDto.cs",
               "RelativeDocumentMoniker": "src\\core\\ASUniversity.Application\\DTOs\\Authentication\\LoginDto.cs",
@@ -2156,7 +2214,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 114,
+              "DocumentIndex": 117,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\presentation\\ASUniversity.MVC\\Areas\\Admin\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "presentation\\ASUniversity.MVC\\Areas\\Admin\\Controllers\\HomeController.cs",
@@ -2168,7 +2226,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 115,
+              "DocumentIndex": 118,
               "Title": "SpecializationRepository.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\infrastructure\\ASUniversity.Persistence\\Implementations\\Repositories\\SpecializationRepository.cs",
               "RelativeDocumentMoniker": "src\\infrastructure\\ASUniversity.Persistence\\Implementations\\Repositories\\SpecializationRepository.cs",
@@ -2180,7 +2238,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 116,
+              "DocumentIndex": 119,
               "Title": "UserRole.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity\u015FDomain\\Enums\\UserRole.cs",
               "RelativeDocumentMoniker": "src\\core\\ASUniversity\u015FDomain\\Enums\\UserRole.cs",
@@ -2192,19 +2250,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 117,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\presentation\\ASUniversity.MVC\\Areas\\Admin\\Views\\Group\\Create.cshtml",
-              "RelativeDocumentMoniker": "presentation\\ASUniversity.MVC\\Areas\\Admin\\Views\\Group\\Create.cshtml",
-              "ToolTip": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\presentation\\ASUniversity.MVC\\Areas\\Admin\\Views\\Group\\Create.cshtml",
-              "RelativeToolTip": "presentation\\ASUniversity.MVC\\Areas\\Admin\\Views\\Group\\Create.cshtml",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAkwCIAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-16T23:00:35.78Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 118,
+              "DocumentIndex": 120,
               "Title": "FacultyCreateDto.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity.Application\\DTOs\\Faculty\\FacultyCreateDto.cs",
               "RelativeDocumentMoniker": "src\\core\\ASUniversity.Application\\DTOs\\Faculty\\FacultyCreateDto.cs",
@@ -2216,7 +2262,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 119,
+              "DocumentIndex": 121,
               "Title": "FacultyUpdateDto.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity.Application\\DTOs\\Faculty\\FacultyUpdateDto.cs",
               "RelativeDocumentMoniker": "src\\core\\ASUniversity.Application\\DTOs\\Faculty\\FacultyUpdateDto.cs",
@@ -2228,7 +2274,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 120,
+              "DocumentIndex": 122,
               "Title": "SpecializationCreateDto.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity.Application\\DTOs\\Specialization\\SpecializationCreateDto.cs",
               "RelativeDocumentMoniker": "src\\core\\ASUniversity.Application\\DTOs\\Specialization\\SpecializationCreateDto.cs",
@@ -2240,7 +2286,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 121,
+              "DocumentIndex": 123,
               "Title": "SpecializationUpdateDto.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity.Application\\DTOs\\Specialization\\SpecializationUpdateDto.cs",
               "RelativeDocumentMoniker": "src\\core\\ASUniversity.Application\\DTOs\\Specialization\\SpecializationUpdateDto.cs",
@@ -2252,7 +2298,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 122,
+              "DocumentIndex": 124,
               "Title": "SubjectCreateDto.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity.Application\\DTOs\\Subject\\SubjectCreateDto.cs",
               "RelativeDocumentMoniker": "src\\core\\ASUniversity.Application\\DTOs\\Subject\\SubjectCreateDto.cs",
@@ -2264,7 +2310,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 123,
+              "DocumentIndex": 125,
               "Title": "SubjectUpdateDto.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity.Application\\DTOs\\Subject\\SubjectUpdateDto.cs",
               "RelativeDocumentMoniker": "src\\core\\ASUniversity.Application\\DTOs\\Subject\\SubjectUpdateDto.cs",
@@ -2276,7 +2322,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 124,
+              "DocumentIndex": 126,
               "Title": "FacultyCreateDtoValidator.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity.Application\\Validators\\FacultyCreateDtoValidator.cs",
               "RelativeDocumentMoniker": "src\\core\\ASUniversity.Application\\Validators\\FacultyCreateDtoValidator.cs",
@@ -2288,7 +2334,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 125,
+              "DocumentIndex": 127,
               "Title": "FacultyUpdateDtoValidator.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity.Application\\Validators\\FacultyUpdateDtoValidator.cs",
               "RelativeDocumentMoniker": "src\\core\\ASUniversity.Application\\Validators\\FacultyUpdateDtoValidator.cs",
@@ -2300,7 +2346,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 126,
+              "DocumentIndex": 128,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\presentation\\ASUniversity.MVC\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "presentation\\ASUniversity.MVC\\Controllers\\HomeController.cs",
@@ -2312,7 +2358,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 127,
+              "DocumentIndex": 129,
               "Title": "Update.cshtml",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\presentation\\ASUniversity.MVC\\Areas\\Admin\\Views\\Group\\Update.cshtml",
               "RelativeDocumentMoniker": "presentation\\ASUniversity.MVC\\Areas\\Admin\\Views\\Group\\Update.cshtml",
@@ -2324,7 +2370,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 128,
+              "DocumentIndex": 130,
               "Title": "Update.cshtml",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\presentation\\ASUniversity.MVC\\Areas\\Admin\\Views\\Specialization\\Update.cshtml",
               "RelativeDocumentMoniker": "presentation\\ASUniversity.MVC\\Areas\\Admin\\Views\\Specialization\\Update.cshtml",
@@ -2336,7 +2382,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 129,
+              "DocumentIndex": 131,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\presentation\\ASUniversity.MVC\\Areas\\Admin\\Views\\Subject\\Create.cshtml",
               "RelativeDocumentMoniker": "presentation\\ASUniversity.MVC\\Areas\\Admin\\Views\\Subject\\Create.cshtml",
@@ -2348,7 +2394,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 130,
+              "DocumentIndex": 132,
               "Title": "FacultyItemDto.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity.Application\\DTOs\\Faculty\\FacultyItemDto.cs",
               "RelativeDocumentMoniker": "src\\core\\ASUniversity.Application\\DTOs\\Faculty\\FacultyItemDto.cs",
@@ -2360,7 +2406,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 131,
+              "DocumentIndex": 133,
               "Title": "GetFacultyDto.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity.Application\\DTOs\\Faculty\\GetFacultyDto.cs",
               "RelativeDocumentMoniker": "src\\core\\ASUniversity.Application\\DTOs\\Faculty\\GetFacultyDto.cs",
@@ -2372,7 +2418,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 132,
+              "DocumentIndex": 134,
               "Title": "GetSubjectDto.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity.Application\\DTOs\\Subject\\GetSubjectDto.cs",
               "RelativeDocumentMoniker": "src\\core\\ASUniversity.Application\\DTOs\\Subject\\GetSubjectDto.cs",
@@ -2384,7 +2430,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 133,
+              "DocumentIndex": 135,
               "Title": "Update.cshtml",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\presentation\\ASUniversity.MVC\\Areas\\Admin\\Views\\Faculty\\Update.cshtml",
               "RelativeDocumentMoniker": "presentation\\ASUniversity.MVC\\Areas\\Admin\\Views\\Faculty\\Update.cshtml",
@@ -2396,7 +2442,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 134,
+              "DocumentIndex": 136,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\presentation\\ASUniversity.MVC\\Areas\\Admin\\Views\\Subject\\Index.cshtml",
               "RelativeDocumentMoniker": "presentation\\ASUniversity.MVC\\Areas\\Admin\\Views\\Subject\\Index.cshtml",
@@ -2408,7 +2454,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 135,
+              "DocumentIndex": 137,
               "Title": "Update.cshtml",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\presentation\\ASUniversity.MVC\\Areas\\Admin\\Views\\Subject\\Update.cshtml",
               "RelativeDocumentMoniker": "presentation\\ASUniversity.MVC\\Areas\\Admin\\Views\\Subject\\Update.cshtml",
@@ -2420,7 +2466,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 136,
+              "DocumentIndex": 138,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\presentation\\ASUniversity.MVC\\Areas\\Admin\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "presentation\\ASUniversity.MVC\\Areas\\Admin\\Views\\Home\\Index.cshtml",
@@ -2432,7 +2478,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 137,
+              "DocumentIndex": 139,
               "Title": "ISubjectRepository.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity.Application\\Abstractions\\Repositories\\ISubjectRepository.cs",
               "RelativeDocumentMoniker": "src\\core\\ASUniversity.Application\\Abstractions\\Repositories\\ISubjectRepository.cs",
@@ -2444,7 +2490,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 138,
+              "DocumentIndex": 140,
               "Title": "FacultyConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\infrastructure\\ASUniversity.Persistence\\Configuration\\FacultyConfiguration.cs",
               "RelativeDocumentMoniker": "src\\infrastructure\\ASUniversity.Persistence\\Configuration\\FacultyConfiguration.cs",
@@ -2456,7 +2502,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 139,
+              "DocumentIndex": 141,
               "Title": "StudentExamResultConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\infrastructure\\ASUniversity.Persistence\\Configuration\\StudentExamResultConfiguration.cs",
               "RelativeDocumentMoniker": "src\\infrastructure\\ASUniversity.Persistence\\Configuration\\StudentExamResultConfiguration.cs",
@@ -2468,7 +2514,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 140,
+              "DocumentIndex": 142,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\presentation\\ASUniversity.MVC\\Areas\\Admin\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "presentation\\ASUniversity.MVC\\Areas\\Admin\\Views\\_ViewImports.cshtml",
@@ -2480,7 +2526,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 141,
+              "DocumentIndex": 143,
               "Title": "20250214092125_Initial.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\infrastructure\\ASUniversity.Persistence\\Contexts\\Migrations\\20250214092125_Initial.cs",
               "RelativeDocumentMoniker": "src\\infrastructure\\ASUniversity.Persistence\\Contexts\\Migrations\\20250214092125_Initial.cs",
@@ -2491,7 +2537,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 142,
+              "DocumentIndex": 144,
               "Title": "20250214090043_Initial.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\infrastructure\\ASUniversity.Persistence\\Contexts\\Migrations\\20250214090043_Initial.cs",
               "RelativeDocumentMoniker": "src\\infrastructure\\ASUniversity.Persistence\\Contexts\\Migrations\\20250214090043_Initial.cs",
@@ -2502,7 +2548,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 144,
+              "DocumentIndex": 146,
               "Title": "StudentExamResults.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity\u015FDomain\\Entities\\StudentExamResults.cs",
               "RelativeDocumentMoniker": "src\\core\\ASUniversity\u015FDomain\\Entities\\StudentExamResults.cs",
@@ -2514,7 +2560,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 145,
+              "DocumentIndex": 147,
               "Title": "20250214084805_Initial.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\infrastructure\\ASUniversity.Persistence\\Contexts\\Migrations\\20250214084805_Initial.cs",
               "RelativeDocumentMoniker": "src\\infrastructure\\ASUniversity.Persistence\\Contexts\\Migrations\\20250214084805_Initial.cs",
@@ -2525,7 +2571,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 143,
+              "DocumentIndex": 145,
               "Title": "ExamResultConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\infrastructure\\ASUniversity.Persistence\\Configuration\\ExamResultConfiguration.cs",
               "RelativeDocumentMoniker": "src\\infrastructure\\ASUniversity.Persistence\\Configuration\\ExamResultConfiguration.cs",
@@ -2537,7 +2583,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 146,
+              "DocumentIndex": 148,
               "Title": "20250214083158_Initial.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\infrastructure\\ASUniversity.Persistence\\Contexts\\Migrations\\20250214083158_Initial.cs",
               "RelativeDocumentMoniker": "src\\infrastructure\\ASUniversity.Persistence\\Contexts\\Migrations\\20250214083158_Initial.cs",
@@ -2548,7 +2594,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 147,
+              "DocumentIndex": 149,
               "Title": "20250214082905_Initial.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\infrastructure\\ASUniversity.Persistence\\Contexts\\Migrations\\20250214082905_Initial.cs",
               "RelativeDocumentMoniker": "src\\infrastructure\\ASUniversity.Persistence\\Contexts\\Migrations\\20250214082905_Initial.cs",
@@ -2559,7 +2605,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 148,
+              "DocumentIndex": 150,
               "Title": "20250214082516_Initial.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\infrastructure\\ASUniversity.Persistence\\Contexts\\Migrations\\20250214082516_Initial.cs",
               "RelativeDocumentMoniker": "src\\infrastructure\\ASUniversity.Persistence\\Contexts\\Migrations\\20250214082516_Initial.cs",
@@ -2570,7 +2616,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 149,
+              "DocumentIndex": 151,
               "Title": "20250214082237_Initial.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\infrastructure\\ASUniversity.Persistence\\Contexts\\Migrations\\20250214082237_Initial.cs",
               "RelativeDocumentMoniker": "src\\infrastructure\\ASUniversity.Persistence\\Contexts\\Migrations\\20250214082237_Initial.cs",
@@ -2581,7 +2627,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 150,
+              "DocumentIndex": 152,
               "Title": "20250214081809_Initial.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\infrastructure\\ASUniversity.Persistence\\Migrations\\20250214081809_Initial.cs",
               "RelativeDocumentMoniker": "src\\infrastructure\\ASUniversity.Persistence\\Migrations\\20250214081809_Initial.cs",
@@ -2592,7 +2638,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 151,
+              "DocumentIndex": 153,
               "Title": "20250214075924_DbContextCreating.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\infrastructure\\ASUniversity.Persistence\\Contexts\\Migrations\\20250214075924_DbContextCreating.cs",
               "RelativeDocumentMoniker": "src\\infrastructure\\ASUniversity.Persistence\\Contexts\\Migrations\\20250214075924_DbContextCreating.cs",
@@ -2603,7 +2649,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 154,
+              "DocumentIndex": 156,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\presentation\\ASUniversity.MVC\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "presentation\\ASUniversity.MVC\\Views\\Home\\Index.cshtml",
@@ -2615,7 +2661,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 153,
+              "DocumentIndex": 155,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\presentation\\ASUniversity.MVC\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "presentation\\ASUniversity.MVC\\Views\\Shared\\_Layout.cshtml",
@@ -2627,7 +2673,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 152,
+              "DocumentIndex": 154,
               "Title": "ScaffoldingReadMe.txt",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\presentation\\ASUniversity.MVC\\ScaffoldingReadMe.txt",
               "RelativeDocumentMoniker": "presentation\\ASUniversity.MVC\\ScaffoldingReadMe.txt",
@@ -2639,7 +2685,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 156,
+              "DocumentIndex": 158,
               "Title": "GroupRepository.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\infrastructure\\ASUniversity.Persistence\\Implementations\\Repositories\\GroupRepository.cs",
               "RelativeDocumentMoniker": "src\\infrastructure\\ASUniversity.Persistence\\Implementations\\Repositories\\GroupRepository.cs",
@@ -2651,7 +2697,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 155,
+              "DocumentIndex": 157,
               "Title": "ExamRepository.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\infrastructure\\ASUniversity.Persistence\\Implementations\\Repositories\\ExamRepository.cs",
               "RelativeDocumentMoniker": "src\\infrastructure\\ASUniversity.Persistence\\Implementations\\Repositories\\ExamRepository.cs",
@@ -2663,7 +2709,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 157,
+              "DocumentIndex": 159,
               "Title": "IScheduleRepository.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity.Application\\Abstractions\\Repositories\\IScheduleRepository.cs",
               "RelativeDocumentMoniker": "src\\core\\ASUniversity.Application\\Abstractions\\Repositories\\IScheduleRepository.cs",
@@ -2675,7 +2721,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 158,
+              "DocumentIndex": 160,
               "Title": "ISpecializationRepository.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity.Application\\Abstractions\\Repositories\\ISpecializationRepository.cs",
               "RelativeDocumentMoniker": "src\\core\\ASUniversity.Application\\Abstractions\\Repositories\\ISpecializationRepository.cs",
@@ -2687,7 +2733,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 159,
+              "DocumentIndex": 161,
               "Title": "BaseNameable.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity\u015FDomain\\Entities\\Base\\BaseNameable.cs",
               "RelativeDocumentMoniker": "src\\core\\ASUniversity\u015FDomain\\Entities\\Base\\BaseNameable.cs",
@@ -2699,7 +2745,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 161,
+              "DocumentIndex": 163,
               "Title": "Gender.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity\u015FDomain\\Enums\\Gender.cs",
               "RelativeDocumentMoniker": "src\\core\\ASUniversity\u015FDomain\\Enums\\Gender.cs",
@@ -2711,7 +2757,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 160,
+              "DocumentIndex": 162,
               "Title": "Degree.cs",
               "DocumentMoniker": "C:\\Users\\Allahverdi\\Desktop\\CodeFinal\\ASUniversity\\src\\core\\ASUniversity\u015FDomain\\Enums\\Degree.cs",
               "RelativeDocumentMoniker": "src\\core\\ASUniversity\u015FDomain\\Enums\\Degree.cs",

@@ -42,7 +42,7 @@ namespace ASUniversity.Persistence.Implementations.Services
 
         public async Task<IEnumerable<GroupItemDto>> GetAllSelectAsync()
         {
-            IEnumerable<Group> groups = _repository.GetAllSelect();
+            IEnumerable<Group> groups = _repository.GetAllSelect("Specialization");
             IEnumerable<GroupItemDto> groupItems = _mapper.Map<IEnumerable<GroupItemDto>>(groups);
             return (groupItems);
         }

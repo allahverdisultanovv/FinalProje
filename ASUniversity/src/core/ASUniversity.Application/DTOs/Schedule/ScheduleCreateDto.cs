@@ -4,7 +4,7 @@ using ASUniversity.Application.DTOs.Teacher;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using System.ComponentModel.DataAnnotations;
 
-namespace ASUniversity.Application.Dtos.Schedule
+namespace ASUniversity.Application.DTOs.Schedule
 {
     public class ScheduleCreateDto
     {

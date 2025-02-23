@@ -3,7 +3,6 @@ using ASUniversity.Application.DTOs.Subject;
 using ASUniversity.Application.DTOs.Teacher;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using System.ComponentModel.DataAnnotations;
-
 namespace ASUniversity.Application.DTOs.Schedule
 {
     public class ScheduleUpdateDto
